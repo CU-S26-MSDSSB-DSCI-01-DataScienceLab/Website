@@ -1,0 +1,175 @@
+---
+title: "Data Science Lab"
+---
+
+
+
+This syllabus may change during the course of the semester additions and clarifications. All substantial changes will marked here with date. 
+
+**Important Links:**     
+[{{< var org.name >}}]({{< var org.link >}})  
+[Course-Organization-Resources]({{< var org.link-org-repo >}}) (private repository, you need to be logged in on GitHub)
+
+## Module Names
+
+MDSSSB-DSCI-01 Data Science Lab (Discovery area, 5 credits)
+
+Offered in the [Master program: Data Science for Society and Business (DSSB)](https://constructor.university/programs/graduate-education/data-science-for-society-business). See the module description in the [DSSB Handbook]({{<var link.handbook >}}). 
+
+
+## Module Components
+
+- Data Science Lab (5 Credits)
+
+Pre-requisits 
+
+- Data Science Concepts
+- Data Science Tools 
+- Current Topics and Applications in Data Science
+
+
+## Class Meeting Information
+
+**{{<var class.day>}}:** 2 consecutive Sessions duing **{{<var class.time>}}**    
+Location: **{{<var class.location>}}** in-person  
+
+Asynchronous communication about course organization as well as occasional video streaming and recording will be done in Microsoft Teams:   
+Team **S25_MDSSB-DSCI-01_Data Science Lab**, General Channel
+
+
+## Instructor
+
+{{< var instructor >}}
+
+
+## Format and Workload
+
+**Lab sessions** (35 hours in presence)
+
+**Work on project** (125 hours)
+
+
+## Intended Learning Outcomes {#sec-ilos}
+
+The following 8 points are the Intended Learning Outcomes (ILOs) taken from the [Handbook]({{<var link.handbook>}}).   
+The **bold** text below each ILO operationalizes the ILO for **assessment** of your project submission (see @sec-project-format). 
+
+By the end of this module, students should be able to
+
+1. understand and critically evaluate current data science applications, identify new innovative research questions and data science applications    
+**The project communicates the problem, approach, and results effectively and clearly. It also critically evaluates the approach and/or results.**
+2. experiment with and simulate data science solutions   
+**The project describes how the presented approach or the results may practically be used in data science application.**
+3. write/configure computer programs/tools specific to certain subject areas  
+**The tools used in the project are well chosen.**
+4. master relevant data pre/post-processing routines  
+**The project shows and documents the data flow from its origin to the results which can be reproduced.**
+5. design and schedule a DS project of medium complexity, including escape options, and keep milestones/timelines  
+*This not an assessment criterion, but is realized through the activities and presentations during the semester.*
+6. improve their academic writing skills  
+**The text in the project reports is well structured and well written.**
+7. communicate results to a non-expert audience    
+**The text has an introduction or abstract and conclusion which are understandable by a non-expert audience.** 
+8. design their own digital application    
+*This is not an assessment criterion. The ILO is touched in 2.*
+
+### Main Learning Goal
+
+This Data Science Lab shall deepen your skills for your more and more independent data science work based on a **self-designed project**. That means you **become more experienced** in
+
+- in using the core concepts in data science on your own, for example
+    - exploring data (import, wrangle, visualize)
+    - learning, exploring and applying *mathematics* and *statistics* through the data science lens
+    - learning and applying concepts to model and draw conclusions from data (model, infer, predict)
+- **creating and maintaining a digital working environment on your computer to do data science**
+- programming in the data science languages R and/or python, and become able to learn new skills in these independently
+- improve your skills in documenting and presenting your findings with compelling visualizations, descriptions, interpretations, and narratives 
+
+## Examination and Assessment
+
+*Assessment Type:* **Project Assessment** (see @sec-ilos)
+*Weight:* 100%   
+*Scope:* All intended learning outcomes of the module (see @sec-ilos).  
+*Completion:* to pass this module, the examination has to be passed with at least 45%  
+
+### Project Delivery
+
+The project components must be delivered in a **project-repository** on **GitHub** provided by the instructor in the GitHub-Organization  [{{< var org.name >}}]({{< var org.link >}}). If your project requires another way of delivery, get in contact with the instructor before the submission.
+
+### Project Format {#sec-project-format} 
+
+Lab projects can have different formats. The main contribution need not be a text. It will be developed during the course. 
+
+For proper assessment, the repository should have at least one **human-readable document** which can be read without considering code. Examples:
+
+- A rendered quarto file in **html-format** guiding through the project. These files can be best viewed on a local machine in a browser (but not from the GitHub-Website in a private repository). However, they can be made publically viewable from the Internet via GitHub-pages with a few clicks later if you want.  
+- Files in **GitHub flavored markdown** (gfm) like the typical `README.md`. These have slightly fewer formatting options but can be viewed directly on GitHub. This may be a good solution for code-heavy projects. 
+- Alternative or additional options which may be used with a particular reason: A *slide deck* in revealjs-html or PDF-file. A *paged report* as a PDF-file. 
+- In any case: Do **not** submit your work in Word or PowerPoint format (e.g., docx, pptx) or related formats from Apple or Libre Office. All these formats can be converted to PDF -- submit such a PDF.
+
+The instructor starts assessment with reading the README.md of the project repository, then going to the main description file specified as the main human-readable document. 
+
+The repository should also include all the code used to do data collection and import, data analysis, visualizations, predictions, and whatever else the project is about. If useful this can be in scripts separated from the human-readable file. 
+
+
+### Project "Length"
+
+Your text should **begin** with a section called *Abstract*, *Outline*, or *Executive Summary* with between 120 and 500 words. 
+
+- *There is no minimal or maximal number of words!* (Some project's main part maybe code or visualizations.) 
+- *There is no minimal or maximal number of lines of code!*  (Some project's main part may be the documentation, description, interpretation, and critical reflection.)   
+- *There is no minimal or maximal number of pages!* (You can count pages only if you deliver a slidedeck, or a PDF.)
+
+Some guidelines are:  
+
+- A short contribution is good when it is concise and covers all aspects. A long contribution is good when it is well structured (in a hierarchy of importance) and not redundant. 
+- If your human-readable text is much less than 3,000 words: Consider if some parts should be extended. Go in detail over the assessment criteria and check that your document covers all the aspects which need to be assessed, is well readable, clear, and concise for an external reader. If this is the case it is *great when you can stay **below** 3,000 words*!
+- If your human-readable text has more than 6,000 words: Consider to
+  - make it shorter by making it more concise and less redundant
+  - structure it in a core part with less than 3,000 words and appendices with additional information (your main text can refer to appendix sections)
+  - using footnotes for additional information (However, avoid too extensive use of long footnotes. At some point it is better to make an appendix section.)
+- The assessment goes only along the criteria listed below. A long contribution may receive lower assessments when it communicates less effectively and less to the point. Beware not to deliver generic ChatGPT-like "bla-bla"!
+- Check and polish your code. Check if the code reproduces your results. Remove unnecessary code, and spend some explanatory comments on interesting non-standard steps. Large parts of unnecessary code can be considered as less effective and less clear communication. However, your code need not be excessively educational with a comment on every line.
+ 
+
+## Module Policies
+
+There are no formal requirement about attendance and active participation. However, the instructor relies on your **engagement** in a many-facted way including: 
+
+* Preparation (looking at readings and material before and after class, being informed about syllabus and course material)
+* Focus (avoid distraction during in class and self-learning activities)
+* Presence (listening and responding during group activities)
+* Asking questions (in class, out of class, online, offline, when you get stuck conclude by writing a question)
+* Specificity (being as specific as possible when describing your problem or question)
+* Synthesizing (making connections between concepts from reading and discussion)
+* Persistence (you don't need to understand everything immediately, but stay engaged, try again, confusion shows that you pay attention)
+
+## Academic Integrity
+All involved parties (professors and lecturers, instructors and students) are expected to abide by the word and spirit of the [Code of Academic Integrity](https://constructor.university/sites/default/files/2024-09/CAI%202024%20vf.pdf). Violations of the Code will be brought to the attention of the Academic Integrity Committee.
+
+## Artifical Intelligence (AI) Use Policy
+
+This policy covers any generative AI tool, such as ChatGPT, Gemini, Claude, Elicit, etc. This includes text, code, slides, artwork/graphics/video/audio and other products.
+
+I encourage you to using and exploring AI tools for these purposes: 
+
+  - **Learning by dialog with a chatbot.** AI chatbots can be helpful to explain you concepts *on your desired level* and get a feeling about how certain topics are treated. You can ask for an easier or more detailed explanation or focus on certain aspects. Note: The capabilities are limited and you likely receive a lot of false information! Using chatbots should remain a small part of your learning process. Rule of thumb: Spend not more than 25% of the learning time with chatting. There is no way around reading textbooks, reading software documentation, learning and understanding concepts, practicing, searching for help online, asking instructors or fellow students.
+  - **Have code snippets written.** Tools like GitHub Copilot (free to use for students and teachers) are heavily used and currently change code-writing. They can speed up writing your code. However, they do not deliver always correct solutions. There is no way around understanding yourself what a code is doing! Do not spend endless hours asking for new code with new prompts, spend time understanding a language and the functions and objects you are using! Copilots can be a great help to get a skeleton of code and an idea how your solution *might* look, they rarely deliver the complete code. Expect that the code does not work, expect that the code seems to works but the results are wrong. You are 100% accountable for the code you produce, with or without the help of a copilot!
+  - **Have a draft text snippet written.** Data science is also about formulating and describing research questions, describing data, documenting code, interpreting results, and deriving conclusion form the results. This is all verbal text and chatbots are good in writing text which often appears well readable. You can use this to inspire yourself and to polish and improve your texts. However, you are 100% accountable for the text you deliver. You are expected to know what your text is about and to be able to answer questions about what your text means! In text generated purely by a chatbot it is often evident that you do not. 
+
+**Note:** *Philosophical and legal questions around the training and use of chatbots and code copilots are controversially contested and re-examined constantly!* We encourage to engage with such questions and become aware of arguments and debates.
+
+**Note on assessment of your text be it written with or without AI:** Text written by chatbots is often very generic and less specific. Often, ChatBots deliver [*bullshit* (as defined by H. Frankfurt)](https://en.wikipedia.org/wiki/Bullshit#Harry_Frankfurt's_concept) . Large parts of very generic *bullshit*-like text will be assessed worse than a short more specific text! 
+
+If any part of this AI policy is confusing or uncertain, please reach out to us for a conversation before submitting your work.
+
+## Schedule
+
+The [**Schedule**](schedule.qmd) is on an extra page and will be updated continuously. 
+
+Detailed schedule information with personalized student information will appear in the private repository [Course-Organisation-Resources]({{<var org.link-org-repo>}})
+
+
+## Feedback from Students
+
+We are eager to constantly improve the quality of our teaching. We would be glad to obtain your feedback at any time of the course to improve your learning experience.

@@ -1,0 +1,16 @@
+org:
+  link: https://github.com/CU-S25-MSDSSB-DSCI-01-DataScienceLab
+  name: CU-S25-MSDSSB-DSCI-01-DataScienceLab
+  link-org-repo: https://github.com/CU-S25-MSDSSB-DSCI-01-DataScienceLab/Course-Organization-Resources
+  
+link: 
+  academic-calendar: https://constructor.university/student-life/academic-calendar/academic-calendar-2024
+  handbook: https://constructor.university/sites/default/files/2024-08/DSSB_MSc_Handbook_2024.pdf
+  
+instructor: "[Jan Lorenz](mailto:jlorenz@constructor.university)"
+
+
+class: 
+  day: Thursday
+  time: 15:45 - 18:30
+  location: East Hall Seminar Room 5

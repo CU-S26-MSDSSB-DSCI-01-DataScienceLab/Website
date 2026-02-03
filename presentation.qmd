@@ -1,0 +1,59 @@
+---
+title: "Presentation Guide"
+---
+
+Each Team presents 3 times. See the [Schedule](schedule.qmd).
+
+These are the guidelines for the presentations
+
+**Duration:** Prepare for about 20 minutes presentation. A concrete time schedule will be published in the non-public [Course-Organziation-Resources]({{<var org.link-org-repo>}}) repository. 
+
+**Discussion:** After each presentation, actively contribute to the discussion challenging and inspiring the project team. 
+
+## 💡💭 **Proposal Presentation:** You present the project you want to do. 
+
+**Goals:** Show what your project shall be about, what data and literature you depart from, and a feasible way how to work towards it. 
+
+**Content:** (In brackets an *average* expectation how much attention or time to spend on the points. Not a strict rule!)
+
+1. Explain what main **questions or problems** your project wants to address. **(40%)**
+2. Refer to core **materials** you want to use and how much you have worked into: **(20%)**
+    - **Data**: Which data? Have you put it in place already? Can you import it? Have you started to explore it? Aim to show feasibility by doing first steps, runing your idea in a minimal setting, do a first test, ...!
+    - **Literature** and web resources: Which papers, documentations, websites are essential for your project?
+    - Is something essential **missing**? What additional material would you like to find?
+3. Explain what **methods** you want to use: **(20%)**
+    - Do you know which methods can be used to answer your questions or solve your problems?
+    - Which ones will you try first? 
+    - How much are you into the method yet? 
+    - What can be an interesting learning topic for the whole course?
+4. Show a **workplan**: What are the most important things to do next? **(20%)**
+    - Which material to study first with what focus?
+    - How to setup your data and analysis pipeline?
+    - Provide sensible task list
+    - List who is responsible for what
+
+**Format:** Informal. Show your workplan in your project repository. You can provide some informal slides to show some of your materials or present the materials directly. 
+
+
+## 🚧 **Progress Presentation**
+
+**Goal:** Show your progress! First what worked and is done, then what is still open, what confused you, and finally your updated workplan to finish the project. Give some insights on learning which can be of interest for the whole course.
+
+**Content:**
+
+1. Questions and problem refined (20%)
+2. Core materials with core essentials extracted: Data and Literature (20%)
+3. Methods: What did you try, what works, what are the challenges? (40%)
+4. Updated workplan (20%)
+
+**Important:** With each project team we will specify a **learning focus** which is interesting for the whole course. Share some insights with the class on that topic. For example: What is it? For what it is used? What is easier what is harder to learn than expected? 
+
+**Format:** Mostly Informal. 
+Provide some slides or a good introduction text for the question or problem your project is about. For the rest, you can provide slides or show materials or your code-files and output from your repository directly. 
+
+
+## 👩‍🏫👨‍🏫 **Final Presentations**
+
+**Goal:** Show your results! What is the main achievement. Critically reflect.
+
+**Format:** Do a presentation with slides guiding through the project's results. 

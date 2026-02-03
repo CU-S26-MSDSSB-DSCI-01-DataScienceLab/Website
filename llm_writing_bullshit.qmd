@@ -1,0 +1,160 @@
+---
+title: "Tutorial: Writing Text with LLM"
+subtitle: "Avoid and Detect Bullshit"
+author: "Jan Lorenz"
+format: 
+  revealjs:
+    smaller: true
+    slide-number: true    
+    chalkboard:
+      buttons: true
+    preview-links: false
+    logo: "https://raw.githubusercontent.com/CU-S24-MSDSSB-DSCI-01-DataScienceLab/Website/master/img/ConstructorUniversity.png"
+---
+
+
+## Text generating AI Tool
+
+- Using text generating AI tools has become a reality and is used for 
+    - learning, 
+    - translating, 
+    - coding, 
+    - receiving advice, 
+    - leisure, and  
+    - **for writing and revising text for us.** 
+- The backbone of the generative AI tools ar large language models which generate text
+
+
+## Use as a student
+
+- Help to solve assessment and other tasks [☑️  
+👍 
+*Especially for coding, but understand and scrutinize output!*  
+⚠️ 
+*Don't forget the learning!* 
+]{.fragment}
+- Learning by asking for explanations [✅   
+*Adjust the detail level* 📑 *and specificity* 🔎 *with follow up prompts.*   
+⚠️
+*Don't stop at the chat, get productive* 🧑‍💻*, find authorative sources and continue* 📚.]{.fragment}
+- Generate ideas for your own project [(☑️)   
+⚠️
+*Often generic unspecific ideas.*   
+🧑‍💻 *quickly start to get productive.*]{.fragment}
+- Write text for your own project reports [((☑️))   
+⚠️
+*Often generic unspecific text.*   
+✏️ 
+**You have to write the core research questions, arguments, and results yourself!**]{.fragment}
+
+
+## Prompting workflow
+
+Text development works with chatting via a chain of **prompts**
+
+1. You write what you want  
+    `Write an outline for data science project about cricket.`
+2. You ask for refinement, reshaping, and restructuring on further prompts  
+    `Write an abstract of about 200 words on it.`
+3. Continue until you are satisfied. Copy, edit and finalize yourself. 
+
+
+## How LLMs work: Autocomplete on Overdrive
+
+[Activity]{style='color:red;'} 
+
+Follow [The Bullshit Machines](https://thebullshitmachines.com/index.html)
+
+Chapter 1: [Autocomplete on Overdrive](https://thebullshitmachines.com/lesson-1-autocomplete-in-overdrive/index.html)
+
+Questions: 
+
+- Does the same prompt always lead to the same outcome?
+- (From The Bullshit Machines) Why do you think a program that simply tries to predict the most likely next word in a sequence would be good at holding conversations?
+
+
+## How LLMs work: Autocomplete on Overdrive
+
+[Activity]{style='color:red;'} 
+
+Why do some call LLM **Bullshit Machines**?
+
+Follow [The Bullshit Machines](https://thebullshitmachines.com/index.html)
+
+Chapter 2: [The Nature of Bullshit](https://thebullshitmachines.com/lesson-2-the-nature-of-bullshit/index.html)
+
+Questions: 
+
+- (From The Bullshit Machines) People are perfectly good at producing bullshit without AI assistance—but with AI, people can produce more bullshit, faster. Who might find that useful? How?
+
+
+## The instructors perspective
+
+The instructor
+
+- has to read a lot
+- must read all student reports with an equal grading mindset
+- should provide some constructive feedback
+
+. . . 
+
+#### Problem
+
+AI generated text increases the amount of text which reads (superficially) well but it can become even harder to find the own contribution. It may read a bit like *bullshit*. Often it is very generic. 
+
+
+
+## AI may be used also by the instructor!
+
+- Summarize student contributions
+- Write Feedback
+
+(I haven't done so far ✌🤞️.) However, we want to avoid this
+
+![](https://marketoonist.com/wp-content/uploads/2023/03/230327.n.aiwritten.jpg){height=400}
+
+
+## Is using text generating AI plagiarism?
+
+[Activity]{style='color:red;'} 
+
+Two (or more) groups to answer the same questions: 
+
+- What is plagiarism?
+- Is using AI to write text a form of plagiarism? Why? Why not?
+
+**Group 1** Read Constructor University's [Code of Academic Conduct](https://constructor.university/sites/default/files/2024-09/CAI%202024%20vf.pdf)
+
+**Group 2-X** Ask AI!
+
+
+
+## Data Science Project Abstract Writing
+
+[Activity]{style='color:red;'} 
+
+Let us try different AI Tools: [OpenAI's *ChatGPT*](https://chatgpt.com/), [Antrophic's *Claude*](), [Mistral AI's *Le Chat*](https://chat.mistral.ai), [Google's *Gemini*](https://gemini.google.com/), ...
+
+**Group 1-X** Two on ChatGPT, more with other tools
+
+Use this prompts: 
+
+1. You write what you want  
+    `Write an outline for data science project about cricket.`
+2. You ask for refinement, reshaping, and restructuring on further prompts  
+    `Write an abstract of about 150 words on it.`
+    
+Discussion: Read out the texts and we discuss  its quality from the educated reader's and instructor's perspective. 
+
+
+## Final Activity: Abstract for your project
+
+[Activity]{style='color:red;'} 
+
+In your group: 
+
+Create a project abstract of about 150 words for your project with as many prompts as you want. 
+
+(10-15 minutes)
+
+Discussion: Read your abstracts and we discuss its quality from the educated reader's and instructor's perspective. 

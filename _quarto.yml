@@ -1,0 +1,35 @@
+project:
+  type: website
+
+execute:
+  freeze: auto  # re-render only when source changes
+
+website:
+  title: "Data Science Lab"
+  margin-header: |
+    ![Logo image](/img/datasciencelabicon.jpg)
+  navbar:
+    left:
+      - href: index.qmd
+        text: Syllabus
+        
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Syllabus"
+        file: index.qmd
+      - text: "Schedule"
+        file: schedule.qmd
+      - text: "Presentation Guide"
+        file: presentation.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    number-sections: true
+
+
+
