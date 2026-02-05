@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data Science Lab</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-d90c30c96bad360bae691b5c26d18f86.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Data Science Lab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./schedule.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text">CU-S26-MSDSSB-DSCI-01-DataScienceLab</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Syllabus</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./presentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentation Guide</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/datasciencelabicon.jpg" class="img-fluid figure-img"></p>
+<figcaption>Logo image</figcaption>
+</figure>
+</div>
+</div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#module-names" id="toc-module-names" class="nav-link active" data-scroll-target="#module-names"><span class="header-section-number">1</span> Module Names</a></li>
+  <li><a href="#module-components" id="toc-module-components" class="nav-link" data-scroll-target="#module-components"><span class="header-section-number">2</span> Module Components</a></li>
+  <li><a href="#class-meeting-information" id="toc-class-meeting-information" class="nav-link" data-scroll-target="#class-meeting-information"><span class="header-section-number">3</span> Class Meeting Information</a></li>
+  <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor"><span class="header-section-number">4</span> Instructor</a></li>
+  <li><a href="#format-and-workload" id="toc-format-and-workload" class="nav-link" data-scroll-target="#format-and-workload"><span class="header-section-number">5</span> Format and Workload</a></li>
+  <li><a href="#sec-ilos" id="toc-sec-ilos" class="nav-link" data-scroll-target="#sec-ilos"><span class="header-section-number">6</span> Intended Learning Outcomes</a>
+  <ul class="collapse">
+  <li><a href="#main-learning-goal" id="toc-main-learning-goal" class="nav-link" data-scroll-target="#main-learning-goal"><span class="header-section-number">6.1</span> Main Learning Goal</a></li>
+  </ul></li>
+  <li><a href="#examination-and-assessment" id="toc-examination-and-assessment" class="nav-link" data-scroll-target="#examination-and-assessment"><span class="header-section-number">7</span> Examination and Assessment</a>
+  <ul class="collapse">
+  <li><a href="#project-delivery" id="toc-project-delivery" class="nav-link" data-scroll-target="#project-delivery"><span class="header-section-number">7.1</span> Project Delivery</a></li>
+  <li><a href="#sec-project-format" id="toc-sec-project-format" class="nav-link" data-scroll-target="#sec-project-format"><span class="header-section-number">7.2</span> Project Format</a></li>
+  <li><a href="#project-length" id="toc-project-length" class="nav-link" data-scroll-target="#project-length"><span class="header-section-number">7.3</span> Project “Length”</a></li>
+  </ul></li>
+  <li><a href="#module-policies" id="toc-module-policies" class="nav-link" data-scroll-target="#module-policies"><span class="header-section-number">8</span> Module Policies</a></li>
+  <li><a href="#academic-integrity" id="toc-academic-integrity" class="nav-link" data-scroll-target="#academic-integrity"><span class="header-section-number">9</span> Academic Integrity</a></li>
+  <li><a href="#artifical-intelligence-ai-use-policy" id="toc-artifical-intelligence-ai-use-policy" class="nav-link" data-scroll-target="#artifical-intelligence-ai-use-policy"><span class="header-section-number">10</span> Artifical Intelligence (AI) Use Policy</a></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule"><span class="header-section-number">11</span> Schedule</a></li>
+  <li><a href="#feedback-from-students" id="toc-feedback-from-students" class="nav-link" data-scroll-target="#feedback-from-students"><span class="header-section-number">12</span> Feedback from Students</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Science Lab</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This syllabus may change during the course of the semester additions and clarifications. All substantial changes will marked here with date.</p>
+<p><strong>Important Links:</strong><br>
+<a href="https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab">CU-S26-MSDSSB-DSCI-01-DataScienceLab</a><br>
+<a href="https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab/Course-Organization-Resources">Course-Organization-Resources</a> (private repository, you need to be logged in on GitHub)</p>
+<section id="module-names" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="module-names"><span class="header-section-number">1</span> Module Names</h2>
+<p>MDSSSB-DSCI-01 Data Science Lab (Discovery area, 5 credits)</p>
+<p>Offered in the <a href="https://constructor.university/programs/graduate-education/data-science-for-society-business">Master program: Data Science for Society and Business (DSSB)</a>. See the module description in the <a href="?var:link.handbook">DSSB Handbook</a>.</p>
+</section>
+<section id="module-components" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="module-components"><span class="header-section-number">2</span> Module Components</h2>
+<ul>
+<li>Data Science Lab (5 Credits)</li>
+</ul>
+<p>Pre-requisits</p>
+<ul>
+<li>Data Science Concepts</li>
+<li>Data Science Tools</li>
+<li>Current Topics and Applications in Data Science</li>
+</ul>
+</section>
+<section id="class-meeting-information" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="class-meeting-information"><span class="header-section-number">3</span> Class Meeting Information</h2>
+<p><strong><strong>?var:class.day</strong>:</strong> 2 consecutive Sessions duing <strong><strong>?var:class.time</strong></strong><br>
+Location: <strong><strong>?var:class.location</strong></strong> in-person</p>
+<p>Asynchronous communication about course organization as well as occasional video streaming and recording will be done in Microsoft Teams:<br>
+Team <strong>S25_MDSSB-DSCI-01_Data Science Lab</strong>, General Channel</p>
+</section>
+<section id="instructor" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="instructor"><span class="header-section-number">4</span> Instructor</h2>
+<p><a href="mailto:jlorenz@constructor.university">Jan Lorenz</a></p>
+</section>
+<section id="format-and-workload" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="format-and-workload"><span class="header-section-number">5</span> Format and Workload</h2>
+<p><strong>Lab sessions</strong> (35 hours in presence)</p>
+<p><strong>Work on project</strong> (125 hours)</p>
+</section>
+<section id="sec-ilos" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="sec-ilos"><span class="header-section-number">6</span> Intended Learning Outcomes</h2>
+<p>The following 8 points are the Intended Learning Outcomes (ILOs) taken from the <a href="?var:link.handbook">Handbook</a>.<br>
+The <strong>bold</strong> text below each ILO operationalizes the ILO for <strong>assessment</strong> of your project submission (see <a href="#sec-project-format" class="quarto-xref">Section&nbsp;7.2</a>).</p>
+<p>By the end of this module, students should be able to</p>
+<ol type="1">
+<li>understand and critically evaluate current data science applications, identify new innovative research questions and data science applications<br>
+<strong>The project communicates the problem, approach, and results effectively and clearly. It also critically evaluates the approach and/or results.</strong></li>
+<li>experiment with and simulate data science solutions<br>
+<strong>The project describes how the presented approach or the results may practically be used in data science application.</strong></li>
+<li>write/configure computer programs/tools specific to certain subject areas<br>
+<strong>The tools used in the project are well chosen.</strong></li>
+<li>master relevant data pre/post-processing routines<br>
+<strong>The project shows and documents the data flow from its origin to the results which can be reproduced.</strong></li>
+<li>design and schedule a DS project of medium complexity, including escape options, and keep milestones/timelines<br>
+<em>This not an assessment criterion, but is realized through the activities and presentations during the semester.</em></li>
+<li>improve their academic writing skills<br>
+<strong>The text in the project reports is well structured and well written.</strong></li>
+<li>communicate results to a non-expert audience<br>
+<strong>The text has an introduction or abstract and conclusion which are understandable by a non-expert audience.</strong></li>
+<li>design their own digital application<br>
+<em>This is not an assessment criterion. The ILO is touched in 2.</em></li>
+</ol>
+<section id="main-learning-goal" class="level3" data-number="6.1">
+<h3 data-number="6.1" class="anchored" data-anchor-id="main-learning-goal"><span class="header-section-number">6.1</span> Main Learning Goal</h3>
+<p>This Data Science Lab shall deepen your skills for your more and more independent data science work based on a <strong>self-designed project</strong>. That means you <strong>become more experienced</strong> in</p>
+<ul>
+<li>in using the core concepts in data science on your own, for example
+<ul>
+<li>exploring data (import, wrangle, visualize)</li>
+<li>learning, exploring and applying <em>mathematics</em> and <em>statistics</em> through the data science lens</li>
+<li>learning and applying concepts to model and draw conclusions from data (model, infer, predict)</li>
+</ul></li>
+<li><strong>creating and maintaining a digital working environment on your computer to do data science</strong></li>
+<li>programming in the data science languages R and/or python, and become able to learn new skills in these independently</li>
+<li>improve your skills in documenting and presenting your findings with compelling visualizations, descriptions, interpretations, and narratives</li>
+</ul>
+</section>
+</section>
+<section id="examination-and-assessment" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="examination-and-assessment"><span class="header-section-number">7</span> Examination and Assessment</h2>
+<p><em>Assessment Type:</em> <strong>Project Assessment</strong> (see <a href="#sec-ilos" class="quarto-xref">Section&nbsp;6</a>) <em>Weight:</em> 100%<br>
+<em>Scope:</em> All intended learning outcomes of the module (see <a href="#sec-ilos" class="quarto-xref">Section&nbsp;6</a>).<br>
+<em>Completion:</em> to pass this module, the examination has to be passed with at least 45%</p>
+<section id="project-delivery" class="level3" data-number="7.1">
+<h3 data-number="7.1" class="anchored" data-anchor-id="project-delivery"><span class="header-section-number">7.1</span> Project Delivery</h3>
+<p>The project components must be delivered in a <strong>project-repository</strong> on <strong>GitHub</strong> provided by the instructor in the GitHub-Organization <a href="https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab">CU-S26-MSDSSB-DSCI-01-DataScienceLab</a>. If your project requires another way of delivery, get in contact with the instructor before the submission.</p>
+</section>
+<section id="sec-project-format" class="level3" data-number="7.2">
+<h3 data-number="7.2" class="anchored" data-anchor-id="sec-project-format"><span class="header-section-number">7.2</span> Project Format</h3>
+<p>Lab projects can have different formats. The main contribution need not be a text. It will be developed during the course.</p>
+<p>For proper assessment, the repository should have at least one <strong>human-readable document</strong> which can be read without considering code. Examples:</p>
+<ul>
+<li>A rendered quarto file in <strong>html-format</strong> guiding through the project. These files can be best viewed on a local machine in a browser (but not from the GitHub-Website in a private repository). However, they can be made publically viewable from the Internet via GitHub-pages with a few clicks later if you want.<br>
+</li>
+<li>Files in <strong>GitHub flavored markdown</strong> (gfm) like the typical <code>README.md</code>. These have slightly fewer formatting options but can be viewed directly on GitHub. This may be a good solution for code-heavy projects.</li>
+<li>Alternative or additional options which may be used with a particular reason: A <em>slide deck</em> in revealjs-html or PDF-file. A <em>paged report</em> as a PDF-file.</li>
+<li>In any case: Do <strong>not</strong> submit your work in Word or PowerPoint format (e.g., docx, pptx) or related formats from Apple or Libre Office. All these formats can be converted to PDF – submit such a PDF.</li>
+</ul>
+<p>The instructor starts assessment with reading the README.md of the project repository, then going to the main description file specified as the main human-readable document.</p>
+<p>The repository should also include all the code used to do data collection and import, data analysis, visualizations, predictions, and whatever else the project is about. If useful this can be in scripts separated from the human-readable file.</p>
+</section>
+<section id="project-length" class="level3" data-number="7.3">
+<h3 data-number="7.3" class="anchored" data-anchor-id="project-length"><span class="header-section-number">7.3</span> Project “Length”</h3>
+<p>Your text should <strong>begin</strong> with a section called <em>Abstract</em>, <em>Outline</em>, or <em>Executive Summary</em> with between 120 and 500 words.</p>
+<ul>
+<li><em>There is no minimal or maximal number of words!</em> (Some project’s main part maybe code or visualizations.)</li>
+<li><em>There is no minimal or maximal number of lines of code!</em> (Some project’s main part may be the documentation, description, interpretation, and critical reflection.)<br>
+</li>
+<li><em>There is no minimal or maximal number of pages!</em> (You can count pages only if you deliver a slidedeck, or a PDF.)</li>
+</ul>
+<p>Some guidelines are:</p>
+<ul>
+<li>A short contribution is good when it is concise and covers all aspects. A long contribution is good when it is well structured (in a hierarchy of importance) and not redundant.</li>
+<li>If your human-readable text is much less than 3,000 words: Consider if some parts should be extended. Go in detail over the assessment criteria and check that your document covers all the aspects which need to be assessed, is well readable, clear, and concise for an external reader. If this is the case it is <em>great when you can stay <strong>below</strong> 3,000 words</em>!</li>
+<li>If your human-readable text has more than 6,000 words: Consider to
+<ul>
+<li>make it shorter by making it more concise and less redundant</li>
+<li>structure it in a core part with less than 3,000 words and appendices with additional information (your main text can refer to appendix sections)</li>
+<li>using footnotes for additional information (However, avoid too extensive use of long footnotes. At some point it is better to make an appendix section.)</li>
+</ul></li>
+<li>The assessment goes only along the criteria listed below. A long contribution may receive lower assessments when it communicates less effectively and less to the point. Beware not to deliver generic ChatGPT-like “bla-bla”!</li>
+<li>Check and polish your code. Check if the code reproduces your results. Remove unnecessary code, and spend some explanatory comments on interesting non-standard steps. Large parts of unnecessary code can be considered as less effective and less clear communication. However, your code need not be excessively educational with a comment on every line.</li>
+</ul>
+</section>
+</section>
+<section id="module-policies" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="module-policies"><span class="header-section-number">8</span> Module Policies</h2>
+<p>There are no formal requirement about attendance and active participation. However, the instructor relies on your <strong>engagement</strong> in a many-facted way including:</p>
+<ul>
+<li>Preparation (looking at readings and material before and after class, being informed about syllabus and course material)</li>
+<li>Focus (avoid distraction during in class and self-learning activities)</li>
+<li>Presence (listening and responding during group activities)</li>
+<li>Asking questions (in class, out of class, online, offline, when you get stuck conclude by writing a question)</li>
+<li>Specificity (being as specific as possible when describing your problem or question)</li>
+<li>Synthesizing (making connections between concepts from reading and discussion)</li>
+<li>Persistence (you don’t need to understand everything immediately, but stay engaged, try again, confusion shows that you pay attention)</li>
+</ul>
+</section>
+<section id="academic-integrity" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="academic-integrity"><span class="header-section-number">9</span> Academic Integrity</h2>
+<p>All involved parties (professors and lecturers, instructors and students) are expected to abide by the word and spirit of the <a href="https://constructor.university/sites/default/files/2024-09/CAI%202024%20vf.pdf">Code of Academic Integrity</a>. Violations of the Code will be brought to the attention of the Academic Integrity Committee.</p>
+</section>
+<section id="artifical-intelligence-ai-use-policy" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="artifical-intelligence-ai-use-policy"><span class="header-section-number">10</span> Artifical Intelligence (AI) Use Policy</h2>
+<p>This policy covers any generative AI tool, such as ChatGPT, Gemini, Claude, Elicit, etc. This includes text, code, slides, artwork/graphics/video/audio and other products.</p>
+<p>I encourage you to using and exploring AI tools for these purposes:</p>
+<ul>
+<li><strong>Learning by dialog with a chatbot.</strong> AI chatbots can be helpful to explain you concepts <em>on your desired level</em> and get a feeling about how certain topics are treated. You can ask for an easier or more detailed explanation or focus on certain aspects. Note: The capabilities are limited and you likely receive a lot of false information! Using chatbots should remain a small part of your learning process. Rule of thumb: Spend not more than 25% of the learning time with chatting. There is no way around reading textbooks, reading software documentation, learning and understanding concepts, practicing, searching for help online, asking instructors or fellow students.</li>
+<li><strong>Have code snippets written.</strong> Tools like GitHub Copilot (free to use for students and teachers) are heavily used and currently change code-writing. They can speed up writing your code. However, they do not deliver always correct solutions. There is no way around understanding yourself what a code is doing! Do not spend endless hours asking for new code with new prompts, spend time understanding a language and the functions and objects you are using! Copilots can be a great help to get a skeleton of code and an idea how your solution <em>might</em> look, they rarely deliver the complete code. Expect that the code does not work, expect that the code seems to works but the results are wrong. You are 100% accountable for the code you produce, with or without the help of a copilot!</li>
+<li><strong>Have a draft text snippet written.</strong> Data science is also about formulating and describing research questions, describing data, documenting code, interpreting results, and deriving conclusion form the results. This is all verbal text and chatbots are good in writing text which often appears well readable. You can use this to inspire yourself and to polish and improve your texts. However, you are 100% accountable for the text you deliver. You are expected to know what your text is about and to be able to answer questions about what your text means! In text generated purely by a chatbot it is often evident that you do not.</li>
+</ul>
+<p><strong>Note:</strong> <em>Philosophical and legal questions around the training and use of chatbots and code copilots are controversially contested and re-examined constantly!</em> We encourage to engage with such questions and become aware of arguments and debates.</p>
+<p><strong>Note on assessment of your text be it written with or without AI:</strong> Text written by chatbots is often very generic and less specific. Often, ChatBots deliver <a href="https://en.wikipedia.org/wiki/Bullshit#Harry_Frankfurt's_concept"><em>bullshit</em> (as defined by H. Frankfurt)</a> . Large parts of very generic <em>bullshit</em>-like text will be assessed worse than a short more specific text!</p>
+<p>If any part of this AI policy is confusing or uncertain, please reach out to us for a conversation before submitting your work.</p>
+</section>
+<section id="schedule" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="schedule"><span class="header-section-number">11</span> Schedule</h2>
+<p>The <a href="./schedule.html"><strong>Schedule</strong></a> is on an extra page and will be updated continuously.</p>
+<p>Detailed schedule information with personalized student information will appear in the private repository <a href="https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab/Course-Organization-Resources">Course-Organisation-Resources</a></p>
+</section>
+<section id="feedback-from-students" class="level2" data-number="12">
+<h2 data-number="12" class="anchored" data-anchor-id="feedback-from-students"><span class="header-section-number">12</span> Feedback from Students</h2>
+<p>We are eager to constantly improve the quality of our teaching. We would be glad to obtain your feedback at any time of the course to improve your learning experience.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/CU-S26-MSDSSB-DSCI-01-DataScienceLab\.github\.io\/Website\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

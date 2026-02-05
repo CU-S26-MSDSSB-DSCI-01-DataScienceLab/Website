@@ -1,0 +1,593 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science Lab",
+    "section": "",
+    "text": "This syllabus may change during the course of the semester additions and clarifications. All substantial changes will marked here with date.\nImportant Links:\nCU-S26-MSDSSB-DSCI-01-DataScienceLab\nCourse-Organization-Resources (private repository, you need to be logged in on GitHub)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#module-names",
+    "href": "index.html#module-names",
+    "title": "Data Science Lab",
+    "section": "1 Module Names",
+    "text": "1 Module Names\nMDSSSB-DSCI-01 Data Science Lab (Discovery area, 5 credits)\nOffered in the Master program: Data Science for Society and Business (DSSB). See the module description in the DSSB Handbook.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#module-components",
+    "href": "index.html#module-components",
+    "title": "Data Science Lab",
+    "section": "2 Module Components",
+    "text": "2 Module Components\n\nData Science Lab (5 Credits)\n\nPre-requisits\n\nData Science Concepts\nData Science Tools\nCurrent Topics and Applications in Data Science",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#class-meeting-information",
+    "href": "index.html#class-meeting-information",
+    "title": "Data Science Lab",
+    "section": "3 Class Meeting Information",
+    "text": "3 Class Meeting Information\n?var:class.day: 2 consecutive Sessions duing ?var:class.time\nLocation: ?var:class.location in-person\nAsynchronous communication about course organization as well as occasional video streaming and recording will be done in Microsoft Teams:\nTeam S25_MDSSB-DSCI-01_Data Science Lab, General Channel",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#instructor",
+    "href": "index.html#instructor",
+    "title": "Data Science Lab",
+    "section": "4 Instructor",
+    "text": "4 Instructor\nJan Lorenz",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#format-and-workload",
+    "href": "index.html#format-and-workload",
+    "title": "Data Science Lab",
+    "section": "5 Format and Workload",
+    "text": "5 Format and Workload\nLab sessions (35 hours in presence)\nWork on project (125 hours)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-ilos",
+    "href": "index.html#sec-ilos",
+    "title": "Data Science Lab",
+    "section": "6 Intended Learning Outcomes",
+    "text": "6 Intended Learning Outcomes\nThe following 8 points are the Intended Learning Outcomes (ILOs) taken from the Handbook.\nThe bold text below each ILO operationalizes the ILO for assessment of your project submission (see Section 7.2).\nBy the end of this module, students should be able to\n\nunderstand and critically evaluate current data science applications, identify new innovative research questions and data science applications\nThe project communicates the problem, approach, and results effectively and clearly. It also critically evaluates the approach and/or results.\nexperiment with and simulate data science solutions\nThe project describes how the presented approach or the results may practically be used in data science application.\nwrite/configure computer programs/tools specific to certain subject areas\nThe tools used in the project are well chosen.\nmaster relevant data pre/post-processing routines\nThe project shows and documents the data flow from its origin to the results which can be reproduced.\ndesign and schedule a DS project of medium complexity, including escape options, and keep milestones/timelines\nThis not an assessment criterion, but is realized through the activities and presentations during the semester.\nimprove their academic writing skills\nThe text in the project reports is well structured and well written.\ncommunicate results to a non-expert audience\nThe text has an introduction or abstract and conclusion which are understandable by a non-expert audience.\ndesign their own digital application\nThis is not an assessment criterion. The ILO is touched in 2.\n\n\n6.1 Main Learning Goal\nThis Data Science Lab shall deepen your skills for your more and more independent data science work based on a self-designed project. That means you become more experienced in\n\nin using the core concepts in data science on your own, for example\n\nexploring data (import, wrangle, visualize)\nlearning, exploring and applying mathematics and statistics through the data science lens\nlearning and applying concepts to model and draw conclusions from data (model, infer, predict)\n\ncreating and maintaining a digital working environment on your computer to do data science\nprogramming in the data science languages R and/or python, and become able to learn new skills in these independently\nimprove your skills in documenting and presenting your findings with compelling visualizations, descriptions, interpretations, and narratives",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#examination-and-assessment",
+    "href": "index.html#examination-and-assessment",
+    "title": "Data Science Lab",
+    "section": "7 Examination and Assessment",
+    "text": "7 Examination and Assessment\nAssessment Type: Project Assessment (see Section 6) Weight: 100%\nScope: All intended learning outcomes of the module (see Section 6).\nCompletion: to pass this module, the examination has to be passed with at least 45%\n\n7.1 Project Delivery\nThe project components must be delivered in a project-repository on GitHub provided by the instructor in the GitHub-Organization CU-S26-MSDSSB-DSCI-01-DataScienceLab. If your project requires another way of delivery, get in contact with the instructor before the submission.\n\n\n7.2 Project Format\nLab projects can have different formats. The main contribution need not be a text. It will be developed during the course.\nFor proper assessment, the repository should have at least one human-readable document which can be read without considering code. Examples:\n\nA rendered quarto file in html-format guiding through the project. These files can be best viewed on a local machine in a browser (but not from the GitHub-Website in a private repository). However, they can be made publically viewable from the Internet via GitHub-pages with a few clicks later if you want.\n\nFiles in GitHub flavored markdown (gfm) like the typical README.md. These have slightly fewer formatting options but can be viewed directly on GitHub. This may be a good solution for code-heavy projects.\nAlternative or additional options which may be used with a particular reason: A slide deck in revealjs-html or PDF-file. A paged report as a PDF-file.\nIn any case: Do not submit your work in Word or PowerPoint format (e.g., docx, pptx) or related formats from Apple or Libre Office. All these formats can be converted to PDF – submit such a PDF.\n\nThe instructor starts assessment with reading the README.md of the project repository, then going to the main description file specified as the main human-readable document.\nThe repository should also include all the code used to do data collection and import, data analysis, visualizations, predictions, and whatever else the project is about. If useful this can be in scripts separated from the human-readable file.\n\n\n7.3 Project “Length”\nYour text should begin with a section called Abstract, Outline, or Executive Summary with between 120 and 500 words.\n\nThere is no minimal or maximal number of words! (Some project’s main part maybe code or visualizations.)\nThere is no minimal or maximal number of lines of code! (Some project’s main part may be the documentation, description, interpretation, and critical reflection.)\n\nThere is no minimal or maximal number of pages! (You can count pages only if you deliver a slidedeck, or a PDF.)\n\nSome guidelines are:\n\nA short contribution is good when it is concise and covers all aspects. A long contribution is good when it is well structured (in a hierarchy of importance) and not redundant.\nIf your human-readable text is much less than 3,000 words: Consider if some parts should be extended. Go in detail over the assessment criteria and check that your document covers all the aspects which need to be assessed, is well readable, clear, and concise for an external reader. If this is the case it is great when you can stay below 3,000 words!\nIf your human-readable text has more than 6,000 words: Consider to\n\nmake it shorter by making it more concise and less redundant\nstructure it in a core part with less than 3,000 words and appendices with additional information (your main text can refer to appendix sections)\nusing footnotes for additional information (However, avoid too extensive use of long footnotes. At some point it is better to make an appendix section.)\n\nThe assessment goes only along the criteria listed below. A long contribution may receive lower assessments when it communicates less effectively and less to the point. Beware not to deliver generic ChatGPT-like “bla-bla”!\nCheck and polish your code. Check if the code reproduces your results. Remove unnecessary code, and spend some explanatory comments on interesting non-standard steps. Large parts of unnecessary code can be considered as less effective and less clear communication. However, your code need not be excessively educational with a comment on every line.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#module-policies",
+    "href": "index.html#module-policies",
+    "title": "Data Science Lab",
+    "section": "8 Module Policies",
+    "text": "8 Module Policies\nThere are no formal requirement about attendance and active participation. However, the instructor relies on your engagement in a many-facted way including:\n\nPreparation (looking at readings and material before and after class, being informed about syllabus and course material)\nFocus (avoid distraction during in class and self-learning activities)\nPresence (listening and responding during group activities)\nAsking questions (in class, out of class, online, offline, when you get stuck conclude by writing a question)\nSpecificity (being as specific as possible when describing your problem or question)\nSynthesizing (making connections between concepts from reading and discussion)\nPersistence (you don’t need to understand everything immediately, but stay engaged, try again, confusion shows that you pay attention)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#academic-integrity",
+    "href": "index.html#academic-integrity",
+    "title": "Data Science Lab",
+    "section": "9 Academic Integrity",
+    "text": "9 Academic Integrity\nAll involved parties (professors and lecturers, instructors and students) are expected to abide by the word and spirit of the Code of Academic Integrity. Violations of the Code will be brought to the attention of the Academic Integrity Committee.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#artifical-intelligence-ai-use-policy",
+    "href": "index.html#artifical-intelligence-ai-use-policy",
+    "title": "Data Science Lab",
+    "section": "10 Artifical Intelligence (AI) Use Policy",
+    "text": "10 Artifical Intelligence (AI) Use Policy\nThis policy covers any generative AI tool, such as ChatGPT, Gemini, Claude, Elicit, etc. This includes text, code, slides, artwork/graphics/video/audio and other products.\nI encourage you to using and exploring AI tools for these purposes:\n\nLearning by dialog with a chatbot. AI chatbots can be helpful to explain you concepts on your desired level and get a feeling about how certain topics are treated. You can ask for an easier or more detailed explanation or focus on certain aspects. Note: The capabilities are limited and you likely receive a lot of false information! Using chatbots should remain a small part of your learning process. Rule of thumb: Spend not more than 25% of the learning time with chatting. There is no way around reading textbooks, reading software documentation, learning and understanding concepts, practicing, searching for help online, asking instructors or fellow students.\nHave code snippets written. Tools like GitHub Copilot (free to use for students and teachers) are heavily used and currently change code-writing. They can speed up writing your code. However, they do not deliver always correct solutions. There is no way around understanding yourself what a code is doing! Do not spend endless hours asking for new code with new prompts, spend time understanding a language and the functions and objects you are using! Copilots can be a great help to get a skeleton of code and an idea how your solution might look, they rarely deliver the complete code. Expect that the code does not work, expect that the code seems to works but the results are wrong. You are 100% accountable for the code you produce, with or without the help of a copilot!\nHave a draft text snippet written. Data science is also about formulating and describing research questions, describing data, documenting code, interpreting results, and deriving conclusion form the results. This is all verbal text and chatbots are good in writing text which often appears well readable. You can use this to inspire yourself and to polish and improve your texts. However, you are 100% accountable for the text you deliver. You are expected to know what your text is about and to be able to answer questions about what your text means! In text generated purely by a chatbot it is often evident that you do not.\n\nNote: Philosophical and legal questions around the training and use of chatbots and code copilots are controversially contested and re-examined constantly! We encourage to engage with such questions and become aware of arguments and debates.\nNote on assessment of your text be it written with or without AI: Text written by chatbots is often very generic and less specific. Often, ChatBots deliver bullshit (as defined by H. Frankfurt) . Large parts of very generic bullshit-like text will be assessed worse than a short more specific text!\nIf any part of this AI policy is confusing or uncertain, please reach out to us for a conversation before submitting your work.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Data Science Lab",
+    "section": "11 Schedule",
+    "text": "11 Schedule\nThe Schedule is on an extra page and will be updated continuously.\nDetailed schedule information with personalized student information will appear in the private repository Course-Organisation-Resources",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#feedback-from-students",
+    "href": "index.html#feedback-from-students",
+    "title": "Data Science Lab",
+    "section": "12 Feedback from Students",
+    "text": "12 Feedback from Students\nWe are eager to constantly improve the quality of our teaching. We would be glad to obtain your feedback at any time of the course to improve your learning experience.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "schedule_final.html",
+    "href": "schedule_final.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Developing Schedule\n\n\n\n\n\nThe schedule is tentative. It can be updated.\n\n\n\n\nTabular Schedule\nClass is Thursday in 2 consecutive Sessions 15:45 - 18:30\nLocation: ?var:location in-person if not stated otherwise\n\n\n\n\n\n\n\n\n\nWeek\nDates\nWhat?\nWhere?\n\n\n\n\n1\nFeb 05\nKick off the Lab  Watch out for survey link: To collect data for team and topic matching!\nCampus\n\n\n2\nFeb 12\nTopics and Team Formation, Q&A\nCampus\n\n\n3\nFeb 19\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n4\nFeb 26\n🧑‍💻 Tutorial quarto/git/GitHub: Refresh the basics; Report writing; Figures; Referencing; Reproducible code; Literature Management; Websites \nCampus\n\n\n5\nMar 05\n1️⃣ Student Proposal Presentations Presentation Guide\nCampus\n\n\n6\nMar 12\n🧑‍💻 Tutorial Collecting Data SQL/APIs/Webscraping Slides\nCampus\n\n\n7\nMar 19\nIndividual meetings with student teams\nOnline only\n\n\n8\nMar 26\nIndividual meetings with student teams\nOnline only\n\n\n\n\nSpring break\n\n\n\n9\nApr 09\n2️⃣ Student Progress and Learning Presentations Presentation Guide\nCampus\n\n\n10\nApr 16\n🧑‍💻 Tutorial Generate Text with AI, Avoid Bullshit Slides\nCampus\n\n\n11\nApr 23\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n12\nApr 30\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n13\nMay 07\n3️⃣ Student Final Presentations  Schedule Presentation Guide\nCampus\n\n\n\nDeadline for Project Reports is the regular deadline in the Academic Calendar, see the Deadline for Students to Submit Assessments, Spring Semester."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Developing Schedule\n\n\n\n\n\nThe schedule can be updated. Updates will be marked here and announced on Teams.\n\n\n\n\nTabular Schedule\nClass is Thursday in 2 consecutive Sessions 15:45 - 18:30\nLocation: IRC-Seminar Room III in-person if not stated otherwise\n\n\n\n\n\n\n\n\n\nWeek\nDates\nWhat?\nWhere?\n\n\n\n\n1\nFeb 05\nKick off the Lab  Watch out for survey link: To collect data for team and topic matching!\nCampus\n\n\n2\nFeb 12\nTopics and Team Formation, Q&A\nCampus\n\n\n3\nFeb 19\n🧑‍💻 Tutorial (Topic to be announced)\nCampus\n\n\n4\nFeb 26\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n5\nMar 05\n1️⃣ Student Proposal Presentations Presentation Guide\nCampus\n\n\n6\nMar 12\n🧑‍💻 Tutorial (Topic to be announced)\nCampus\n\n\n7\nMar 19\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n8\nMar 26\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n\n\nSpring break\n\n\n\n9\nApr 09\n2️⃣ Student Progress and Learning Presentations Presentation Guide\nCampus\n\n\n10\nApr 16\n🧑‍💻 Tutorial Generate Text with AI, Avoid Bullshit\nCampus\n\n\n11\nApr 23\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n12\nApr 30\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n13\nMay 07\n3️⃣ Student Final Presentations  Schedule Presentation Guide\nCampus\n\n\n\nDeadline for Project Reports is the regular deadline in the Academic Calendar, see the Deadline for Students to Submit Assessments, Spring Semester.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "collecting_data.html#google-cloud-bigquery-public-datasets",
+    "href": "collecting_data.html#google-cloud-bigquery-public-datasets",
+    "title": "Tutorial: Collecting Data",
+    "section": "Google Cloud BigQuery Public Datasets",
+    "text": "Google Cloud BigQuery Public Datasets\n\nWe use the Google Cloud Platform which offers several cloud computing services based on Google’s infrastructure.\nWe use the service BigQuery which is the data warehouse of Google Cloud.\nThere is a sandbox mode which does not require anymore than a Google Account. (No Free Trial registration or Credit Card Details necessary) https://console.cloud.google.com/bigquery"
+  },
+  {
+    "objectID": "collecting_data.html#google-cloud-bigquery-sandbox",
+    "href": "collecting_data.html#google-cloud-bigquery-sandbox",
+    "title": "Tutorial: Collecting Data",
+    "section": "Google Cloud BigQuery Sandbox",
+    "text": "Google Cloud BigQuery Sandbox\nThere is a sandbox mode which does not require anymore than a Google Account. No Free Trial registration or Credit Card Details necessary.\n\nGo to https://console.cloud.google.com/bigquery. If necessary, log in with a Google Account.\nClick on “Create Project”. Leaving the default specification. Create the project.\nGo to the “SQL workspace” (if you are not already there)\nIn the “Explorer” click “Add Data”, select “Public Datasets”, search for “usa names”, click on the data set “USA Names”, and then “View Dataset”.\nThe bigquery-public-data should appear in the Explorer.\nUse pressing the triangle to navigate the hierarchy in the Explorer. Go to the dataset usa_names and then click on its table usa_1910_2013. To the right should appear a tab with information about the table."
+  },
+  {
+    "objectID": "collecting_data.html#usa-names-dataset-in-bigquery",
+    "href": "collecting_data.html#usa-names-dataset-in-bigquery",
+    "title": "Tutorial: Collecting Data",
+    "section": "USA Names dataset in BigQuery",
+    "text": "USA Names dataset in BigQuery"
+  },
+  {
+    "objectID": "collecting_data.html#input-databases-and-sql",
+    "href": "collecting_data.html#input-databases-and-sql",
+    "title": "Tutorial: Collecting Data",
+    "section": "Input: Databases and SQL",
+    "text": "Input: Databases and SQL\n\nStructured Query Language (SQL) is a language to query relational databases.\nA relational database\n\npresents data to users in the form of a collection of tables with rows and columns, and\nprovides relational operators to manipulate the data in tabular form.\n\nSQL is somehow a standard but may come in different flavors\nSome call it “S,Q,L”, other “SEQUEL”"
+  },
+  {
+    "objectID": "collecting_data.html#input-database-data-frame",
+    "href": "collecting_data.html#input-database-data-frame",
+    "title": "Tutorial: Collecting Data",
+    "section": "Input: Database = data frame?",
+    "text": "Input: Database = data frame?\n\nTables in a database are indeed essentially the same as data frames in R, or python-pandas.\n\nWhat is the different use cases?\n\nSQL databases are\n\nfor storing and querying large amounts of data\noften being access through a network\noften so large to be distributed over several severs\n\nThe data frames in our data science tools are for smaller datasets to manipulate and analyze then within a programming environment and typically in memory."
+  },
+  {
+    "objectID": "collecting_data.html#lets-do-a-sql-query-on-usa-names",
+    "href": "collecting_data.html#lets-do-a-sql-query-on-usa-names",
+    "title": "Tutorial: Collecting Data",
+    "section": "Let’s do a SQL query on USA Names!",
+    "text": "Let’s do a SQL query on USA Names!\nOn the BigQuery interface The tab for the table usa_1910_2013 shows\n\nThe table Schema which shows names and data types of the columns.\nWhat are the columns in USA Names?\nSome Details about the data in the table: Metadate and data about Storage\nA preview of the first rows of the table\n\n\nSelect “Query” –&gt; “In split tab” to open a new tab for our query.\nWe want to extract the numbers of babies with the name “Kevin” for each year in the whole USA.\nCopy this query\n\nSELECT year, sum(number) AS num\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = \"Kevin\"\nGROUP BY year\n\nClick “Run” and explore the results."
+  },
+  {
+    "objectID": "collecting_data.html#explanations",
+    "href": "collecting_data.html#explanations",
+    "title": "Tutorial: Collecting Data",
+    "section": "Explanations",
+    "text": "Explanations\nSELECT year, sum(number) AS num\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = \"Kevin\"\nGROUP BY year\n\nLine 1 specifies what columns we want to have. It also specifies that we compute a new variable num which is the sum of number. To that end, we need some GROUP BY which comes later in Line 4.\nLine 2 specifies the data table. Note the dot-notation with the database collection bigquery-public-data, the database usa_names, and the table usa_1910_2013\nLine 3 specifies a filter\nThe line breaks are not relevant for the execution.\n\nThe UPPERCASE of the syntax words is not necessary and only a convention."
+  },
+  {
+    "objectID": "collecting_data.html#query-from-r",
+    "href": "collecting_data.html#query-from-r",
+    "title": "Tutorial: Collecting Data",
+    "section": "Query from R",
+    "text": "Query from R\nNow, let’s do the same query from R using a copy of the script Tutorials/CollectingData_YOURNAME.R.\n\nLoad the package bigrquery\nExecute the bq_auth() command (check the text in the comments)\nUse this code\n\nbilling &lt;- \"blabla-380021\"  # This must be your project ID! \nsql &lt;- \"SELECT year, sum(number\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = 'Kevin'\nGROUP BY year\"\ntb &lt;- bq_project_query(billing, sql)\ndata &lt;- bq_table_download(tb, n_max = 100)\nImportant: Replace the billing string with your project ID. Find it clicking here"
+  },
+  {
+    "objectID": "collecting_data.html#plot-the-data-in-r",
+    "href": "collecting_data.html#plot-the-data-in-r",
+    "title": "Tutorial: Collecting Data",
+    "section": "Plot the data in R",
+    "text": "Plot the data in R\nNow we can look at the evolution of the popularity of the name “Kevin” with\ndata |&gt; ggplot(aes(year, num, color = name)) + geom_line()\n\nNext challenge: Extract also the data for the name “Martin”. Hint: You need to add “Martin” (comma-separated) to the SELECT and add a condition with OR at the end of the WHERE. You also need to add name to the GROUP BY."
+  },
+  {
+    "objectID": "collecting_data.html#learing-sql",
+    "href": "collecting_data.html#learing-sql",
+    "title": "Tutorial: Collecting Data",
+    "section": "Learing SQL",
+    "text": "Learing SQL\nSuppose we have the data frame usa_names in R or python. Then the same data wrangling operations are quite similar.\n\n\nSQL\nSELECT year, sum(number) AS num\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = \"Kevin\"\nGROUP BY year\n\nR dplyr\nusa_names |&gt; \nfilter(name == \"Kevin\") |&gt; \nselect(year, number) |&gt; \ngroup_by(year) |&gt; \nsummarize(num = sum(number))\n\npy pandas\nusa_names.loc[usa_names['name'] == 'Kevin', \n['year', 'number']].\\\ngroupby('year').\\\nagg(num=('number', 'sum'))\n\nThere are libraries for linking python or R to SQL databases\n\nUse these when your data is in a database anyway\n\nIt may even make sense to make some computations in a SQL query (often much faster!)\nSQL skills are useful (often must-have) for data scientists! Whenever there is an opportunity to learn a bit of SQL, take it!\nBasics are not too complicated. AI tools can help to translate!"
+  },
+  {
+    "objectID": "collecting_data.html#input-url-structure",
+    "href": "collecting_data.html#input-url-structure",
+    "title": "Tutorial: Collecting Data",
+    "section": "Input: URL structure",
+    "text": "Input: URL structure\n\nExample: https://www.example.com:8080/path/to/resource?q=search+terms#section-title\n\nScheme: https://\nHostname: www.example.com\nPort: :8080 (optional component)\nPath: /path/to/resource (typically an html-file like index.html)\nQuery String: ?q=search+terms (optional component - it is used to pass additional data to the server, typically in the form of key-value pairs separated by &)\nFragment Identifier: #section-title (this is an optional component - it is used to identify a specific section or location within the resource that the URL points to)"
+  },
+  {
+    "objectID": "collecting_data.html#input-url-structure-examples",
+    "href": "collecting_data.html#input-url-structure-examples",
+    "title": "Tutorial: Collecting Data",
+    "section": "Input: URL Structure Examples",
+    "text": "Input: URL Structure Examples\n\n\nThe graphic is from the section https://en.wikipedia.org/wiki/URL#Syntax (Note the fragment)\nhttps://www.google.com/maps?q=Constructor+University&t=k (Note the query, t=k specifies satellite map)"
+  },
+  {
+    "objectID": "collecting_data.html#input-hostnames",
+    "href": "collecting_data.html#input-hostnames",
+    "title": "Tutorial: Collecting Data",
+    "section": "Input: Hostnames",
+    "text": "Input: Hostnames\n\nAn essential part of a URL is the hostname. See https://en.wikipedia.org/wiki/Hostname. The hostname of this URL is en.wikipedia.org\nHostnames are linked to IP-Addresses through the Domain Name System (DNS).\n\nCheck http://uni-bremen.de and http://134.102.22.124\n\nHostnames (and other things in URLs) are case-insensitive: lowercase = LOWERCASE\n\nCheck http://janlo.de and http://JANLO.DE\n\nHostnames have the top of the hierarchy at the end: subdomain.domain.top-level-domain.\n\nThis order is reverse to file-paths!\n/root/parent/child/file vs.\nchild.parent.root/file"
+  },
+  {
+    "objectID": "collecting_data.html#webpage",
+    "href": "collecting_data.html#webpage",
+    "title": "Tutorial: Collecting Data",
+    "section": "Webpage",
+    "text": "Webpage\nhttps://github.com/janlorenz\n\n\nWebpage\n\n\nhtml\n\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\" data-color-mode=\"auto\" data-light-theme=\"light\" data-dark-theme=\"dark\" data-a11y-animated-images=\"system\"&gt;\n  &lt;head&gt;\n    &lt;meta charset=\"utf-8\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://github.githubassets.com\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://avatars.githubusercontent.com\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://github-cloud.s3.amazonaws.com\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://user-images.githubusercontent.com/\"&gt;\n  &lt;link rel=\"preconnect\" href=\"https://github.githubassets.com\" crossorigin&gt;\n  &lt;link rel=\"preconnect\" href=\"https://avatars.githubusercontent.com\"&gt;\n\n  &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/light-fe3f886b577a.css\" /&gt;&lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/dark-a1dbeda2886c.css\" /&gt;&lt;link data-color-theme=\"dark_dimmed\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_dimmed-1ad5cf51dfeb.css\" /&gt;&lt;link data-color-theme=\"dark_high_contrast\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_high_contrast-11d3505dc06a.css\" /&gt;&lt;link data-color-theme=\"dark_colorblind\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_colorblind-8b800495504f.css\" /&gt;&lt;link data-color-theme=\"light_colorblind\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/light_colorblind-daa38c88b795.css\" /&gt;&lt;link data-color-theme=\"light_high_contrast\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/light_high_contrast-1b9ea565820a.css\" /&gt;&lt;link data-color-theme=\"light_tritanopia\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/light_tritanopia-e4be9332dd6c.css\" /&gt;&lt;link data-color-theme=\"dark_tritanopia\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_tritanopia-0dcf95848dd5.css\" /&gt;\n  \n  \n    &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/primer-c581c4e461bb.css\" /&gt;\n    &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/global-57fbee0c477b.css\" /&gt;\n    &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/github-0485c151ab71.css\" /&gt;\n  &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/profile-085697a49485.css\" /&gt;\n\n\n\n  &lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/wp-runtime-e59b9a7db8fe.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_stacktrace-parser_dist_stack-trace-parser_esm_js-node_modules_github_bro-327bbf-fe611eb551b1.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/ui_packages_soft-nav_soft-nav_ts-65c0a1a3eb40.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/environment-10cb150f2afe.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-2646a2c533e3.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-dialog-elemen-63debe-c04540d458d4.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-52e1ce026ad1.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_github_markdown-toolbar-element_dist_index_js-e3de700a4c9d.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_auto-complete-element_dist_index_js-node_modules_github_catalyst_-6afc16-e779583c369f.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_text-ex-3415a8-7ecc10fb88d0.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-79182d-befd2b2f5880.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_primer_view-components_app_components_primer_primer_js-node_modules_gith-6a1af4-ec6fc1a7364a.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/github-elements-fc0e0b89822a.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/element-registry-4a600a4a3b31.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-9d9fe1859ce5.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_manuelpuyol_turbo_dist_turbo_es2017-esm_js-4140d67f0cc2.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_alive-client_dist-bf5aa2-424aa982deef.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_dimensions_js-node_modules_github_hotkey_dist_-9fc4f4-d434ddaf3207.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-35b3ae68c408.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_session-resume_dist-def857-2a32d97c93c5.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-15ddcc-1512e06cfee0.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_updatable-content_ts-430cacb5f7df.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_be-f5afdb-5b2007cdf918.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-737bcded84e3.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_behaviors_include-fragment_ts-app_assets_modules_github_behaviors_r-4077b4-c009cc5472ac.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-30c68bad2844.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/behaviors-e4b7d4dc2a31.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff531-32d7d1e94817.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/notifications-global-f5b58d24780b.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_focus-zone_js-d55308df5023.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_primer_behaviors_dist_esm_-b34105-c2daa8698316.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/profile-b5acccb095f5.js\"&gt;&lt;/script&gt;\n  \n\n  &lt;title&gt;janlorenz (Jan Lorenz) · GitHub&lt;/title&gt;\n\n\n\n  &lt;meta name=\"route-pattern\" content=\"/:user_id(.:format)\"&gt;\n\n    \n  &lt;meta name=\"current-catalog-service-hash\" content=\"4a1c50a83cf6cc4b55b6b9c53e553e3f847c876b87fb333f71f5d05db8f1a7db\"&gt;\n\n\n  &lt;meta name=\"request-id\" content=\"C5B4:6464:820AAD0:85EA185:6409A58D\" data-pjax-transient=\"true\"/&gt;&lt;meta name=\"html-safe-nonce\" content=\"d427c0738d9b56f38d060a9b907607a13d12687a0da31495476f2ed9851e74cc\" data-pjax-transient=\"true\"/&gt;&lt;meta name=\"visitor-payload\" content=\"eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDNUI0OjY0NjQ6ODIwQUFEMDo4NUVBMTg1OjY0MDlBNThEIiwidmlzaXRvcl9pZCI6IjUzMjgzMzcyNjAyNDQ5MjQyOSIsInJlZ2lvbl9lZGdlIjoiZnJhIiwicmVnaW9uX3JlbmRlciI6ImZyYSJ9\" data-pjax-transient=\"true\"/&gt;&lt;meta name=\"visitor-hmac\" content=\"a7507dcc7c07f150c5dd746f03e2c01ffcd592ab9657ec0ac8c65ebc792c736d\" data-pjax-transient=\"true\"/&gt;\n\n\n\n\n  &lt;meta name=\"github-keyboard-shortcuts\" content=\"\" data-turbo-transient=\"true\" /&gt;\n  \n\n  &lt;meta name=\"selected-link\" value=\"overview\" data-turbo-transient&gt;\n\n    &lt;meta name=\"google-site-verification\" content=\"c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I\"&gt;\n\n&lt;meta name=\"octolytics-url\" content=\"https://collector.github.com/github/collect\" /&gt;\n\n  &lt;meta name=\"analytics-location\" content=\"/&lt;user-name&gt;\" data-turbo-transient=\"true\" /&gt;\n\n  \n\n\n\n\n  \n\n    &lt;meta name=\"user-login\" content=\"\"&gt;\n\n  \n\n    &lt;meta name=\"viewport\" content=\"width=device-width\"&gt;\n    \n      &lt;meta name=\"description\" content=\"janlorenz has 21 repositories available. Follow their code on GitHub.\"&gt;\n      &lt;link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"/opensearch.xml\" title=\"GitHub\"&gt;\n    &lt;link rel=\"fluid-icon\" href=\"https://github.com/fluidicon.png\" title=\"GitHub\"&gt;\n    &lt;meta property=\"fb:app_id\" content=\"1401488693436528\"&gt;\n    &lt;meta name=\"apple-itunes-app\" content=\"app-id=1477376905\" /&gt;\n      &lt;meta name=\"twitter:image:src\" content=\"https://avatars.githubusercontent.com/u/7503499?v=4?s=400\" /&gt;&lt;meta name=\"twitter:site\" content=\"@github\" /&gt;&lt;meta name=\"twitter:card\" content=\"summary\" /&gt;&lt;meta name=\"twitter:title\" content=\"janlorenz - Overview\" /&gt;&lt;meta name=\"twitter:description\" content=\"janlorenz has 21 repositories available. Follow their code on GitHub.\" /&gt;\n      &lt;meta property=\"og:image\" content=\"https://avatars.githubusercontent.com/u/7503499?v=4?s=400\" /&gt;&lt;meta property=\"og:image:alt\" content=\"janlorenz has 21 repositories available. Follow their code on GitHub.\" /&gt;&lt;meta property=\"og:site_name\" content=\"GitHub\" /&gt;&lt;meta property=\"og:type\" content=\"profile\" /&gt;&lt;meta property=\"og:title\" content=\"janlorenz - Overview\" /&gt;&lt;meta property=\"og:url\" content=\"https://github.com/janlorenz\" /&gt;&lt;meta property=\"og:description\" content=\"janlorenz has 21 repositories available. Follow their code on GitHub.\" /&gt;&lt;meta property=\"profile:username\" content=\"janlorenz\" /&gt;\n      \n    &lt;link rel=\"assets\" href=\"https://github.githubassets.com/\"&gt;\n\n\n        &lt;meta name=\"hostname\" content=\"github.com\"&gt;\n\n\n\n        &lt;meta name=\"expected-hostname\" content=\"github.com\"&gt;\n\n    &lt;meta name=\"enabled-features\" content=\"TURBO_EXPERIMENT_RISKY,IMAGE_METRIC_TRACKING,GEOJSON_AZURE_MAPS\"&gt;\n\n\n  &lt;meta http-equiv=\"x-pjax-version\" content=\"dc62f9ebb6f4c950ab02f5ec7850fe084bbf811f28e5dc1d213224a7b2a9c99c\" data-turbo-track=\"reload\"&gt;\n  &lt;meta http-equiv=\"x-pjax-csp-version\" content=\"2a84822a832da97f1ea76cf989a357ec70c85713a2fd8f14c8421b76bbffe38c\" data-turbo-track=\"reload\"&gt;\n  &lt;meta http-equiv=\"x-pjax-css-version\" content=\"78e7b8f70ebad58f9bb289d9b9b52d11a17b6b18a49bbc218aa147a8d9c802c2\" data-turbo-track=\"reload\"&gt;\n  &lt;meta http-equiv=\"x-pjax-js-version\" content=\"2bb2a1981a6549755736c5c658d791278a3281bcb10ae01b525143eb739b628b\" data-turbo-track=\"reload\"&gt;\n\n  &lt;meta name=\"turbo-cache-control\" content=\"no-preview\" data-turbo-transient=\"\"&gt;\n\n    &lt;meta name=\"octolytics-dimension-user_id\" content=\"7503499\" /&gt;&lt;meta name=\"octolytics-dimension-user_login\" content=\"janlorenz\" /&gt;\n\n\n  &lt;meta name=\"turbo-body-classes\" content=\"logged-out env-production page-responsive page-profile\"&gt;\n\n\n  &lt;meta name=\"browser-stats-url\" content=\"https://api.github.com/_private/browser/stats\"&gt;\n\n  &lt;meta name=\"browser-errors-url\" content=\"https://api.github.com/_private/browser/errors\"&gt;\n\n  &lt;meta name=\"browser-optimizely-client-errors-url\" content=\"https://api.github.com/_private/browser/optimizely_client/errors\"&gt;\n\n  &lt;link rel=\"mask-icon\" href=\"https://github.githubassets.com/pinned-octocat.svg\" color=\"#000000\"&gt;\n  &lt;link rel=\"alternate icon\" class=\"js-site-favicon\" type=\"image/png\" href=\"https://github.githubassets.com/favicons/favicon.png\"&gt;\n  &lt;link rel=\"icon\" class=\"js-site-favicon\" type=\"image/svg+xml\" href=\"https://github.githubassets.com/favicons/favicon.svg\"&gt;\n\n&lt;meta name=\"theme-color\" content=\"#1e2327\"&gt;\n&lt;meta name=\"color-scheme\" content=\"light dark\" /&gt;\n\n\n  &lt;link rel=\"manifest\" href=\"/manifest.json\" crossOrigin=\"use-credentials\"&gt;\n\n  &lt;/head&gt;\n\n  &lt;body class=\"logged-out env-production page-responsive page-profile\" style=\"word-wrap: break-word;\"&gt;\n    &lt;div data-turbo-body class=\"logged-out env-production page-responsive page-profile\" style=\"word-wrap: break-word;\"&gt;\n      \n\n\n    &lt;div class=\"position-relative js-header-wrapper \"&gt;\n      &lt;a href=\"#start-of-content\" class=\"px-2 py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content\"&gt;Skip to content&lt;/a&gt;\n      &lt;span data-view-component=\"true\" class=\"progress-pjax-loader Progress position-fixed width-full\"&gt;\n    &lt;span style=\"width: 0%;\" data-view-component=\"true\" class=\"Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis\"&gt;&lt;/span&gt;\n&lt;/span&gt;      \n      \n\n\n        \n\n            &lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-94fd67-04fa93bb158a.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/sessions-9a357800426b.js\"&gt;&lt;/script&gt;\n&lt;header class=\"Header-old header-logged-out js-details-container Details position-relative f4 py-3\" role=\"banner\"&gt;\n  &lt;button type=\"button\" class=\"Header-backdrop d-lg-none border-0 position-fixed top-0 left-0 width-full height-full js-details-target\" aria-label=\"Toggle navigation\"&gt;\n    &lt;span class=\"d-none\"&gt;Toggle navigation&lt;/span&gt;\n  &lt;/button&gt;\n\n  &lt;div class=\"container-xl d-flex flex-column flex-lg-row flex-items-center p-responsive height-full position-relative z-1\"&gt;\n    &lt;div class=\"d-flex flex-justify-between flex-items-center width-full width-lg-auto\"&gt;\n      &lt;a class=\"mr-lg-3 color-fg-inherit flex-order-2\" href=\"https://github.com/\" aria-label=\"Homepage\" data-ga-click=\"(Logged out) Header, go to homepage, icon:logo-wordmark\"&gt;\n        &lt;svg height=\"32\" aria-hidden=\"true\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"32\" data-view-component=\"true\" class=\"octicon octicon-mark-github\"&gt;\n    &lt;path fill-rule=\"evenodd\" d=\"M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z\"&gt;&lt;/path&gt;\n&lt;/svg&gt;\n      &lt;/a&gt;\n\n        &lt;div class=\"flex-1\"&gt;\n          &lt;a href=\"/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E&amp;source=header\"\n            class=\"d-inline-block d-lg-none flex-order-1 f5 no-underline border color-border-default rounded-2 px-2 py-1 color-fg-inherit\"\n            data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/janlorenz&quot;,&quot;user_id&quot;:null}}\" data-hydro-click-hmac=\"e73661b572037eb88f2c591f28e27566bc0ffacbf62156389a4a644e9337e93b\"\n          &gt;\n            Sign&nbsp;up\n          &lt;/a&gt;\n        &lt;/div&gt;\n\n      &lt;div class=\"flex-1 flex-order-2 text-right\"&gt;\n          &lt;button aria-label=\"Toggle navigation\" aria-expanded=\"false\" type=\"button\" data-view-component=\"true\" class=\"js-details-target Button--link Button--medium Button d-lg-none color-fg-inherit p-1\"&gt;    &lt;span class=\"Button-content\"&gt;\n      &lt;span class=\"Button-label\"&gt;&lt;div class=\"HeaderMenu-toggle-bar rounded my-1\"&gt;&lt;/div&gt;\n            &lt;div class=\"HeaderMenu-toggle-bar rounded my-1\"&gt;&lt;/div&gt;\n            &lt;div class=\"HeaderMenu-toggle-bar rounded my-1\"&gt;&lt;/div&gt;&lt;/span&gt;\n    &lt;/span&gt;\n&lt;/button&gt;  \n      &lt;/div&gt;\n    &lt;/div&gt;\n\n\n    &lt;div class=\"HeaderMenu--logged-out p-responsive height-fit position-lg-relative d-lg-flex flex-column flex-auto pt-7 pb-4 top-0\"&gt;\n      &lt;div class=\"header-menu-wrapper d-flex flex-column flex-self-end flex-lg-row flex-justify-between flex-auto p-3 p-lg-0 rounded rounded-lg-0 mt-3 mt-lg-0\"&gt;\n          &lt;nav class=\"mt-0 px-3 px-lg-0 mb-3 mb-lg-0\" aria-label=\"Global\"&gt;\n            &lt;ul class=\"d-lg-flex list-style-none\"&gt;\n                &lt;li class=\"HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item\"&gt;\n      &lt;button type=\"button\" class=\"HeaderMenu-link border-0 width-full width-lg-auto px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex flex-items-center flex-justify-between js-details-target\" aria-expanded=\"false\"&gt;\n        Product\n        &lt;svg opacity=\"0.5\" aria-hidden=\"true\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"true\" class=\"octicon octicon-chevron-down HeaderMenu-icon ml-1\"&gt;\n    &lt;path fill-rule=\"evenodd\" d=\"M12.78 6.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.22 7.28a.75.75 0 011.06-1.06L8 9.94l3.72-3.72a.75.75 0 011.06 0z\"&gt;&lt;/path&gt;\n&lt;/svg&gt;\n      &lt;/button&gt;\n      &lt;div class=\"HeaderMenu-dropdown dropdown-menu rounded m-0 p-0 py-2 py-lg-4 position-relative position-lg-absolute left-0 left-lg-n3 d-lg-flex dropdown-menu-wide\"&gt;\n          &lt;ul class=\"list-style-none f5 px-lg-4 border-lg-right mb-4 mb-lg-0 pr-lg-7\"&gt;\n\n              &lt;li&gt;\n  &lt;a class=\"HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Actions&quot;,&quot;label&quot;:&quot;ref_cta:Actions;&quot;}\" href=\"/features/actions\"&gt;\n      &lt;svg aria-hidden=\"true\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" width=\"24\" data-view-component=\"true\" class=\"octicon octicon-workflow color-fg-subtle mr-3\"&gt;\n    &lt;path fill-rule=\"evenodd\" d=\"M1 3a2 2 0 012-2h6.5a2 2 0 012 2v6.5a2 2 0 01-2 2H7v4.063C7 16.355 7.644 17 8.438 17H12.5v-2.5a2 2 0 012-2H21a2 2 0 012 2V21a2 2 0 01-2 2h-6.5a2 2 0 01-2-2v-2.5H8.437A2.938 2.938 0 015.5 15.562V11.5H3a2 2 0 01-2-2V3zm2-.5a.5.5 0 00-.5.5v6.5a.5.5 0 00.5.5h6.5a.5.5 0 00.5-.5V3a.5.5 0 00-.5-.5H3zM14.5 14a.5.5 0 00-.5.5V21a.5.5 0 00.5.5H21a.5.5 0 00.5-.5v-6.5a.5.5 0 00-.5-.5h-6.5z\"&gt;&lt;/path&gt;\n&lt;/svg&gt;\n      &lt;div&gt;\n        &lt;div class=\"color-fg-default h4\"&gt;Actions&lt;/div&gt;\n        Automate any workflow\n      &lt;/div&gt;\n\n    \n&lt;/a&gt;&lt;/li&gt;\n\n              &lt;li&gt;\n  &lt;a class=\"HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Packages&quot;,&quot;label&quot;:&quot;ref_cta:Packages;&quot;}\" href=\"/features/packages\"&gt;\n      &lt;svg aria-hidden=\"true\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" width=\"24\" data-view-component=\"true\" class=\"octicon octicon-package color-fg-subtle mr-3\"&gt;\n    &lt;path fill-rule=\"evenodd\" d=\"M12.876.64a1.75 1.75 0 00-1.75 0l-8.25 4.762a1.75 1.75 0 00-.875 1.515v9.525c0 .625.334 1.203.875 1.515l8.25 4.763a1.75 1.75 0 001.75 0l8.25-4.762a1.75 1.75 0 00.875-1.516V6.917a1.75 1.75 0 00-.875-1.515L12.876.639zm-1 1.298a.25.25 0 01.25 0l7.625 4.402-7.75 4.474-7.75-4.474 7.625-4.402zM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947L3.501 7.64zm9.25 13.421l7.625-4.402a.25.25 0 00.125-.216V7.639l-7.75 4.474v8.947z\"&gt;&lt;/path&gt;\n&lt;/svg&gt;\n      &lt;div&gt;\n        &lt;div class=\"color-fg-default h4\"&gt;Packages&lt;/div&gt;\n        Host and manage packages\n      &lt;/div&gt;\n\n    \n&lt;/a&gt;&lt;/li&gt;\n\n              &lt;li&gt;\n  &lt;a class=\"HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Security&quot;,&quot;label&quot;:&quot;ref_cta:Security;&quot;}\" href=\"/features/security\"&gt;\n      &lt;svg aria-hidden=\"true\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" width=\"24\" data-view-component=\"true\" class=\"octicon octicon-shield-check color-fg-subtle mr-3\"&gt;\n    &lt;path d=\"M16.53 9.78a.75.75 0 00-1.06-1.06L11 13.19l-1.97-1.97a.75.75 0 00-1.06 1.06l2.5 2.5a.75.75 0 001.06 0l5-5z\"&gt;&lt;/path&gt;&lt;path fill-rule=\"evenodd\" d=\"M12.54.637a1.75 1.75 0 00-1.08 0L3.21 3.312A1.75 1.75 0 002 4.976V10c0 6.19 3.77 10.705 9.401 12.83.386.145.812.145 1.198 0C18.229 20.704 22 16.19 22 10V4.976c0-.759-.49-1.43-1.21-1.664L12.54.637zm-.617 1.426a.25.25 0 01.154 0l8.25 2.676a.25.25 0 01.173.237V10c0 5.461-3.28 9.483-8.43 11.426a.2.2 0 01-.14 0C6.78 19.483 3.5 15.46 3.5 10V4.976c0-.108.069-.203.173-.237l8.25-2.676z\"&gt;&lt;/path&gt;\n&lt;/svg&gt;\n      &lt;div&gt;\n        &lt;div class=\"color-fg-default h4\"&gt;Security&lt;/div&gt;\n        Find and fix vulnerabilities\n      &lt;/div&gt;\n\n    \n&lt;/a&gt;&lt;/li&gt;\n\n              &lt;li&gt;\n  &lt;a class=\"HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Codespaces&quot;,&quot;label&quot;:&quot;ref_cta:Codespaces;&quot;}\" href=\"/features/codespaces\"&gt;\n      &lt;svg aria-hidden=\"true\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" width=\"24\" data-view-component=\"true\" class=\"octicon octicon-codespaces color-fg-subtle mr-3\"&gt;\n    &lt;path fill-rule=\"evenodd\" d=\"M3.5 3.75C3.5 2.784 4.284 2 5.25 2h13.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0118.75 13H5.25a1.75 1.75 0 01-1.75-1.75v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h13.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H5.25zM1.5 15.75c0-.966.784-1.75 1.75-1.75h17.5c.966 0 1.75.784 1.75 1.75v4a1.75 1.75 0 01-1.75 1.75H3.25a1.75 1.75 0 01-1.75-1.75v-4zm1.75-.25a.25.25 0 00-.25.25v4c0 .138.112.25.25.25h17.5a.25.25 0 00.25-.25v-4a.25.25 0 00-.25-.25H3.25z\"&gt;&lt;/path&gt;&lt;path fill-rule=\"evenodd\" d=\"M10 17.75a.75.75 0 01.75-.75h6.5a.75.75 0 010 1.5h-6.5a.75.75 0 01-.75-.75zm-4 0a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5a.75.75 0 01-.75-.75z\"&gt;&lt;/path&gt;\n&lt;/svg&gt;\n      &lt;div&gt;\n        &lt;div class=\"color-fg-default h4\"&gt;Codespaces&lt;/div&gt;\n        Instant dev environments\n      &lt;/div&gt;\n\n    \n&lt;/a&gt;&lt;/li&gt;\n\n              &lt;li&gt;\n  &lt;a class=\"HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Copilot&quot;,&quot;label&quot;:&quot;ref_cta:Copilot;&quot;}\" href=\"/features/copilot\"&gt;\n      &lt;svg aria-hidden=\"true\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" width=\"24\" data-view-component=\"true\" class=\"octicon octicon-copilot color-fg-subtle mr-3\"&gt;\n    &lt;path d=\"M9.75 14a.75.75 0 01.75.75v2.5a.75.75 0 01-1.5 0v-2.5a.75.75 0 01.75-.75zm4.5 0a.75.75 0 01.75.75v2.5a.75.75 0 01-1.5 0v-2.5a.75.75 0 01.75-.75z\"&gt;&lt;/path&gt;&lt;path fill-rule=\"evenodd\" d=\"M12 2c-2.214 0-4.248.657-5.747 1.756a7.43 7.43 0 00-.397.312c-.584.235-1.077.546-1.474.952-.85.87-1.132 2.037-1.132 3.368 0 .368.014.733.052 1.086l-.633 1.478-.043.022A4.75 4.75 0 000 15.222v1.028c0 .529.31.987.564 1.293.28.336.637.653.967.918a13.262 13.262 0 001.299.911l.024.015.006.004.04.025.144.087c.124.073.304.177.535.3.46.245 1.122.57 1.942.894C7.155 21.344 9.439 22 12 22s4.845-.656 6.48-1.303c.819-.324 1.481-.65 1.941-.895a13.797 13.797 0 00.68-.386l.039-.025.006-.004.024-.015a8.829 8.829 0 00.387-.248c.245-.164.577-.396.912-.663.33-.265.686-.582.966-.918.256-.306.565-.764.565-1.293v-1.028a4.75 4.75 0 00-2.626-4.248l-.043-.022-.633-1.478c.038-.353.052-.718.052-1.086 0-1.331-.282-2.499-1.132-3.368-.397-.406-.89-.717-1.474-.952a7.386 7.386 0 00-.397-.312C16.248 2.657 14.214 2 12 2zm-8 9.654l.038-.09c.046.06.094.12.145.177.793.9 2.057 1.259 3.782 1.259 1.59 0 2.739-.544 3.508-1.492.131-.161.249-.331.355-.508a32.948 32.948 0 00.344 0c.106.177.224.347.355.508.77.948 1.918 1.492 3.508 1.492 1.725 0 2.989-.359 3.782-1.259.05-.057.099-.116.145-.177l.038.09v6.669a17.618 17.618 0 01-2.073.98C16.405 19.906 14.314 20.5 12 20.5c-2.314 0-4.405-.594-5.927-1.197A17.62 17.62 0 014 18.323v-6.67zm6.309-1.092a2.35 2.35 0 01-.38.374c-.437.341-1.054.564-1.964.564-1.573 0-2.292-.337-2.657-.75-.192-.218-.331-.506-.423-.89-.091-.385-.135-.867-.135-1.472 0-1.14.243-1.847.705-2.32.477-.487 1.319-.861 2.824-1.024 1.487-.16 2.192.138 2.533.529l.008.01c.264.308.429.806.43 1.568v.031a7.203 7.203 0 01-.09 1.079c-.143.967-.406 1.754-.851 2.301zm2.504-2.497a7.174 7.174 0 01-.063-.894v-.02c.001-.77.17-1.27.438-1.578.341-.39 1.046-.69 2.533-.529 1.506.163 2.347.537 2.824 1.025.462.472.705 1.179.705 2.319 0 1.21-.174 1.926-.558 2.361-.365.414-1.084.751-2.657.751-1.21 0-1.902-.393-2.344-.938-.475-.584-.742-1.44-.878-2.497z\"&gt;&lt;/path&gt;\n&lt;/svg&gt;\n      &lt;div&gt;\n        &lt;div class=\"color-fg-default h4\"&gt;Copilot&lt;/div&gt;\n        Write better code with AI\n      &lt;/div&gt;\n\n    \n&lt;/a&gt;&lt;/li&gt;\n\n              &lt;li&gt;\n  &lt;a class=\"HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Code review&quot;,&quot;label&quot;:&quot;ref_cta:Code review;&quot;}\" href=\"/features/code-review\"&gt;\n      &lt;svg aria-hidden=\"true\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" width=\"24\" data-view-component=\"true\" class=\"octicon octicon-code-review color-fg-subtle mr-3\"&gt;\n    &lt;path d=\"M10.3 6.74a.75.75 0 01-.04 1.06l-2.908 2.7 2.908 2.7a.75.75 0 11-1.02 1.1l-3.5-3.25a.75.75 0 010-1.1l3.5-3.25a.75.75 0 011.06.04zm3.44 1.06a.75.75 0 111.02-1.1l3.5 3.25a.75.75 0 010 1.1l-3.5 3.25a.75.75 0 11-1.02-1.1l2.908-2.7-2.908-2.7z\"&gt;&lt;/path&gt;&lt;path fill-rule=\"evenodd\" d=\"M1.5 4.25c0-.966.784-1.75 1.75-1.75h17.5c.966 0 1.75.784 1.75 1.75v12.5a1.75 1.75 0 01-1.75 1.75h-9.69l-3.573 3.573A1.457 1.457 0 015 21.043V18.5H3.25a1.75 1.75 0 01-1.75-1.75V4.25zM3.25 4a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h2.5a.75.75 0 01.75.75v3.19l3.72-3.72a.75.75 0 01.53-.22h10a.25.25 0 00.25-.25V4.25a.25.25 0 00-.25-.25H3.25z\"&gt;&lt;/path&gt;\n&lt;/svg&gt;\n      &lt;div&gt;\n        &lt;div class=\"color-fg-default h4\"&gt;Code review&lt;/div&gt;\n        Manage code changes\n      &lt;/div&gt;\n\n    \n&lt;/a&gt;&lt;/li&gt;\n\n              &lt;li&gt;\n  &lt;a class=\"HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Issues&quot;,&quot;label&quot;:&quot;ref_cta:Issues;&quot;}\" href=\"/features/issues\"&gt;\n      &lt;svg aria-hidden=\"true\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" width=\"24\" data-view-component=\"true\" class=\"octicon octicon-issue-opened color-fg-subtle mr-3\"&gt;\n    &lt;path fill-rule=\"evenodd\" d=\"M2.5 12a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0zM12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zm0 13a2 2 0 100-4 2 2 0 000 4z\"&gt;&lt;/path&gt;\n&lt;/svg&gt;\n      &lt;div&gt;\n        &lt;div class=\"color-fg-default h4\"&gt;Issues&lt;/div&gt;\n        Plan and track work\n      &lt;/div&gt;\n\n    \n&lt;/a&gt;&lt;/li&gt;\n\n              &lt;li&gt;\n  &lt;a class=\"HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center\" data-analytics-event=\"{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Discussions&quot;,&quot;label&quot;:&quot;ref_cta:Discussions;&quot;}\" href=\"/features/discussions\"&gt;\n      &lt;svg aria-hidden=\"true\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" width=\"24\" data-view-component=\"true\" class=\"octicon octicon-comment-discussion color-fg-subtle mr-3\"&gt;\n    &lt;path fill-rule=\"evenodd\" d=\"M1.75 1A1.75 1.75 0 000 2.75v9.5C0 13.216.784 14 1.75 14H3v1.543a1.457 1.457 0 002.487 1.03L8.061 14h6.189A1.75 1.75 0 0016 12.25v-9.5A1.75 1.75 0 0014.25 1H1.75zM1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v9.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 15.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-9.5z\"&gt;&lt;/path&gt;&lt;path d=\"M22.5 8.75a.25.25 0 00-.25-.25h-3.5a.75.75 0 010-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0122.25 20H21v1.543a1.457 1.457 0 01-2.487 1.03L15.939 20H10.75A1.75 1.75 0 019 18.25v-1.465a.75.75 0 011.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 01.53.22l2.72 2.72v-2.19a.75.75 0 01.75-.75h2a.25.25 0 00.25-.25v-9.5z\"&gt;&lt;/path&gt;\n&lt;/svg&gt;\n      &lt;div&gt;\n        &lt;div class=\"color-fg-default h4\"&gt;Discussions&lt;/div&gt;\n        Collaborate outside of code\n      &lt;/div&gt;\n...\n\njson\n{\n  \"login\": \"janlorenz\",\n  \"id\": 7503499,\n  \"node_id\": \"MDQ6VXNlcjc1MDM0OTk=\",\n  \"avatar_url\": \"https://avatars.githubusercontent.com/u/7503499?v=4\",\n  \"gravatar_id\": \"\",\n  \"url\": \"https://api.github.com/users/janlorenz\",\n  \"html_url\": \"https://github.com/janlorenz\",\n  \"followers_url\": \"https://api.github.com/users/janlorenz/followers\",\n  \"following_url\": \"https://api.github.com/users/janlorenz/following{/other_user}\",\n  \"gists_url\": \"https://api.github.com/users/janlorenz/gists{/gist_id}\",\n  \"starred_url\": \"https://api.github.com/users/janlorenz/starred{/owner}{/repo}\",\n  \"subscriptions_url\": \"https://api.github.com/users/janlorenz/subscriptions\",\n  \"organizations_url\": \"https://api.github.com/users/janlorenz/orgs\",\n  \"repos_url\": \"https://api.github.com/users/janlorenz/repos\",\n  \"events_url\": \"https://api.github.com/users/janlorenz/events{/privacy}\",\n  \"received_events_url\": \"https://api.github.com/users/janlorenz/received_events\",\n  \"type\": \"User\",\n  \"site_admin\": false,\n  \"name\": \"Jan Lorenz\",\n  \"company\": \"Constructor University\",\n  \"blog\": \"https://janlo.de\",\n  \"location\": \"Bremen\",\n  \"email\": null,\n  \"hireable\": null,\n  \"bio\": null,\n  \"twitter_username\": \"jalorenz\",\n  \"public_repos\": 21,\n  \"public_gists\": 0,\n  \"followers\": 14,\n  \"following\": 2,\n  \"created_at\": \"2014-05-06T17:55:13Z\",\n  \"updated_at\": \"2023-02-25T13:02:51Z\"\n}"
+  },
+  {
+    "objectID": "collecting_data.html#input-website-description-languages",
+    "href": "collecting_data.html#input-website-description-languages",
+    "title": "Tutorial: Collecting Data",
+    "section": "Input: Website description languages",
+    "text": "Input: Website description languages\n\nHTML (Hypertext Markup Language): The essential language used for creating web pages and defining the structure and content of a website.\n\nAlmost all modern websites also include:\n\nCSS (Cascading Style Sheets): Used for defining the visual style and layout of a website, including colors, fonts, and spacing.\nJavaScript: Used to add interactivity and dynamic functionality to web pages, such as animations, form validation, and interactive user interfaces on the client (=user) side."
+  },
+  {
+    "objectID": "collecting_data.html#input-website-description-languages-1",
+    "href": "collecting_data.html#input-website-description-languages-1",
+    "title": "Tutorial: Collecting Data",
+    "section": "Input: Website description languages",
+    "text": "Input: Website description languages\nOften CSS and JavaScript are loaded from external files specified in the html-file.\nExercise in the html “Page Source” find a link to a .css file and open it, find a link to a .js file and open it.\nCommon tools:\n\nPHP: Server-side scripting language that is used for building dynamic websites and web applications, such as content management systems and e-commerce platforms.\nSQL: This language is used for managing and manipulating data stored in a database, which is often used to power dynamic websites.\n\nExample wordpress: When you call a wordpress-site like http://janlo.de/wp/index.php, the webserver of the site uses the PHP script to compile an html-page using data in an SQL-database and sends it back to your browser.\nInstead of PHP also other languages/webframeworks can be used like Ruby on Rails or one of the several python webframeworks."
+  },
+  {
+    "objectID": "collecting_data.html#input-javascript-object-notation-json",
+    "href": "collecting_data.html#input-javascript-object-notation-json",
+    "title": "Tutorial: Collecting Data",
+    "section": "Input: JavaScript Object Notation (JSON)",
+    "text": "Input: JavaScript Object Notation (JSON)\nJSON has emerged as a standard for web data exchange.\n\nIt uses attribute-value pairs and arrays\nIt is used for data exchange of algorithms\nIt is also human-readable because\nIt is independent of JavaScript but was derived from it.\nIt is more flexible than a data frame. Reading it in R or python you need nested lists.\nR and python provide packages which helpreading (parts of) JSON data into data frames (if possible)"
+  },
+  {
+    "objectID": "collecting_data.html#input-application-programming-interface-api",
+    "href": "collecting_data.html#input-application-programming-interface-api",
+    "title": "Tutorial: Collecting Data",
+    "section": "Input: Application Programming Interface (API)",
+    "text": "Input: Application Programming Interface (API)\n\nJSON is often the output of queries using Application Programming Interfaces (API) (sometimes) provided by Web Services like GitHub.\nNote: APIs are not only used for accessing data but also ingesting or modifying data! Here we focus on data access.\nThe purpose of APIs is to limit the amount of data that needs to be transferred between the client and the server."
+  },
+  {
+    "objectID": "collecting_data.html#downloading-and-reading-json-from-github",
+    "href": "collecting_data.html#downloading-and-reading-json-from-github",
+    "title": "Tutorial: Collecting Data",
+    "section": "Downloading and reading JSON from GitHub",
+    "text": "Downloading and reading JSON from GitHub\nWe can use the GitHub API.\nWe can get the JSON file from the user janlorenz by: http://api.github.com/users/janlorenz\nLet us do the following in R:\ngithubname = \"janlorenz\"\ndownload.file(glue(\"https://api.github.com/users/{githubname}\"), destfile = glue(\"{githubname}.json\"))\nuser &lt;- read_json(glue(\"{githubname}.json\"))\nNow you have downloaded the JSON file, and read it into the R object user.\nExplore this nested list object!"
+  },
+  {
+    "objectID": "collecting_data.html#the-tbl_json-object-is-nested",
+    "href": "collecting_data.html#the-tbl_json-object-is-nested",
+    "title": "Tutorial: Collecting Data",
+    "section": "The tbl_json object is nested",
+    "text": "The tbl_json object is nested\nFor example: The Name of the user is at\nuser$`..JSON`[[1]]$name\nExplanations\n\nuser is a list of 2 with the strange item name ..JSON we have to put it in backticks ` to access it with $.\nuser$`..JSON` is a list of one without named items. Seems quite useless here but maybe helpful when we have more users.\nuser$`..JSON`[[1]] is a list with all the items available for the user! So we can extract the name."
+  },
+  {
+    "objectID": "collecting_data.html#extract-the-following-of-janlorenz",
+    "href": "collecting_data.html#extract-the-following-of-janlorenz",
+    "title": "Tutorial: Collecting Data",
+    "section": "Extract the following of janlorenz",
+    "text": "Extract the following of janlorenz\n\nLook up the API url of the following of janlorenz from the object user\nProduce it yourself as glue(https://api.github.com/users/{githubname}/following)\nUse the code above to download the JSON of the following and read it into an object following.\nWe try to make a data frame df from the followers object followers using the tidyjson package. (Test: spread_all)\nfollowing$..JSON[[1]] |&gt; spread_all()"
+  },
+  {
+    "objectID": "collecting_data.html#code-for-number-of-following-and-followers",
+    "href": "collecting_data.html#code-for-number-of-following-and-followers",
+    "title": "Tutorial: Collecting Data",
+    "section": "Code for number of following and followers",
+    "text": "Code for number of following and followers\ndownload.file(glue(\"https://api.github.com/users/{githubname}/following\"), destfile = glue(\"{githubname}-following.json\"))\ndownload.file(glue(\"https://api.github.com/users/{githubname}/followers\"), destfile = glue(\"{githubname}-followers.json\"))\nfollowing &lt;- read_json(glue(\"{githubname}-following.json\"))\nfollowing$`..JSON`[[1]]\ndf_following &lt;- following$`..JSON`[[1]] |&gt; spread_all()\nfollowers &lt;- read_json(glue(\"{githubname}-followers.json\"))\ndf_followers &lt;- followers$`..JSON`[[1]] |&gt; spread_all()\ndf_following$login\ndf_following$login |&gt; length() # Number of following\ndf_followers$login\ndf_followers$login |&gt; length()"
+  },
+  {
+    "objectID": "collecting_data.html#retrieve-followers-of-following",
+    "href": "collecting_data.html#retrieve-followers-of-following",
+    "title": "Tutorial: Collecting Data",
+    "section": "Retrieve followers of following …",
+    "text": "Retrieve followers of following …\ndf_following$login |&gt; \n  walk(\\(x) download.file(glue(\"https://api.github.com/users/{x}/followers\"), \n                          destfile = glue(\"following_{x}.json\")))\nfollower_following_user &lt;- df_following$login |&gt; \n  map(\\(x) read_json(glue(\"following_{x}.json\"))$`..JSON`[[1]] |&gt; spread_all())\nfollower_following_user |&gt; map(\\(x) x[[\"login\"]])\nfollower_following_user |&gt; map_dbl(\\(x) x[[\"login\"]] |&gt; length())\nNote: The maximum number of retrieved followers seems to be limited 30."
+  },
+  {
+    "objectID": "collecting_data.html#can-i-get-data-from-any-site-with-apis",
+    "href": "collecting_data.html#can-i-get-data-from-any-site-with-apis",
+    "title": "Tutorial: Collecting Data",
+    "section": "Can I get data from any site with APIs?",
+    "text": "Can I get data from any site with APIs?\nNo.\n\nThe data of companies is their value. Although, many webservices use APIs, most of them have them private. For example\n\nyou cannot get things from Facebook\nTwitter just closed the free research API which was quite popular among researchers\nNetflix had an open one but closed it some time ago\nreddit and github allow a bit\n\nEven when an API is open, it often requires an API key, a token, you get with a user account. Sometimes you have to provide a reason and commit to not use it for commercial purposes. The company can also monitor how you use their API!\nEven when an API is open, usually there are rate limits. After some amount of of usage your are cut of for a while or get banned.\nEvery API is different. Typically, access is with URLs (but which ones?) and the output is JSON (but how structured?)"
+  },
+  {
+    "objectID": "collecting_data.html#learning-apis-and-json",
+    "href": "collecting_data.html#learning-apis-and-json",
+    "title": "Tutorial: Collecting Data",
+    "section": "Learning APIs and JSON",
+    "text": "Learning APIs and JSON\n\nWatchout for packages wrapping API usage\nUse packages to transform JSON to data frames\n\nJSON is very nested so you need to learn to get used to fiddle around with nested data structures (lists of lists of lists …)\n\nBeware, that APIs are often limited so you need some persistence to find out if something is feasible."
+  },
+  {
+    "objectID": "collecting_data.html#the-internet-movie-database",
+    "href": "collecting_data.html#the-internet-movie-database",
+    "title": "Tutorial: Collecting Data",
+    "section": "The Internet Movie Database",
+    "text": "The Internet Movie Database\nIMDb is a very popular site with information about movies and TV shows including a \\(1\\bigstar - 10\\bigstar\\) user rating module.\nGoal: We want to have the number of all star ratings for a movie in a vector.\n\n\nIMDb has no public API. So we will try to scrape the data from the Website directly.\nThe URL structure of IMDb is easy. Each movie has an ID which is part of the website. For example\nOppenheimer: https://www.imdb.com/title/tt15398776/ratings/\nBarbie: https://www.imdb.com/title/tt1517268/ratings\nThis already shows the page with the rating distribution."
+  },
+  {
+    "objectID": "collecting_data.html#letterboxd",
+    "href": "collecting_data.html#letterboxd",
+    "title": "Tutorial: Collecting Data",
+    "section": "Letterboxd",
+    "text": "Letterboxd\nLetterboxd uses 10 half-\\(\\bigstar\\). So, 5\\(\\bigstar\\) is maximal.\nOppenheimer: https://letterboxd.com/film/oppenheimer-2023/\nBarbie: https://letterboxd.com/film/barbie/\nGoal: We want to have the number of all star ratings for a movie in a vector."
+  },
+  {
+    "objectID": "collecting_data.html#steps-to-retrieve-the-distributions",
+    "href": "collecting_data.html#steps-to-retrieve-the-distributions",
+    "title": "Tutorial: Collecting Data",
+    "section": "Steps to retrieve the distributions",
+    "text": "Steps to retrieve the distributions\nSteps:\n\nLoad the rvest (“harvest” …) package\nUse html_read_live to create a live session to a certain URL (the movie-pages)\nFind out how we can extract the relevant html-nodes “Inspect” by right-clicking on the object of interest on the webpage in the browser.\nWe use the function html_elements and html_text to get the values"
+  },
+  {
+    "objectID": "collecting_data.html#code-for-imdb-oppenheimer",
+    "href": "collecting_data.html#code-for-imdb-oppenheimer",
+    "title": "Tutorial: Collecting Data",
+    "section": "Code for IMDb Oppenheimer",
+    "text": "Code for IMDb Oppenheimer\nsession &lt;- read_html_live(\"https://www.imdb.com/title/tt15398776/ratings/\")\nsession |&gt; html_elements(\"tspan\")\nsession |&gt; html_elements(\"tspan\") |&gt; html_text()\nsession |&gt; html_elements(\"tspan\") |&gt; html_text() |&gt; \n  word(1) |&gt; str_extract(\"\\\\d+\\\\.\\\\d+\") |&gt; as.numeric() |&gt; na.omit() |&gt; rev() |&gt; \n  barplot(main = \"IMDb Oppenheimer\")"
+  },
+  {
+    "objectID": "collecting_data.html#code-for-letterboxd-oppenheimer",
+    "href": "collecting_data.html#code-for-letterboxd-oppenheimer",
+    "title": "Tutorial: Collecting Data",
+    "section": "Code for Letterboxd Oppenheimer",
+    "text": "Code for Letterboxd Oppenheimer\nsession &lt;- read_html_live(\"https://letterboxd.com/film/oppenheimer-2023/\")\nsession |&gt; html_elements(\"li.rating-histogram-bar\")\nsession |&gt; html_elements(\"li.rating-histogram-bar\") |&gt; html_text() \nsession |&gt; html_elements(\"li.rating-histogram-bar\") |&gt; html_text() |&gt; \n  str_remove_all(\",\") |&gt; str_remove_all(\"★\") |&gt; str_remove_all(\"½\") |&gt; str_remove_all(\"ratings\") |&gt; \n  str_remove_all(\"half-\") |&gt; str_remove_all(\"\\\\(\\\\d+%\\\\)\") |&gt; str_trim() |&gt; as.numeric() |&gt; \n  barplot(main = \"Letterboxd Oppenheimer\")"
+  },
+  {
+    "objectID": "collecting_data.html#learnings",
+    "href": "collecting_data.html#learnings",
+    "title": "Tutorial: Collecting Data",
+    "section": "Learnings",
+    "text": "Learnings\n\nWhy do we need the “live” session and not just a downloaded HTML-file?\n\nNowadays, often the interesting part is loaded via some java-script files and only appears on the website once it is sent to a specific browser!\n\nYou need to learn a bit of the structure of HTML and CSS.\nLearn to fiddle around with strings is often key!\n\nTo that end regular expressions can be magic (see https://xkcd.com/208/)! AI Tools can help you get the one you need."
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#communicating-and-reporting-in-the-data-science-process",
+    "href": "aligning_tools_reporting_literature.html#communicating-and-reporting-in-the-data-science-process",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Communicating and Reporting in the Data Science Process",
+    "text": "Communicating and Reporting in the Data Science Process\nFrom R for Data Science:"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#sort-our-reporting-tools",
+    "href": "aligning_tools_reporting_literature.html#sort-our-reporting-tools",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Sort our reporting tools",
+    "text": "Sort our reporting tools\n\n\n\nquarto (.qmd)\nhtml\ngit\npdf\nGitHub\njson\nVSCode\nnotebook (.ipynb)\nGoogle Docs\n\n\n\nPowerPoint\nrevealjs\n\\(\\LaTeX\\)\nRStudio\nmarkdown (.md)\npandoc\nWord\nExcel\n\n\nWhat are the different categories in this list?"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#tools-sorted",
+    "href": "aligning_tools_reporting_literature.html#tools-sorted",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Tools sorted",
+    "text": "Tools sorted\n\n\nFile Formats\n\nhtml\npdf\njson\nrevealjs\nqmd\nipynb\ndocx, pptx, xlsx\n\n\nCommandline tools\n\nquarto\ngit\npandoc\n\\(\\LaTeX\\)\n\n\nIDEs / App’s\n\nVSCode\nRStudio\nExcel\nPowerPoint\nWord\n\n\nWeb services\n\nGitHub\nGoogle Docs\nGoogle Spreadsheets\nGoogle Slides\n\n\nIn what way are these tools open-source/free?\n\nOpen-source vs. proprietary\nIn between: Open-source but developers and maintainers are tied to a company\n\n\nWhy is it relevant to be informed about it?"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#html-and-json",
+    "href": "aligning_tools_reporting_literature.html#html-and-json",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "html and json",
+    "text": "html and json\n\nhtml is a markup language for the structure of a webpage. It is the standard language for documents designed to be displayed in a web browser.\njson is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.\n\n\n\nWebpage\n\n\nhtml\n\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\" data-color-mode=\"auto\" data-light-theme=\"light\" data-dark-theme=\"dark\" data-a11y-animated-images=\"system\"&gt;\n  &lt;head&gt;\n    &lt;meta charset=\"utf-8\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://github.githubassets.com\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://avatars.githubusercontent.com\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://github-cloud.s3.amazonaws.com\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://user-images.githubusercontent.com/\"&gt;\n  &lt;link rel=\"preconnect\" href=\"https://github.githubassets.com\" crossorigin&gt;\n  &lt;link rel=\"preconnect\" href=\"https://avatars.githubusercontent.com\"&gt;\n\n  &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/light-fe3f886b577a.css\" /&gt;&lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/dark-a1dbeda2886c.css\" /&gt;&lt;link data-color-theme=\"dark_dimmed\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_dimmed-1ad5cf51dfeb.css\" /&gt;&lt;link data-color-theme=\"dark_high_contrast\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_high_contrast-11d3505dc06a.css\" /&gt;&lt;link data-color-theme=\"dark_colorblind\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_colorblind-8b800495504f.css\" /&gt;&lt;link data-color-theme=\"light_colorblind\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/light_colorblind-daa38c88b795.css\" /&gt;&lt;link data-color-theme=\"light_high_contrast\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/light_high_contrast-1b9ea565820a.css\" /&gt;&lt;link data-color-theme=\"light_tritanopia\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/light_tritanopia-e4be9332dd6c.css\" /&gt;&lt;link data-color-theme=\"dark_tritanopia\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_tritanopia-0dcf95848dd5.css\" /&gt;\n  \n  \n    &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/primer-c581c4e461bb.css\" /&gt;\n    &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/global-57fbee0c477b.css\" /&gt;\n    &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/github-0485c151ab71.css\" /&gt;\n  &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/profile-085697a49485.css\" /&gt;\n\n\n\n  &lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/wp-runtime-e59b9a7db8fe.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_stacktrace-parser_dist_stack-trace-parser_esm_js-node_modules_github_bro-327bbf-fe611eb551b1.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/ui_packages_soft-nav_soft-nav_ts-65c0a1a3eb40.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/environment-10cb150f2afe.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-2646a2c533e3.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-dialog-elemen-63debe-c04540d458d4.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-52e1ce026ad1.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_github_markdown-toolbar-element_dist_index_js-e3de700a4c9d.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_auto-complete-element_dist_index_js-node_modules_github_catalyst_-6afc16-e779583c369f.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_text-ex-3415a8-7ecc10fb88d0.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-79182d-befd2b2f5880.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_primer_view-components_app_components_primer_primer_js-node_modules_gith-6a1af4-ec6fc1a7364a.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/github-elements-fc0e0b89822a.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/element-registry-4a600a4a3b31.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-9d9fe1859ce5.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_manuelpuyol_turbo_dist_turbo_es2017-esm_js-4140d67f0cc2.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_alive-client_dist-bf5aa2-424aa982deef.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_dimensions_js-node_modules_github_hotkey_dist_-9fc4f4-d434ddaf3207.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-35b3ae68c408.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_session-resume_dist-def857-2a32d97c93c5.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-15ddcc-1512e06cfee0.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_updatable-content_ts-430cacb5f7df.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_be-f5afdb-5b2007cdf918.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-737bcded84e3.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_behaviors_include-fragment_ts-app_assets_modules_github_behaviors_r-4077b4-c009cc5472ac.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-30c68bad2844.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/behaviors-e4b7d4dc2a31.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff531-32d7d1e94817.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/notifications-global-f5b58d24780b.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_focus-zone_js-d55308df5023.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_primer_behaviors_dist_esm_-b34105-c2daa8698316.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/profile-b5acccb095f5.js\"&gt;&lt;/script&gt;\n  \n\n  &lt;title&gt;janlorenz (Jan Lorenz) · GitHub&lt;/title&gt;\n\n\n\n  &lt;meta name=\"route-pattern\" content=\"/:user_id(.:format)\"&gt;\n\n    \n  &lt;meta name=\"current-catalog-service-hash\" content=\"4a1c50a83cf6cc4b55b6b9c53e553e3f847c876b87fb333f71f5d05db8f1a7db\"&gt;\n\n\n  &lt;meta name=\"request-id\" content=\"C5B4:6464:820AAD0:85EA185:6409A58D\" data-pjax-transient=\"true\"/&gt;&lt;meta name=\"html-safe-nonce\" content=\"d427c0738d9b56f38d060a9b907607a13d12687a0da31495476f2ed9851e74cc\" data-pjax-transient=\"true\"/&gt;&lt;meta name=\"visitor-payload\" content=\"eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDNUI0OjY0NjQ6ODIwQUFEMDo4NUVBMTg1OjY0MDlBNThEIiwidmlzaXRvcl9pZCI6IjUzMjgzMzcyNjAyNDQ5MjQyOSIsInJlZ2lvbl9lZGdlIjoiZnJhIiwicmVnaW9uX3JlbmRlciI6ImZyYSJ9\" data-pjax-transient=\"true\"/&gt;&lt;meta name=\"visitor-hmac\" content=\"a7507dcc7c07f150c5dd746f03e2c01ffcd592ab9657ec0ac8c65ebc792c736d\" data-pjax-transient=\"true\"/&gt;\n\n\n\n\n  &lt;meta name=\"github-keyboard-shortcuts\" content=\"\" data-turbo-transient=\"true\" /&gt;\n  \n\n  &lt;meta name=\"selected-link\" value=\"overview\" data-turbo-transient&gt;\n\n    &lt;meta name=\"google-site-verification\" content=\"c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I\"&gt;\n\n&lt;meta name=\"octolytics-url\" content=\"https://collector.github.com/github/collect\" /&gt;\n\n  &lt;meta name=\"analytics-location\" content=\"/&lt;user-name&gt;\" data-turbo-transient=\"true\" /&gt;\n\n  \n\n\n\n  &lt;/body&gt;\n&lt;/html&gt;\n\njson\n{\n  \"login\": \"janlorenz\",\n  \"id\": 7503499,\n  \"node_id\": \"MDQ6VXNlcjc1MDM0OTk=\",\n  \"avatar_url\": \"https://avatars.githubusercontent.com/u/7503499?v=4\",\n  \"gravatar_id\": \"\",\n  \"url\": \"https://api.github.com/users/janlorenz\",\n  \"html_url\": \"https://github.com/janlorenz\",\n  \"followers_url\": \"https://api.github.com/users/janlorenz/followers\",\n  \"following_url\": \"https://api.github.com/users/janlorenz/following{/other_user}\",\n  \"gists_url\": \"https://api.github.com/users/janlorenz/gists{/gist_id}\",\n  \"starred_url\": \"https://api.github.com/users/janlorenz/starred{/owner}{/repo}\",\n  \"subscriptions_url\": \"https://api.github.com/users/janlorenz/subscriptions\",\n  \"organizations_url\": \"https://api.github.com/users/janlorenz/orgs\",\n  \"repos_url\": \"https://api.github.com/users/janlorenz/repos\",\n  \"events_url\": \"https://api.github.com/users/janlorenz/events{/privacy}\",\n  \"received_events_url\": \"https://api.github.com/users/janlorenz/received_events\",\n  \"type\": \"User\",\n  \"site_admin\": false,\n  \"name\": \"Jan Lorenz\",\n  \"company\": \"Constructor University\",\n  \"blog\": \"https://janlo.de\",\n  \"location\": \"Bremen\",\n  \"email\": null,\n  \"hireable\": null,\n  \"bio\": null,\n  \"twitter_username\": \"jalorenz\",\n  \"public_repos\": 21,\n  \"public_gists\": 0,\n  \"followers\": 14,\n  \"following\": 2,\n  \"created_at\": \"2014-05-06T17:55:13Z\",\n  \"updated_at\": \"2023-02-25T13:02:51Z\"\n}"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#markdown-and-notebooks",
+    "href": "aligning_tools_reporting_literature.html#markdown-and-notebooks",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Markdown and Notebooks",
+    "text": "Markdown and Notebooks\nMarkdown is a lightweight markup language with plain text formatting syntax\n\nIt is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\nCan be rendered to html or other markup languages, e.g. by quarto from a quarto markdown file (qmd).\n\nNotebooks are a way to write and execute code in an interactive environment\n\nJupyter notebooks are essentially json files that contain code, markdown, and the output of the code.\nImportant difference to markdown: The code is executed and the output is stored in the notebook file. Quarto runs on a file and renders new files, but does not store the output in the source file.\n\nCheck the source file of an ipynb with graphs!"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#quarto",
+    "href": "aligning_tools_reporting_literature.html#quarto",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Quarto",
+    "text": "Quarto\n\nAdapted from the paradigm of literate programming: Computer-readable source code should be interspersed with human-readable explanations.\n\nOriginal: Write code together with a human-readable documentation report\nQuarto: Write a report together with your code of analysis\n\n\n\nIt is a standalone (cross-language, R-independent) adaptation from Rmarkdown and the R-packages knitr."
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#quarto-works-with-r-and-python1",
+    "href": "aligning_tools_reporting_literature.html#quarto-works-with-r-and-python1",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Quarto works with R and python1",
+    "text": "Quarto works with R and python1\n\n\n\nUses the independent software pandoc “a universal document converter” with markdown as its heart.\nYou can also render jupyter notebooks (ipynb files) by adding a raw cell with quarto YAML at the beginning.\n\nand other languages"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#quarto-for-data-science-projects",
+    "href": "aligning_tools_reporting_literature.html#quarto-for-data-science-projects",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Quarto for Data Science Projects",
+    "text": "Quarto for Data Science Projects\nFour purposes:\n\nProvide a format to write code, documentation, and other plain text systematically in one file\nProvide reproducible data analysis\nProvide an environment to update reports easily when new data has arrived\nSmoothly move from your working files to publication-ready reports in formats like pdf, docx, html, or a multipage website"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#tutorial-today",
+    "href": "aligning_tools_reporting_literature.html#tutorial-today",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Tutorial today",
+    "text": "Tutorial today\n\nMake a joint Test Website\nSketch a quarto report for your project\n\nDiscuss various aspects of reports\n\nMake a presentation from it\nMake a website from it\n(optional) Discuss more aspects"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#reports",
+    "href": "aligning_tools_reporting_literature.html#reports",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Reports",
+    "text": "Reports\nTypes of reports: Article &lt;- Technical Report &lt;- Tutorial &lt;- Homework (many more)\n\n\n\nStructure\n\nHeader with title, author, and (optional) abstract/executive summary\nMain headings: Introduction, Data, Methods, Results, Discussion\nSub-headings: Topic specific\nFootnotes\nFigures\nTables\nCross-references\nLiterature references\n\n\n\nCode things\n\nEquations (\\(\\LaTeX\\)-style)\nCode chunks\nCode output\nIn-text code-output"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#excursion-header-yaml-vs.-json",
+    "href": "aligning_tools_reporting_literature.html#excursion-header-yaml-vs.-json",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Excursion Header: YAML vs. JSON",
+    "text": "Excursion Header: YAML vs. JSON\n\nYAML is a human-readable data serialization standard that can be used in conjunction with all programming languages and is often used to write configuration files.\nIt is even simpler/more “human-readable” than JSON (which is simpler than XML/HTML)\nIt uses less brackets and commas but white space (as python)\n\nYAML: https://en.wikipedia.org/wiki/YAML\nOfficial: https://yaml.org/\nTutorial: https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started\nWhat’s the difference to JSON? https://aws.amazon.com/compare/the-difference-between-yaml-and-json/\nLets make some specifications in the YAML header for HTML output. https://quarto.org/docs/output-formats/html-basics.html: a table-of-content, code-folding, …"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#tutorial-authoring-and-scholarly-writing",
+    "href": "aligning_tools_reporting_literature.html#tutorial-authoring-and-scholarly-writing",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Tutorial: Authoring and Scholarly Writing",
+    "text": "Tutorial: Authoring and Scholarly Writing\nLet us do the following in a quarto markdown file (qmd)\n\n\nFor the following get help at quarto-Guide -&gt; Authoring\n\nYAML with author and abstract\nHeadlines\nAn equation\nAn image\nAn image created by a code chunk\nAn in-text code-output of a numerical value\n\n\nFor the following scholarly writing get help at quarto-Guide -&gt; Authoring -&gt; Scholarly Writing\n\nMake additional name information\nMake a figure with caption we can refer to\nAdd a bibliography"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#excursion-literature-management",
+    "href": "aligning_tools_reporting_literature.html#excursion-literature-management",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Excursion: Literature Management",
+    "text": "Excursion: Literature Management\nDo you use literature management systems?\n\nGoogle Scholar -&gt; BibTeX\nZotero"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#data-science-workflow",
+    "href": "aligning_tools_reporting_literature.html#data-science-workflow",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Data Science Workflow",
+    "text": "Data Science Workflow\nIn a normal data science workflow you first:\n\nDo exploratory data analysis (EDA).\n\nThis produces many output you need to see to understand the data and progress deeper towards your goal.\nYou also want to see the code in your output.\n\nTry several versions of different visualizations of your insights.\nYou end up with a very cluttered file which maybe helpful for you but not for external readers (and in the end not even for you anymore…)"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#workflow-towards-a-final-report",
+    "href": "aligning_tools_reporting_literature.html#workflow-towards-a-final-report",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Workflow: Towards a final report",
+    "text": "Workflow: Towards a final report\n\nClean your code!\n\nRemove unnecessary objects\nStructure that it is most readable for others coders (like you in some weeks)\n\nCondense your insights of the EDA to\n\nsummarizing text\nfew nicely formatted tables and informative graphics which are relevant for the reader\n\nMake code and raw output vanish by\n\nremoving raw output (or make it a formatted table, or inline code to show code output in markdown text)\nhide code or use code folding in html (the user can check the reproducibility and details by folding out the code snippet)\n\nStructure the text: sensible (numbered) headingsines, table of content, cross references to figures, footnotes, citations, appendices …"
+  },
+  {
+    "objectID": "aligning_tools_reporting_literature.html#derivatives-of-your-report",
+    "href": "aligning_tools_reporting_literature.html#derivatives-of-your-report",
+    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "section": "Derivatives of your report",
+    "text": "Derivatives of your report\n\nA presentation with revealjs https://quarto.org/docs/presentations/\n\nDuplicate the file, adjust the YAML to revealjs and see how it looks and adjust\n\nA website https://quarto.org/docs/websites/\n\nWe need to write a file _quarto.yml to specify the website settings"
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#text-generating-ai-tool",
+    "href": "llm_writing_bullshit.html#text-generating-ai-tool",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Text generating AI Tool",
+    "text": "Text generating AI Tool\n\nUsing text generating AI tools has become a reality and is used for\n\nlearning,\ntranslating,\ncoding,\nreceiving advice,\nleisure, and\n\nfor writing and revising text for us.\n\nThe backbone of the generative AI tools ar large language models which generate text"
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#use-as-a-student",
+    "href": "llm_writing_bullshit.html#use-as-a-student",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Use as a student",
+    "text": "Use as a student\n\nHelp to solve assessment and other tasks ☑️\n👍 Especially for coding, but understand and scrutinize output!\n⚠️ Don’t forget the learning!\nLearning by asking for explanations ✅\nAdjust the detail level 📑 and specificity 🔎 with follow up prompts.\n⚠️ Don’t stop at the chat, get productive 🧑‍💻, find authorative sources and continue 📚.\nGenerate ideas for your own project (☑️)\n⚠️ Often generic unspecific ideas.\n🧑‍💻 quickly start to get productive.\nWrite text for your own project reports ((☑️))\n⚠️ Often generic unspecific text.\n✏️ You have to write the core research questions, arguments, and results yourself!"
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#prompting-workflow",
+    "href": "llm_writing_bullshit.html#prompting-workflow",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Prompting workflow",
+    "text": "Prompting workflow\nText development works with chatting via a chain of prompts\n\nYou write what you want\nWrite an outline for data science project about cricket.\nYou ask for refinement, reshaping, and restructuring on further prompts\nWrite an abstract of about 200 words on it.\nContinue until you are satisfied. Copy, edit and finalize yourself."
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive",
+    "href": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "How LLMs work: Autocomplete on Overdrive",
+    "text": "How LLMs work: Autocomplete on Overdrive\nActivity\nFollow The Bullshit Machines\nChapter 1: Autocomplete on Overdrive\nQuestions:\n\nDoes the same prompt always lead to the same outcome?\n(From The Bullshit Machines) Why do you think a program that simply tries to predict the most likely next word in a sequence would be good at holding conversations?"
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive-1",
+    "href": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive-1",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "How LLMs work: Autocomplete on Overdrive",
+    "text": "How LLMs work: Autocomplete on Overdrive\nActivity\nWhy do some call LLM Bullshit Machines?\nFollow The Bullshit Machines\nChapter 2: The Nature of Bullshit\nQuestions:\n\n(From The Bullshit Machines) People are perfectly good at producing bullshit without AI assistance—but with AI, people can produce more bullshit, faster. Who might find that useful? How?"
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#the-instructors-perspective",
+    "href": "llm_writing_bullshit.html#the-instructors-perspective",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "The instructors perspective",
+    "text": "The instructors perspective\nThe instructor\n\nhas to read a lot\nmust read all student reports with an equal grading mindset\nshould provide some constructive feedback\n\n\nProblem\nAI generated text increases the amount of text which reads (superficially) well but it can become even harder to find the own contribution. It may read a bit like bullshit. Often it is very generic."
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#ai-may-be-used-also-by-the-instructor",
+    "href": "llm_writing_bullshit.html#ai-may-be-used-also-by-the-instructor",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "AI may be used also by the instructor!",
+    "text": "AI may be used also by the instructor!\n\nSummarize student contributions\nWrite Feedback\n\n(I haven’t done so far ✌🤞️.) However, we want to avoid this"
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#is-using-text-generating-ai-plagiarism",
+    "href": "llm_writing_bullshit.html#is-using-text-generating-ai-plagiarism",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Is using text generating AI plagiarism?",
+    "text": "Is using text generating AI plagiarism?\nActivity\nTwo (or more) groups to answer the same questions:\n\nWhat is plagiarism?\nIs using AI to write text a form of plagiarism? Why? Why not?\n\nGroup 1 Read Constructor University’s Code of Academic Conduct\nGroup 2-X Ask AI!"
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#data-science-project-abstract-writing",
+    "href": "llm_writing_bullshit.html#data-science-project-abstract-writing",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Data Science Project Abstract Writing",
+    "text": "Data Science Project Abstract Writing\nActivity\nLet us try different AI Tools: OpenAI’s ChatGPT, Antrophic’s Claude, Mistral AI’s Le Chat, Google’s Gemini, …\nGroup 1-X Two on ChatGPT, more with other tools\nUse this prompts:\n\nYou write what you want\nWrite an outline for data science project about cricket.\nYou ask for refinement, reshaping, and restructuring on further prompts\nWrite an abstract of about 150 words on it.\n\nDiscussion: Read out the texts and we discuss its quality from the educated reader’s and instructor’s perspective."
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#final-activity-abstract-for-your-project",
+    "href": "llm_writing_bullshit.html#final-activity-abstract-for-your-project",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Final Activity: Abstract for your project",
+    "text": "Final Activity: Abstract for your project\nActivity\nIn your group:\nCreate a project abstract of about 150 words for your project with as many prompts as you want.\n(10-15 minutes)\nDiscussion: Read your abstracts and we discuss its quality from the educated reader’s and instructor’s perspective."
+  },
+  {
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "Presentation Guide",
+    "section": "",
+    "text": "Each Team presents 3 times. See the Schedule.\nThese are the guidelines for the presentations\nDuration: Prepare for about 20 minutes presentation. A concrete time schedule will be published in the non-public Course-Organziation-Resources repository.\nDiscussion: After each presentation, actively contribute to the discussion challenging and inspiring the project team.",
+    "crumbs": [
+      "Syllabus",
+      "Presentation Guide"
+    ]
+  },
+  {
+    "objectID": "presentation.html#proposal-presentation-you-present-the-project-you-want-to-do.",
+    "href": "presentation.html#proposal-presentation-you-present-the-project-you-want-to-do.",
+    "title": "Presentation Guide",
+    "section": "1 💡💭 Proposal Presentation: You present the project you want to do.",
+    "text": "1 💡💭 Proposal Presentation: You present the project you want to do.\nGoals: Show what your project shall be about, what data and literature you depart from, and a feasible way how to work towards it.\nContent: (In brackets an average expectation how much attention or time to spend on the points. Not a strict rule!)\n\nExplain what main questions or problems your project wants to address. (40%)\nRefer to core materials you want to use and how much you have worked into: (20%)\n\nData: Which data? Have you put it in place already? Can you import it? Have you started to explore it? Aim to show feasibility by doing first steps, runing your idea in a minimal setting, do a first test, …!\nLiterature and web resources: Which papers, documentations, websites are essential for your project?\nIs something essential missing? What additional material would you like to find?\n\nExplain what methods you want to use: (20%)\n\nDo you know which methods can be used to answer your questions or solve your problems?\nWhich ones will you try first?\nHow much are you into the method yet?\nWhat can be an interesting learning topic for the whole course?\n\nShow a workplan: What are the most important things to do next? (20%)\n\nWhich material to study first with what focus?\nHow to setup your data and analysis pipeline?\nProvide sensible task list\nList who is responsible for what\n\n\nFormat: Informal. Show your workplan in your project repository. You can provide some informal slides to show some of your materials or present the materials directly.",
+    "crumbs": [
+      "Syllabus",
+      "Presentation Guide"
+    ]
+  },
+  {
+    "objectID": "presentation.html#progress-presentation",
+    "href": "presentation.html#progress-presentation",
+    "title": "Presentation Guide",
+    "section": "2 🚧 Progress Presentation",
+    "text": "2 🚧 Progress Presentation\nGoal: Show your progress! First what worked and is done, then what is still open, what confused you, and finally your updated workplan to finish the project. Give some insights on learning which can be of interest for the whole course.\nContent:\n\nQuestions and problem refined (20%)\nCore materials with core essentials extracted: Data and Literature (20%)\nMethods: What did you try, what works, what are the challenges? (40%)\nUpdated workplan (20%)\n\nImportant: With each project team we will specify a learning focus which is interesting for the whole course. Share some insights with the class on that topic. For example: What is it? For what it is used? What is easier what is harder to learn than expected?\nFormat: Mostly Informal. Provide some slides or a good introduction text for the question or problem your project is about. For the rest, you can provide slides or show materials or your code-files and output from your repository directly.",
+    "crumbs": [
+      "Syllabus",
+      "Presentation Guide"
+    ]
+  },
+  {
+    "objectID": "presentation.html#final-presentations",
+    "href": "presentation.html#final-presentations",
+    "title": "Presentation Guide",
+    "section": "3 👩‍🏫👨‍🏫 Final Presentations",
+    "text": "3 👩‍🏫👨‍🏫 Final Presentations\nGoal: Show your results! What is the main achievement. Critically reflect.\nFormat: Do a presentation with slides guiding through the project’s results.",
+    "crumbs": [
+      "Syllabus",
+      "Presentation Guide"
+    ]
+  }
+]
