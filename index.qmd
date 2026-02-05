@@ -2,8 +2,6 @@
 title: "Data Science Lab"
 ---
 
-
-
 This syllabus may change during the course of the semester additions and clarifications. All substantial changes will marked here with date. 
 
 **Important Links:**     

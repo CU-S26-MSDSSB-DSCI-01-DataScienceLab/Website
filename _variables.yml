@@ -1,16 +1,18 @@
 org:
-  link: https://github.com/CU-S25-MSDSSB-DSCI-01-DataScienceLab
-  name: CU-S25-MSDSSB-DSCI-01-DataScienceLab
-  link-org-repo: https://github.com/CU-S25-MSDSSB-DSCI-01-DataScienceLab/Course-Organization-Resources
+  link: "https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab"
+  link-org-repo: https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab/Course-Organization-Resources
+  name: CU-S26-MSDSSB-DSCI-01-DataScienceLab
   
 link: 
-  academic-calendar: https://constructor.university/student-life/academic-calendar/academic-calendar-2024
-  handbook: https://constructor.university/sites/default/files/2024-08/DSSB_MSc_Handbook_2024.pdf
-  
+  academic-calendar: https://constructor.university/student-life/academic-calendar/academic-calendar-2025
+  program_onsite: https://constructor.university/programs/graduate-education/data-science-for-society-business
+  handbook_onsite: "https://constructor.university/sites/default/files/2025-08/2025-DSSB-MSc.pdf"
+  grading: https://constructor.university/sites/default/files/2023-02/Grading_Table_2023.pdf
+teams:
+  link: https://teams.microsoft.com/l/team/19%3APbRTcnXoogN-dqj4-TIkTnn0h-lZk5YloOB79tEVNck1%40thread.tacv2/conversations?groupId=659f7fc5-9f38-4471-9bfc-05ed89c53e8c&tenantId=f78e973e-5c0b-4ab8-bbd7-9887c95a8ebd
+  recording_folder_link: 
+  name: S26-MSDSSB-DSCI-01-DataScienceLab
+room: "IRC-Seminar Room III"
+day: Thursday
+time: "15:45 - 18:30"
 instructor: "[Jan Lorenz](mailto:jlorenz@constructor.university)"
-
-
-class: 
-  day: Thursday
-  time: 15:45 - 18:30
-  location: East Hall Seminar Room 5

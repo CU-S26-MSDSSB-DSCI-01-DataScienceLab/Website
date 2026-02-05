@@ -6,12 +6,23 @@ execute:
 
 website:
   title: "Data Science Lab"
+  # announcement: 
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "[**Data Science Tools Final Project Check-In**](https://forms.office.com/e/75qEdyZbim) open! Deadline Sat, Nov 8."
+  #   type: warning
+  #   position: below-navbar
   margin-header: |
     ![Logo image](/img/datasciencelabicon.jpg)
   navbar:
     left:
       - href: index.qmd
         text: Syllabus
+      - href: schedule.qmd
+    right:
+      - icon: github
+        href: "{{< var org.link >}}"
+        text: "{{< var org.name >}}" 
         
   sidebar:
     style: "docked"
