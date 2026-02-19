@@ -137,15 +137,144 @@
     "text": "Developing Schedule\n\n\n\n\n\nThe schedule is tentative. It can be updated.\n\n\n\n\nTabular Schedule\nClass is Thursday in 2 consecutive Sessions 14:15 - 17:00\nLocation: ?var:location in-person if not stated otherwise\n\n\n\n\n\n\n\n\n\nWeek\nDates\nWhat?\nWhere?\n\n\n\n\n1\nFeb 05\nKick off the Lab  Watch out for survey link: To collect data for team and topic matching!\nCampus\n\n\n2\nFeb 12\nTopics and Team Formation, Q&A\nCampus\n\n\n3\nFeb 19\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n4\nFeb 26\n🧑‍💻 Tutorial quarto/git/GitHub: Refresh the basics; Report writing; Figures; Referencing; Reproducible code; Literature Management; Websites \nCampus\n\n\n5\nMar 05\n1️⃣ Student Proposal Presentations Presentation Guide\nCampus\n\n\n6\nMar 12\n🧑‍💻 Tutorial Collecting Data SQL/APIs/Webscraping Slides\nCampus\n\n\n7\nMar 19\nIndividual meetings with student teams\nOnline only\n\n\n8\nMar 26\nIndividual meetings with student teams\nOnline only\n\n\n\n\nSpring break\n\n\n\n9\nApr 09\n2️⃣ Student Progress and Learning Presentations Presentation Guide\nCampus\n\n\n10\nApr 16\n🧑‍💻 Tutorial Generate Text with AI, Avoid Bullshit Slides\nCampus\n\n\n11\nApr 23\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n12\nApr 30\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n13\nMay 07\n3️⃣ Student Final Presentations  Schedule Presentation Guide\nCampus\n\n\n\nDeadline for Project Reports is the regular deadline in the Academic Calendar, see the Deadline for Students to Submit Assessments, Spring Semester."
   },
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Developing Schedule\n\n\n\n\n\nThe schedule can be updated. Updates will be marked here and announced on Teams.\n\n\n\n\nTabular Schedule\nClass is Thursday in 2 consecutive Sessions 14:15 - 17:00\nLocation: IRC-Seminar Room III in-person if not stated otherwise\n\n\n\n\n\n\n\n\n\nWeek\nDates\nWhat?\nWhere?\n\n\n\n\n1\nFeb 05\nKick off the Lab Survey link\nCampus\n\n\n2\nFeb 12\nTopics and Team Formation, Q&A\nCampus\n\n\n3\nFeb 19\n🧑‍💻 Tutorial (Topic to be announced)\nCampus\n\n\n4\nFeb 26\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n5\nMar 05\n1️⃣ Student Proposal Presentations Presentation Guide\nCampus\n\n\n6\nMar 12\n🧑‍💻 Tutorial (Topic to be announced)\nCampus\n\n\n7\nMar 19\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n8\nMar 26\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n\n\nSpring break\n\n\n\n9\nApr 09\n2️⃣ Student Progress and Learning Presentations Presentation Guide\nCampus\n\n\n10\nApr 16\n🧑‍💻 Tutorial Generate Text with AI, Avoid Bullshit\nCampus\n\n\n11\nApr 23\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n12\nApr 30\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n13\nMay 07\n3️⃣ Student Final Presentations  Presentation Guide\nCampus\n\n\n\nDeadline for Project Reports is the regular deadline in the Academic Calendar, see the Deadline for Students to Submit Assessments, Spring Semester.",
-    "crumbs": [
-      "Syllabus",
-      "Schedule"
-    ]
+    "objectID": "tools_reporting_literature.html#communicating-and-reporting-in-the-data-science-process",
+    "href": "tools_reporting_literature.html#communicating-and-reporting-in-the-data-science-process",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Communicating and Reporting in the Data Science Process",
+    "text": "Communicating and Reporting in the Data Science Process\nFrom R for Data Science:"
+  },
+  {
+    "objectID": "tools_reporting_literature.html#sort-our-reporting-tools",
+    "href": "tools_reporting_literature.html#sort-our-reporting-tools",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Sort our reporting tools",
+    "text": "Sort our reporting tools\n\n\n\nquarto (.qmd)\nhtml\ngit\npdf\nGitHub\njson\nVirtual Studio Code\nnotebook (.ipynb)\nGoogle Docs, Spreadsheets, Slides\n\n\n\nPowerPoint\n\\(\\LaTeX\\)\nPositron\nmarkdown (.md)\npandoc\nWord\nExcel\n\n\nWhat are the different categories in this list?"
+  },
+  {
+    "objectID": "tools_reporting_literature.html#tools-sorted",
+    "href": "tools_reporting_literature.html#tools-sorted",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Tools sorted",
+    "text": "Tools sorted\n\n\nFile Formats\n\nhtml\npdf\njson\nqmd\nipynb\ndocx, pptx, xlsx\n\n\nCommandline tools\n\nquarto\ngit\npandoc\n\\(\\LaTeX\\)\n\n\nIDEs / App’s\n\nVSCode\nRStudio\nExcel\nPowerPoint\nWord\n\n\nWeb services\n\nGitHub\nGoogle Docs\nGoogle Spreadsheets\nGoogle Slides"
+  },
+  {
+    "objectID": "tools_reporting_literature.html#open-source-freeware-proprietary",
+    "href": "tools_reporting_literature.html#open-source-freeware-proprietary",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Open-source, freeware, proprietary",
+    "text": "Open-source, freeware, proprietary\n\nOpen-source software: Has source code that anyone can inspect, modify, and enhance.\n\nExamples: quarto, git, pandoc, R, python\n\nProprietary software is software that is owned by an individual or a company and has restrictions on its use, modification, and distribution. It typically requires a license which costs money.\n\nExamples: Microsoft Word, Excel, PowerPoint, Adobe Photoshop\n\nFreeware is software that is available for use at no cost, but it may not necessarily be open-source but can be propriatary.\n\nExamples: Virtual Studio Code, Positron"
+  },
+  {
+    "objectID": "tools_reporting_literature.html#common-special-case",
+    "href": "tools_reporting_literature.html#common-special-case",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Common special case",
+    "text": "Common special case\n\nSoftware is open-source but developers and maintainers are tied to a company which builds a business around it.\n\nExample: Virtual Studio Code is built on the open-source codebase “Code - OSS” and this is developed and maintained by Microsoft.\n\nOthers can build on and maybe even contribute to it.\nPositron did that (using Code - OSS) and added some data science specific features.\nMicrosoft did it themselves with Virtual Studio Code\n\nSo, Virtual Studio Code and Positron ar both propriatary freeware (for private or educational users). They build a business around business and cloud usage."
+  },
+  {
+    "objectID": "tools_reporting_literature.html#web-services",
+    "href": "tools_reporting_literature.html#web-services",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Web services",
+    "text": "Web services\nExamples: GitHub, Google Docs, Google Spreadsheets, Google Slides, cloud versions of Microsoft Word, Excel, PowerPoint\n\nSome web service are open-source, but the biggest value of webservice for the consumer is that it can be used to a large extent in the browser without installing software.\nMany webservices provide a basic version of their service for free, but they also offer premium features that require a paid subscription.\n\n\nParadoxical story:\n\nGitHub is fully proprietary. However, it is built on the open-source software Git.\nMoreover, the largest share of open-source software projects are hosted on GitHub (also we do)\n\nBUT, there are open souce alternatives like GitLab and Bitbucket."
+  },
+  {
+    "objectID": "tools_reporting_literature.html#xml-json-yaml",
+    "href": "tools_reporting_literature.html#xml-json-yaml",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "XML, JSON, YAML",
+    "text": "XML, JSON, YAML\n\nXML is a general markup language generalized from HTML developed for structuring webpages.\nJSON is a lightweight data-interchange format. It is easier for humans to read and write. It is easy for machines to parse and generate. It has been developed for data storage and transmission, especially in web applications using JavaScript.\nYAML is an even more human-readable format that is often used for configuration files and in applications where data is being stored or transmitted. It is designed to be easy to read and write, and it uses indentation to indicate structure.\n\nAll are called serialization formats, because they are used to serialize data structures into a format that can be easily stored or transmitted and then deserialized back into the original data structure in memory when needed."
+  },
+  {
+    "objectID": "tools_reporting_literature.html#serialization-formats-examples",
+    "href": "tools_reporting_literature.html#serialization-formats-examples",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Serialization formats: Examples",
+    "text": "Serialization formats: Examples\n\n\nXML\n&lt;people&gt;\n  &lt;person&gt;\n    &lt;name&gt;Alice&lt;/name&gt;\n    &lt;age&gt;30&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;reading&lt;/hobby&gt;\n      &lt;hobby&gt;cycling&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n  &lt;person&gt;\n    &lt;name&gt;Bob&lt;/name&gt;\n    &lt;age&gt;25&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;gaming&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n&lt;/people&gt;\nEverything is a , tags are nested, closing tags with &lt;/tag&gt; are required\n\nJSON\n[\n  {\n    \"name\": \"Alice\",\n    \"age\": 30,\n    \"hobbies\": [\"reading\", \"cycling\"]\n  },\n  {\n    \"name\": \"Bob\",\n    \"age\": 25,\n    \"hobbies\": [\"gaming\"]\n  }\n]\n[] define lists, {} define objects, : separates keys and values, , separates items in lists and objects, indentation is not relevant\n\nYAML\n- name: Alice\n  age: 30\n  hobbies:\n    - reading\n    - cycling\n- name: Bob\n  age: 25\n  hobbies:\n    - gaming\n- defines list items, indentation defines structure, : separates keys and values"
+  },
+  {
+    "objectID": "tools_reporting_literature.html#for-data-science-we-want-data-frames",
+    "href": "tools_reporting_literature.html#for-data-science-we-want-data-frames",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "For data science we want data frames",
+    "text": "For data science we want data frames\nFor the representation as a dataframe we have to make design choices:\n\n\nTwo tables\nWith name as key:\n\n\n\nname\nage\n\n\n\n\nAlice\n30\n\n\nBob\n25\n\n\n\n\n\n\nname\nhobby\n\n\n\n\nAlice\nreading\n\n\nAlice\ncycling\n\n\nBob\ngaming\n\n\n\n\nOne table\nWith redundant information:\n\n\n\nname\nage\nhobby\n\n\n\n\nAlice\n30\nreading\n\n\nAlice\n30\ncycling\n\n\nBob\n25\ngaming\n\n\n\n\n\n\nThe are packages in R and python to read and write all three formats, e.g. yaml in R and PyYAML in python for YAML, jsonlite in R and json in python for JSON, xml2 in R and xml.etree.ElementTree in python for XML."
+  },
+  {
+    "objectID": "tools_reporting_literature.html#markdown-and-notebooks",
+    "href": "tools_reporting_literature.html#markdown-and-notebooks",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Markdown and Notebooks",
+    "text": "Markdown and Notebooks\nMarkdown is a lightweight markup language with plain text formatting syntax\n\nIt is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\nCan be rendered to html or other markup languages, e.g. by quarto from a quarto markdown file (qmd).\n\nNotebooks are a way to write and execute code in an interactive environment\n\nJupyter notebooks are essentially json files that contain code, markdown, and the output of the code.\nImportant difference to markdown: The code is executed and the output is stored in the notebook file. Quarto runs on a file and renders new files, but does not store the output in the source file.\n\nCheck the source file of an ipynb with graphs!"
+  },
+  {
+    "objectID": "tools_reporting_literature.html#quarto",
+    "href": "tools_reporting_literature.html#quarto",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Quarto",
+    "text": "Quarto\n\nAdapted from the paradigm of literate programming: Computer-readable source code should be interspersed with human-readable explanations.\n\nOriginal: Write code together with a human-readable documentation report\nQuarto: Write a report together with your code of analysis\n\n\n\nIt is a standalone (cross-language, R-independent) adaptation from Rmarkdown and the R-packages knitr."
+  },
+  {
+    "objectID": "tools_reporting_literature.html#quarto-works-with-r-and-python1",
+    "href": "tools_reporting_literature.html#quarto-works-with-r-and-python1",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Quarto works with R and python1",
+    "text": "Quarto works with R and python1\n\n\n\nUses the independent software pandoc “a universal document converter” with markdown as its heart.\nYou can also render jupyter notebooks (ipynb files) by adding a raw cell with quarto YAML at the beginning.\n\nand other languages"
+  },
+  {
+    "objectID": "tools_reporting_literature.html#quarto-for-data-science-projects",
+    "href": "tools_reporting_literature.html#quarto-for-data-science-projects",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Quarto for Data Science Projects",
+    "text": "Quarto for Data Science Projects\nFour purposes:\n\nProvide a format to write code, documentation, and other plain text systematically in one file\nProvide reproducible data analysis\nProvide an environment to update reports easily when new data has arrived\nSmoothly move from your working files to publication-ready reports in formats like pdf, docx, html, or a multipage website"
+  },
+  {
+    "objectID": "tools_reporting_literature.html#tutorial-today",
+    "href": "tools_reporting_literature.html#tutorial-today",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Tutorial today",
+    "text": "Tutorial today\n\nMake a one page Website with Github Pages.\n\nYou can use this for the FinalProject from Data Science Tools\n\nMake a multipage Website with quarto using .qmd and .ipynb files.\n\nYou should use this for the Data Science Lab project report. In particular, when you have independent parts."
+  },
+  {
+    "objectID": "tools_reporting_literature.html#one-page-website-with-github-pages",
+    "href": "tools_reporting_literature.html#one-page-website-with-github-pages",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "One page website with GitHub Pages",
+    "text": "One page website with GitHub Pages\nPrelminary Note: By doing this tutorial you make your work public on the internet. You are not obliged to do. You can skip to do this here and just learn how to do it.\n\n\nIn your repository on your computer\n\nRename the one page HTML to index.html\nPush the file to GitHub\n\nIn your repository on GitHub\n\nMake the repository public (Scroll down to “Danger Zone” in Settings)\nGo to “Pages” in the left sidebar and select the branch and folder where your index.html is located (e.g. main and /root if it is in the root of your repository)\n\n\n\n\nAfter a few minutes, your website should be available at https://&lt;organization-name&gt;.github.io/&lt;repository-name&gt;/"
+  },
+  {
+    "objectID": "tools_reporting_literature.html#multipage-website-with-quarto",
+    "href": "tools_reporting_literature.html#multipage-website-with-quarto",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Multipage website with quarto",
+    "text": "Multipage website with quarto\nCore idea:\n\nSpecify the website and its stucture in a Config File _quarto.yml file.\nWrite the content of the pages in .qmd files.\n\nAll information: https://quarto.org/docs/websites/\n\nYou can publish this website on GitHub Pages as well, but you have to render the website first and push the rendered files (in the _site folder) to GitHub or use the more advanced methods using\n\na branch gh-pages (way the instructor) or\nGitHub Actions (requires configuring a whole software setup on GitHu such that rendering runs remotely and automatically on GitHub after each commit)."
+  },
+  {
+    "objectID": "tools_reporting_literature.html#excursion-literature-management",
+    "href": "tools_reporting_literature.html#excursion-literature-management",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Excursion: Literature Management",
+    "text": "Excursion: Literature Management\n\nYou should start to use a reference manager for your literature management.\nA de facto standard for reference management is Zotero.\n\nIt is open-source, free, and has a large user base."
+  },
+  {
+    "objectID": "tools_reporting_literature.html#zotero-features-to-make-use-of",
+    "href": "tools_reporting_literature.html#zotero-features-to-make-use-of",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Zotero Features to make use of",
+    "text": "Zotero Features to make use of\n\nStore and organize your literature (including pdfs and your notes)\nHas browser extensions to easily add literature from the web with one click while on the website (knows many journals)\nCreate bibliographies (collections) in different citation styles\nIntegrate with word processors and markdown editors (e.g. quarto)\nHas a free tier for web storage in sync with your local Zotero\nYou can collaborate with others in making a shared collections of references\nSome people manage to import their Zotero notes in their note-taking apps (like Obsidian)"
+  },
+  {
+    "objectID": "tools_reporting_literature.html#in-week-4-and-5",
+    "href": "tools_reporting_literature.html#in-week-4-and-5",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "In week 4 and 5",
+    "text": "In week 4 and 5\nWeek 4:\nIndividual meetings with me. Will be scheduled by me in the regular meeting times.\nYou can still reshuffle teams but I aim for\n\nPreliminary project check-in by team members.\nCreating a repository for each project.\n\n\nWeek 5:\n\nProposal presentations by teams.\nFollow the guidelins on this website.\nYou also have to prepare some basic workplan and team member roles and tasks in your repository (see Syllabus). A template shall be provided"
+  },
+  {
+    "objectID": "tools_reporting_literature.html#now",
+    "href": "tools_reporting_literature.html#now",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Now",
+    "text": "Now\n\nLet us look at the current distribution. In the Ad-hoc group sheet.\nTime to coordinate Teams and coordinate in Teams."
   },
   {
     "objectID": "collecting_data.html#google-cloud-bigquery-public-datasets",
@@ -365,116 +494,155 @@
     "text": "Learnings\n\nWhy do we need the “live” session and not just a downloaded HTML-file?\n\nNowadays, often the interesting part is loaded via some java-script files and only appears on the website once it is sent to a specific browser!\n\nYou need to learn a bit of the structure of HTML and CSS.\nLearn to fiddle around with strings is often key!\n\nTo that end regular expressions can be magic (see https://xkcd.com/208/)! AI Tools can help you get the one you need."
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#communicating-and-reporting-in-the-data-science-process",
-    "href": "aligning_tools_reporting_literature.html#communicating-and-reporting-in-the-data-science-process",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#communicating-and-reporting-in-the-data-science-process",
+    "href": "tools_reporting_literature_BACKUP.html#communicating-and-reporting-in-the-data-science-process",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Communicating and Reporting in the Data Science Process",
     "text": "Communicating and Reporting in the Data Science Process\nFrom R for Data Science:"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#sort-our-reporting-tools",
-    "href": "aligning_tools_reporting_literature.html#sort-our-reporting-tools",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#sort-our-reporting-tools",
+    "href": "tools_reporting_literature_BACKUP.html#sort-our-reporting-tools",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Sort our reporting tools",
-    "text": "Sort our reporting tools\n\n\n\nquarto (.qmd)\nhtml\ngit\npdf\nGitHub\njson\nVSCode\nnotebook (.ipynb)\nGoogle Docs\n\n\n\nPowerPoint\nrevealjs\n\\(\\LaTeX\\)\nRStudio\nmarkdown (.md)\npandoc\nWord\nExcel\n\n\nWhat are the different categories in this list?"
+    "text": "Sort our reporting tools\n\n\n\nquarto (.qmd)\nhtml\ngit\npdf\nGitHub\njson\nVirtual Studio Code\nnotebook (.ipynb)\nGoogle Docs, Spreadsheets, Slides\n\n\n\nPowerPoint\n\\(\\LaTeX\\)\nPositron\nmarkdown (.md)\npandoc\nWord\nExcel\n\n\nWhat are the different categories in this list?"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#tools-sorted",
-    "href": "aligning_tools_reporting_literature.html#tools-sorted",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#tools-sorted",
+    "href": "tools_reporting_literature_BACKUP.html#tools-sorted",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Tools sorted",
-    "text": "Tools sorted\n\n\nFile Formats\n\nhtml\npdf\njson\nrevealjs\nqmd\nipynb\ndocx, pptx, xlsx\n\n\nCommandline tools\n\nquarto\ngit\npandoc\n\\(\\LaTeX\\)\n\n\nIDEs / App’s\n\nVSCode\nRStudio\nExcel\nPowerPoint\nWord\n\n\nWeb services\n\nGitHub\nGoogle Docs\nGoogle Spreadsheets\nGoogle Slides\n\n\nIn what way are these tools open-source/free?\n\nOpen-source vs. proprietary\nIn between: Open-source but developers and maintainers are tied to a company\n\n\nWhy is it relevant to be informed about it?"
+    "text": "Tools sorted\n\n\nFile Formats\n\nhtml\npdf\njson\nqmd\nipynb\ndocx, pptx, xlsx\n\n\nCommandline tools\n\nquarto\ngit\npandoc\n\\(\\LaTeX\\)\n\n\nIDEs / App’s\n\nVSCode\nRStudio\nExcel\nPowerPoint\nWord\n\n\nWeb services\n\nGitHub\nGoogle Docs\nGoogle Spreadsheets\nGoogle Slides"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#html-and-json",
-    "href": "aligning_tools_reporting_literature.html#html-and-json",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
-    "section": "html and json",
-    "text": "html and json\n\nhtml is a markup language for the structure of a webpage. It is the standard language for documents designed to be displayed in a web browser.\njson is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.\n\n\n\nWebpage\n\n\nhtml\n\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\" data-color-mode=\"auto\" data-light-theme=\"light\" data-dark-theme=\"dark\" data-a11y-animated-images=\"system\"&gt;\n  &lt;head&gt;\n    &lt;meta charset=\"utf-8\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://github.githubassets.com\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://avatars.githubusercontent.com\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://github-cloud.s3.amazonaws.com\"&gt;\n  &lt;link rel=\"dns-prefetch\" href=\"https://user-images.githubusercontent.com/\"&gt;\n  &lt;link rel=\"preconnect\" href=\"https://github.githubassets.com\" crossorigin&gt;\n  &lt;link rel=\"preconnect\" href=\"https://avatars.githubusercontent.com\"&gt;\n\n  &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/light-fe3f886b577a.css\" /&gt;&lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/dark-a1dbeda2886c.css\" /&gt;&lt;link data-color-theme=\"dark_dimmed\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_dimmed-1ad5cf51dfeb.css\" /&gt;&lt;link data-color-theme=\"dark_high_contrast\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_high_contrast-11d3505dc06a.css\" /&gt;&lt;link data-color-theme=\"dark_colorblind\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_colorblind-8b800495504f.css\" /&gt;&lt;link data-color-theme=\"light_colorblind\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/light_colorblind-daa38c88b795.css\" /&gt;&lt;link data-color-theme=\"light_high_contrast\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/light_high_contrast-1b9ea565820a.css\" /&gt;&lt;link data-color-theme=\"light_tritanopia\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/light_tritanopia-e4be9332dd6c.css\" /&gt;&lt;link data-color-theme=\"dark_tritanopia\" crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" data-href=\"https://github.githubassets.com/assets/dark_tritanopia-0dcf95848dd5.css\" /&gt;\n  \n  \n    &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/primer-c581c4e461bb.css\" /&gt;\n    &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/global-57fbee0c477b.css\" /&gt;\n    &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/github-0485c151ab71.css\" /&gt;\n  &lt;link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/profile-085697a49485.css\" /&gt;\n\n\n\n  &lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/wp-runtime-e59b9a7db8fe.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_stacktrace-parser_dist_stack-trace-parser_esm_js-node_modules_github_bro-327bbf-fe611eb551b1.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/ui_packages_soft-nav_soft-nav_ts-65c0a1a3eb40.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/environment-10cb150f2afe.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-2646a2c533e3.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-dialog-elemen-63debe-c04540d458d4.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-52e1ce026ad1.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_github_markdown-toolbar-element_dist_index_js-e3de700a4c9d.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_auto-complete-element_dist_index_js-node_modules_github_catalyst_-6afc16-e779583c369f.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_text-ex-3415a8-7ecc10fb88d0.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-79182d-befd2b2f5880.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_primer_view-components_app_components_primer_primer_js-node_modules_gith-6a1af4-ec6fc1a7364a.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/github-elements-fc0e0b89822a.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/element-registry-4a600a4a3b31.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-9d9fe1859ce5.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_manuelpuyol_turbo_dist_turbo_es2017-esm_js-4140d67f0cc2.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_alive-client_dist-bf5aa2-424aa982deef.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_dimensions_js-node_modules_github_hotkey_dist_-9fc4f4-d434ddaf3207.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-35b3ae68c408.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_session-resume_dist-def857-2a32d97c93c5.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-15ddcc-1512e06cfee0.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_updatable-content_ts-430cacb5f7df.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_be-f5afdb-5b2007cdf918.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-737bcded84e3.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_behaviors_include-fragment_ts-app_assets_modules_github_behaviors_r-4077b4-c009cc5472ac.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-30c68bad2844.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/behaviors-e4b7d4dc2a31.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff531-32d7d1e94817.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/notifications-global-f5b58d24780b.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_focus-zone_js-d55308df5023.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_primer_behaviors_dist_esm_-b34105-c2daa8698316.js\"&gt;&lt;/script&gt;\n&lt;script crossorigin=\"anonymous\" defer=\"defer\" type=\"application/javascript\" src=\"https://github.githubassets.com/assets/profile-b5acccb095f5.js\"&gt;&lt;/script&gt;\n  \n\n  &lt;title&gt;janlorenz (Jan Lorenz) · GitHub&lt;/title&gt;\n\n\n\n  &lt;meta name=\"route-pattern\" content=\"/:user_id(.:format)\"&gt;\n\n    \n  &lt;meta name=\"current-catalog-service-hash\" content=\"4a1c50a83cf6cc4b55b6b9c53e553e3f847c876b87fb333f71f5d05db8f1a7db\"&gt;\n\n\n  &lt;meta name=\"request-id\" content=\"C5B4:6464:820AAD0:85EA185:6409A58D\" data-pjax-transient=\"true\"/&gt;&lt;meta name=\"html-safe-nonce\" content=\"d427c0738d9b56f38d060a9b907607a13d12687a0da31495476f2ed9851e74cc\" data-pjax-transient=\"true\"/&gt;&lt;meta name=\"visitor-payload\" content=\"eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDNUI0OjY0NjQ6ODIwQUFEMDo4NUVBMTg1OjY0MDlBNThEIiwidmlzaXRvcl9pZCI6IjUzMjgzMzcyNjAyNDQ5MjQyOSIsInJlZ2lvbl9lZGdlIjoiZnJhIiwicmVnaW9uX3JlbmRlciI6ImZyYSJ9\" data-pjax-transient=\"true\"/&gt;&lt;meta name=\"visitor-hmac\" content=\"a7507dcc7c07f150c5dd746f03e2c01ffcd592ab9657ec0ac8c65ebc792c736d\" data-pjax-transient=\"true\"/&gt;\n\n\n\n\n  &lt;meta name=\"github-keyboard-shortcuts\" content=\"\" data-turbo-transient=\"true\" /&gt;\n  \n\n  &lt;meta name=\"selected-link\" value=\"overview\" data-turbo-transient&gt;\n\n    &lt;meta name=\"google-site-verification\" content=\"c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc\"&gt;\n  &lt;meta name=\"google-site-verification\" content=\"Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I\"&gt;\n\n&lt;meta name=\"octolytics-url\" content=\"https://collector.github.com/github/collect\" /&gt;\n\n  &lt;meta name=\"analytics-location\" content=\"/&lt;user-name&gt;\" data-turbo-transient=\"true\" /&gt;\n\n  \n\n\n\n  &lt;/body&gt;\n&lt;/html&gt;\n\njson\n{\n  \"login\": \"janlorenz\",\n  \"id\": 7503499,\n  \"node_id\": \"MDQ6VXNlcjc1MDM0OTk=\",\n  \"avatar_url\": \"https://avatars.githubusercontent.com/u/7503499?v=4\",\n  \"gravatar_id\": \"\",\n  \"url\": \"https://api.github.com/users/janlorenz\",\n  \"html_url\": \"https://github.com/janlorenz\",\n  \"followers_url\": \"https://api.github.com/users/janlorenz/followers\",\n  \"following_url\": \"https://api.github.com/users/janlorenz/following{/other_user}\",\n  \"gists_url\": \"https://api.github.com/users/janlorenz/gists{/gist_id}\",\n  \"starred_url\": \"https://api.github.com/users/janlorenz/starred{/owner}{/repo}\",\n  \"subscriptions_url\": \"https://api.github.com/users/janlorenz/subscriptions\",\n  \"organizations_url\": \"https://api.github.com/users/janlorenz/orgs\",\n  \"repos_url\": \"https://api.github.com/users/janlorenz/repos\",\n  \"events_url\": \"https://api.github.com/users/janlorenz/events{/privacy}\",\n  \"received_events_url\": \"https://api.github.com/users/janlorenz/received_events\",\n  \"type\": \"User\",\n  \"site_admin\": false,\n  \"name\": \"Jan Lorenz\",\n  \"company\": \"Constructor University\",\n  \"blog\": \"https://janlo.de\",\n  \"location\": \"Bremen\",\n  \"email\": null,\n  \"hireable\": null,\n  \"bio\": null,\n  \"twitter_username\": \"jalorenz\",\n  \"public_repos\": 21,\n  \"public_gists\": 0,\n  \"followers\": 14,\n  \"following\": 2,\n  \"created_at\": \"2014-05-06T17:55:13Z\",\n  \"updated_at\": \"2023-02-25T13:02:51Z\"\n}"
+    "objectID": "tools_reporting_literature_BACKUP.html#open-source-freeware-proprietary",
+    "href": "tools_reporting_literature_BACKUP.html#open-source-freeware-proprietary",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "section": "Open-source, freeware, proprietary",
+    "text": "Open-source, freeware, proprietary\n\nOpen-source software: Has source code that anyone can inspect, modify, and enhance.\n\nExamples: quarto, git, pandoc, R, python\n\nProprietary software is software that is owned by an individual or a company and has restrictions on its use, modification, and distribution. It typically requires a license which costs money.\n\nExamples: Microsoft Word, Excel, PowerPoint, Adobe Photoshop\n\nFreeware is software that is available for use at no cost, but it may not necessarily be open-source but can be propriatary.\n\nExamples: Virtual Studio Code, Positron\n\n\n\nCommon special case:\n\nSoftware is open-source but developers and maintainers are tied to a company which builds a business around it.\n\nExample: Virtual Studio Code is built on the open-source codebase “Code - OSS” and this is developed and maintained by Microsoft.\n\nSo, others can build on and maybe even contribute to\nIt is available for free, but it is not open-source software. The open-source version of Visual Studio Code is available as “Code - OSS” and can be built from source code, but it does not include some of the proprietary features that are included in the official Visual Studio Code distribution."
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#markdown-and-notebooks",
-    "href": "aligning_tools_reporting_literature.html#markdown-and-notebooks",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#web-services",
+    "href": "tools_reporting_literature_BACKUP.html#web-services",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "section": "Web services",
+    "text": "Web services\nExamples: GitHub, Google Docs, Google Spreadsheets, Google Slides, cloud versions of Microsoft Word, Excel, PowerPoint\n\nSome web service are open-source, but the biggest value of webservice for the consumer is that it can be used to a large extent in the browser without installing software.\nMany webservices provide a basic version of their service for free, but they also offer premium features that require a paid subscription.\n\n\nParadoxical story:\n\nGitHub is fully proprietary. However, it is built on the open-source software Git.\nMoreover, the largest share of open-source software projects are hosted on GitHub (also we do)\n\nBUT, there are open souce alternatives like GitLab and Bitbucket."
+  },
+  {
+    "objectID": "tools_reporting_literature_BACKUP.html#xml-json-yaml",
+    "href": "tools_reporting_literature_BACKUP.html#xml-json-yaml",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "section": "XML, JSON, YAML",
+    "text": "XML, JSON, YAML\n\nXML is a general markup language generalized from HTML developed for structuring webpages.\nJSON is a lightweight data-interchange format. It is easier for humans to read and write. It is easy for machines to parse and generate. It has been developed for data storage and transmission, especially in web applications using JavaScript.\nYAML is an even more human-readable format that is often used for configuration files and in applications where data is being stored or transmitted. It is designed to be easy to read and write, and it uses indentation to indicate structure.\n\nAll are called serialization formats, because they are used to serialize data structures into a format that can be easily stored or transmitted and then deserialized back into the original data structure in memory when needed."
+  },
+  {
+    "objectID": "tools_reporting_literature_BACKUP.html#serialization-formats-examples",
+    "href": "tools_reporting_literature_BACKUP.html#serialization-formats-examples",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "section": "Serialization formats: Examples",
+    "text": "Serialization formats: Examples\n\n\nXML\n&lt;people&gt;\n  &lt;person&gt;\n    &lt;name&gt;Alice&lt;/name&gt;\n    &lt;age&gt;30&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;reading&lt;/hobby&gt;\n      &lt;hobby&gt;cycling&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n  &lt;person&gt;\n    &lt;name&gt;Bob&lt;/name&gt;\n    &lt;age&gt;25&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;gaming&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n&lt;/people&gt;\nEverything is a , tags are nested, closing tags with &lt;/tag&gt; are required\n\nJSON\n[\n  {\n    \"name\": \"Alice\",\n    \"age\": 30,\n    \"hobbies\": [\"reading\", \"cycling\"]\n  },\n  {\n    \"name\": \"Bob\",\n    \"age\": 25,\n    \"hobbies\": [\"gaming\"]\n  }\n]\n[] define lists, {} define objects, : separates keys and values, , separates items in lists and objects, indentation is not relevant\n\nYAML\n- name: Alice\n  age: 30\n  hobbies:\n    - reading\n    - cycling\n- name: Bob\n  age: 25\n  hobbies:\n    - gaming\n- defines list items, indentation defines structure, : separates keys and values"
+  },
+  {
+    "objectID": "tools_reporting_literature_BACKUP.html#for-data-science-we-want-data-frames",
+    "href": "tools_reporting_literature_BACKUP.html#for-data-science-we-want-data-frames",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "section": "For data science we want data frames",
+    "text": "For data science we want data frames\nFor the representation as a dataframe we have to make design choices:\n\n\nTwo tables\nWith name as key:\n\n\n\nname\nage\n\n\n\n\nAlice\n30\n\n\nBob\n25\n\n\n\n\n\n\nname\nhobby\n\n\n\n\nAlice\nreading\n\n\nAlice\ncycling\n\n\nBob\ngaming\n\n\n\n\nOne table\nWith redundant information:\n\n\n\nname\nage\nhobby\n\n\n\n\nAlice\n30\nreading\n\n\nAlice\n30\ncycling\n\n\nBob\n25\ngaming\n\n\n\n\n\n\nThe are packages in R and python to read and write all three formats, e.g. yaml in R and PyYAML in python for YAML, jsonlite in R and json in python for JSON, xml2 in R and xml.etree.ElementTree in python for XML."
+  },
+  {
+    "objectID": "tools_reporting_literature_BACKUP.html#markdown-and-notebooks",
+    "href": "tools_reporting_literature_BACKUP.html#markdown-and-notebooks",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Markdown and Notebooks",
     "text": "Markdown and Notebooks\nMarkdown is a lightweight markup language with plain text formatting syntax\n\nIt is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\nCan be rendered to html or other markup languages, e.g. by quarto from a quarto markdown file (qmd).\n\nNotebooks are a way to write and execute code in an interactive environment\n\nJupyter notebooks are essentially json files that contain code, markdown, and the output of the code.\nImportant difference to markdown: The code is executed and the output is stored in the notebook file. Quarto runs on a file and renders new files, but does not store the output in the source file.\n\nCheck the source file of an ipynb with graphs!"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#quarto",
-    "href": "aligning_tools_reporting_literature.html#quarto",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#quarto",
+    "href": "tools_reporting_literature_BACKUP.html#quarto",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Quarto",
     "text": "Quarto\n\nAdapted from the paradigm of literate programming: Computer-readable source code should be interspersed with human-readable explanations.\n\nOriginal: Write code together with a human-readable documentation report\nQuarto: Write a report together with your code of analysis\n\n\n\nIt is a standalone (cross-language, R-independent) adaptation from Rmarkdown and the R-packages knitr."
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#quarto-works-with-r-and-python1",
-    "href": "aligning_tools_reporting_literature.html#quarto-works-with-r-and-python1",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#quarto-works-with-r-and-python1",
+    "href": "tools_reporting_literature_BACKUP.html#quarto-works-with-r-and-python1",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Quarto works with R and python1",
     "text": "Quarto works with R and python1\n\n\n\nUses the independent software pandoc “a universal document converter” with markdown as its heart.\nYou can also render jupyter notebooks (ipynb files) by adding a raw cell with quarto YAML at the beginning.\n\nand other languages"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#quarto-for-data-science-projects",
-    "href": "aligning_tools_reporting_literature.html#quarto-for-data-science-projects",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#quarto-for-data-science-projects",
+    "href": "tools_reporting_literature_BACKUP.html#quarto-for-data-science-projects",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Quarto for Data Science Projects",
     "text": "Quarto for Data Science Projects\nFour purposes:\n\nProvide a format to write code, documentation, and other plain text systematically in one file\nProvide reproducible data analysis\nProvide an environment to update reports easily when new data has arrived\nSmoothly move from your working files to publication-ready reports in formats like pdf, docx, html, or a multipage website"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#tutorial-today",
-    "href": "aligning_tools_reporting_literature.html#tutorial-today",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#tutorial-today",
+    "href": "tools_reporting_literature_BACKUP.html#tutorial-today",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Tutorial today",
     "text": "Tutorial today\n\nMake a joint Test Website\nSketch a quarto report for your project\n\nDiscuss various aspects of reports\n\nMake a presentation from it\nMake a website from it\n(optional) Discuss more aspects"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#reports",
-    "href": "aligning_tools_reporting_literature.html#reports",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#reports",
+    "href": "tools_reporting_literature_BACKUP.html#reports",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Reports",
     "text": "Reports\nTypes of reports: Article &lt;- Technical Report &lt;- Tutorial &lt;- Homework (many more)\n\n\n\nStructure\n\nHeader with title, author, and (optional) abstract/executive summary\nMain headings: Introduction, Data, Methods, Results, Discussion\nSub-headings: Topic specific\nFootnotes\nFigures\nTables\nCross-references\nLiterature references\n\n\n\nCode things\n\nEquations (\\(\\LaTeX\\)-style)\nCode chunks\nCode output\nIn-text code-output"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#excursion-header-yaml-vs.-json",
-    "href": "aligning_tools_reporting_literature.html#excursion-header-yaml-vs.-json",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#excursion-header-yaml-vs.-json",
+    "href": "tools_reporting_literature_BACKUP.html#excursion-header-yaml-vs.-json",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Excursion Header: YAML vs. JSON",
     "text": "Excursion Header: YAML vs. JSON\n\nYAML is a human-readable data serialization standard that can be used in conjunction with all programming languages and is often used to write configuration files.\nIt is even simpler/more “human-readable” than JSON (which is simpler than XML/HTML)\nIt uses less brackets and commas but white space (as python)\n\nYAML: https://en.wikipedia.org/wiki/YAML\nOfficial: https://yaml.org/\nTutorial: https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started\nWhat’s the difference to JSON? https://aws.amazon.com/compare/the-difference-between-yaml-and-json/\nLets make some specifications in the YAML header for HTML output. https://quarto.org/docs/output-formats/html-basics.html: a table-of-content, code-folding, …"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#tutorial-authoring-and-scholarly-writing",
-    "href": "aligning_tools_reporting_literature.html#tutorial-authoring-and-scholarly-writing",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#tutorial-authoring-and-scholarly-writing",
+    "href": "tools_reporting_literature_BACKUP.html#tutorial-authoring-and-scholarly-writing",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Tutorial: Authoring and Scholarly Writing",
     "text": "Tutorial: Authoring and Scholarly Writing\nLet us do the following in a quarto markdown file (qmd)\n\n\nFor the following get help at quarto-Guide -&gt; Authoring\n\nYAML with author and abstract\nHeadlines\nAn equation\nAn image\nAn image created by a code chunk\nAn in-text code-output of a numerical value\n\n\nFor the following scholarly writing get help at quarto-Guide -&gt; Authoring -&gt; Scholarly Writing\n\nMake additional name information\nMake a figure with caption we can refer to\nAdd a bibliography"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#excursion-literature-management",
-    "href": "aligning_tools_reporting_literature.html#excursion-literature-management",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#excursion-literature-management",
+    "href": "tools_reporting_literature_BACKUP.html#excursion-literature-management",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Excursion: Literature Management",
     "text": "Excursion: Literature Management\nDo you use literature management systems?\n\nGoogle Scholar -&gt; BibTeX\nZotero"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#data-science-workflow",
-    "href": "aligning_tools_reporting_literature.html#data-science-workflow",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#data-science-workflow",
+    "href": "tools_reporting_literature_BACKUP.html#data-science-workflow",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Data Science Workflow",
     "text": "Data Science Workflow\nIn a normal data science workflow you first:\n\nDo exploratory data analysis (EDA).\n\nThis produces many output you need to see to understand the data and progress deeper towards your goal.\nYou also want to see the code in your output.\n\nTry several versions of different visualizations of your insights.\nYou end up with a very cluttered file which maybe helpful for you but not for external readers (and in the end not even for you anymore…)"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#workflow-towards-a-final-report",
-    "href": "aligning_tools_reporting_literature.html#workflow-towards-a-final-report",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#workflow-towards-a-final-report",
+    "href": "tools_reporting_literature_BACKUP.html#workflow-towards-a-final-report",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Workflow: Towards a final report",
     "text": "Workflow: Towards a final report\n\nClean your code!\n\nRemove unnecessary objects\nStructure that it is most readable for others coders (like you in some weeks)\n\nCondense your insights of the EDA to\n\nsummarizing text\nfew nicely formatted tables and informative graphics which are relevant for the reader\n\nMake code and raw output vanish by\n\nremoving raw output (or make it a formatted table, or inline code to show code output in markdown text)\nhide code or use code folding in html (the user can check the reproducibility and details by folding out the code snippet)\n\nStructure the text: sensible (numbered) headingsines, table of content, cross references to figures, footnotes, citations, appendices …"
   },
   {
-    "objectID": "aligning_tools_reporting_literature.html#derivatives-of-your-report",
-    "href": "aligning_tools_reporting_literature.html#derivatives-of-your-report",
-    "title": "Communicating and Reporting of Data Science Projects - Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#derivatives-of-your-report",
+    "href": "tools_reporting_literature_BACKUP.html#derivatives-of-your-report",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Derivatives of your report",
     "text": "Derivatives of your report\n\nA presentation with revealjs https://quarto.org/docs/presentations/\n\nDuplicate the file, adjust the YAML to revealjs and see how it looks and adjust\n\nA website https://quarto.org/docs/websites/\n\nWe need to write a file _quarto.yml to specify the website settings"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Developing Schedule\n\n\n\n\n\nThe schedule can be updated. Updates will be marked here and announced on Teams.\n\n\n\n\nTabular Schedule\nClass is Thursday in 2 consecutive Sessions 14:15 - 17:00\nLocation: IRC-Seminar Room III in-person if not stated otherwise\n\n\n\n\n\n\n\n\n\nWeek\nDates\nWhat?\nWhere?\n\n\n\n\n1\nFeb 05\nKick off the Lab Survey link\nCampus\n\n\n2\nFeb 12\nTopics and Team Formation, Q&A\nCampus\n\n\n3\nFeb 19\n🧑‍💻 Tutorial: Communicating and Reporting of Data Science Projects, Literature Management\nCampus\n\n\n4\nFeb 26\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n5\nMar 05\n1️⃣ Student Proposal Presentations Presentation Guide\nCampus\n\n\n6\nMar 12\n🧑‍💻 Tutorial (Topic to be announced)\nCampus\n\n\n7\nMar 19\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n8\nMar 26\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n\n\nSpring break\n\n\n\n9\nApr 09\n2️⃣ Student Progress and Learning Presentations Presentation Guide\nCampus\n\n\n10\nApr 16\n🧑‍💻 Tutorial Generate Text with AI, Avoid Bullshit\nCampus\n\n\n11\nApr 23\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n12\nApr 30\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n13\nMay 07\n3️⃣ Student Final Presentations  Presentation Guide\nCampus\n\n\n\nDeadline for Project Reports is the regular deadline in the Academic Calendar, see the Deadline for Students to Submit Assessments, Spring Semester.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule"
+    ]
   },
   {
     "objectID": "llm_writing_bullshit.html#text-generating-ai-tool",
