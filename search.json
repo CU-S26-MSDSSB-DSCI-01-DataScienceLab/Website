@@ -49,6 +49,13 @@
     "text": "Data “cleaning”\n\nI do not like the term “cleaning”. It is more about understanding the data and making it usable for your analysis. Lets call it data wrangling or data preparation.\nIt is often the most time-consuming part of a data science project!\nFor most project: Work on a data preparation script in a coordinated way. The scipt\n\nimports the raw data\nproduces data frames you need for analysis\nwrites these out to import them in your analysis and reporting files.\n\nImportant skill to learn: Which operation should go into the data preparation script and which should be done in the analysis script?\nThe scripts leading from raw data to the final report are sometimes called the data pipeline.\nWhat to do with missing data? It depends! Find the appropriate way to deal with them for each of your specific purposes. Want to impute data? My advice is: Do not."
   },
   {
+    "objectID": "tutorial_data_methods.html#large-data-files-on-github",
+    "href": "tutorial_data_methods.html#large-data-files-on-github",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Large data files on GitHub",
+    "text": "Large data files on GitHub\n\nGitHub is not made for large data files. It is made for code and small data files.\nUse either git lfs, or\nKeep the data out of the remote repository everyone only has it locally.\n\nIn that case, document how to get the data and where to put it in the repository."
+  },
+  {
     "objectID": "tutorial_data_methods.html#machine-learning-is-very-broad",
     "href": "tutorial_data_methods.html#machine-learning-is-very-broad",
     "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
