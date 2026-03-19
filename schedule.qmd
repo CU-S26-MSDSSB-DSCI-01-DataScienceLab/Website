@@ -20,7 +20,7 @@ Week | Dates  | What?                  | Where?                  |
 4    | Feb 26 | *Individual meetings with student teams* | Online |
 5    | Mar 05 | 1️⃣ **Student Proposal Presentations** [Presentation Guide](presentation.qmd) <br> **Schedule** (in private repo):[Teams](https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab/LabProjectTopicInput/blob/main/TEAMS.md) [Schedule](https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab/LabProjectTopicInput/blob/main/SCHEDULE.md) | {{<var room>}} |
 6    | Mar 12 | *Individual meetings with student teams*  | Online |
-7    | Mar 19 | 🧑‍💻 **Tutorial** [Collaboration, Data, Methods, Reporting](tutorial_data_methods.qmd) | {{<var room>}} |
+7    | Mar 19 | 🧑‍💻 **Tutorial** [Collaboration, Data, Machine Learning, Reporting](tutorial_data_methods.qmd) | {{<var room>}} |
 8    | Mar 26 | *Individual meetings with student teams*  | Online or <br> {{<var room>}} |
      |        |     | Spring break           |        |
 9    | Apr 09 | 2️⃣ **Student Progress and Learning Presentations**  [Presentation Guide](presentation.qmd)   | {{<var room>}}     |
