@@ -6,8 +6,8 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.31">
 
   <meta name="author" content="Jan Lorenz">
   <title>Data Science Lab – Communicating and Reporting of Data Science Projects, Literature Management</title>
@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -95,7 +98,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -354,7 +357,7 @@ Jan Lorenz
 <div class="columns">
 <div class="column" style="width:33%;">
 <h5 id="xml">XML</h5>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a></a><span class="dt">&lt;</span><span class="kw">people</span><span class="dt">&gt;</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a></a><span class="dt">&lt;</span><span class="kw">people</span><span class="dt">&gt;</span></span>
 <span id="cb1-2"><a></a>  <span class="dt">&lt;</span><span class="kw">person</span><span class="dt">&gt;</span></span>
 <span id="cb1-3"><a></a>    <span class="dt">&lt;</span><span class="kw">name</span><span class="dt">&gt;</span>Alice<span class="dt">&lt;/</span><span class="kw">name</span><span class="dt">&gt;</span></span>
 <span id="cb1-4"><a></a>    <span class="dt">&lt;</span><span class="kw">age</span><span class="dt">&gt;</span>30<span class="dt">&lt;/</span><span class="kw">age</span><span class="dt">&gt;</span></span>
@@ -370,11 +373,11 @@ Jan Lorenz
 <span id="cb1-14"><a></a>      <span class="dt">&lt;</span><span class="kw">hobby</span><span class="dt">&gt;</span>gaming<span class="dt">&lt;/</span><span class="kw">hobby</span><span class="dt">&gt;</span></span>
 <span id="cb1-15"><a></a>    <span class="dt">&lt;/</span><span class="kw">hobbies</span><span class="dt">&gt;</span></span>
 <span id="cb1-16"><a></a>  <span class="dt">&lt;/</span><span class="kw">person</span><span class="dt">&gt;</span></span>
-<span id="cb1-17"><a></a><span class="dt">&lt;/</span><span class="kw">people</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-17"><a></a><span class="dt">&lt;/</span><span class="kw">people</span><span class="dt">&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Everything is a <code>&lt;tag&gt;</code>, tags are nested, closing tags with <code>&lt;/tag&gt;</code> are required</p>
 </div><div class="column fragment" style="width:33%;">
 <h5 id="json">JSON</h5>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource json number-lines code-with-copy"><code class="sourceCode json"><span id="cb2-1"><a></a><span class="ot">[</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource json number-lines code-with-copy"><code class="sourceCode json"><span id="cb2-1"><a></a><span class="ot">[</span></span>
 <span id="cb2-2"><a></a>  <span class="fu">{</span></span>
 <span id="cb2-3"><a></a>    <span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Alice"</span><span class="fu">,</span></span>
 <span id="cb2-4"><a></a>    <span class="dt">"age"</span><span class="fu">:</span> <span class="dv">30</span><span class="fu">,</span></span>
@@ -385,11 +388,11 @@ Jan Lorenz
 <span id="cb2-9"><a></a>    <span class="dt">"age"</span><span class="fu">:</span> <span class="dv">25</span><span class="fu">,</span></span>
 <span id="cb2-10"><a></a>    <span class="dt">"hobbies"</span><span class="fu">:</span> <span class="ot">[</span><span class="st">"gaming"</span><span class="ot">]</span></span>
 <span id="cb2-11"><a></a>  <span class="fu">}</span></span>
-<span id="cb2-12"><a></a><span class="ot">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-12"><a></a><span class="ot">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><code>[]</code> define lists, <code>{}</code> define objects, <code>:</code> separates keys and values, <code>,</code> separates items in lists and objects, indentation is not relevant</p>
 </div><div class="column fragment" style="width:33%;">
 <h5 id="yaml">YAML</h5>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a></a><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Alice</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a></a><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Alice</span></span>
 <span id="cb3-2"><a></a><span class="at">  </span><span class="fu">age</span><span class="kw">:</span><span class="at"> </span><span class="dv">30</span></span>
 <span id="cb3-3"><a></a><span class="at">  </span><span class="fu">hobbies</span><span class="kw">:</span></span>
 <span id="cb3-4"><a></a><span class="at">    </span><span class="kw">-</span><span class="at"> reading</span></span>
@@ -397,7 +400,7 @@ Jan Lorenz
 <span id="cb3-6"><a></a><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Bob</span></span>
 <span id="cb3-7"><a></a><span class="at">  </span><span class="fu">age</span><span class="kw">:</span><span class="at"> </span><span class="dv">25</span></span>
 <span id="cb3-8"><a></a><span class="at">  </span><span class="fu">hobbies</span><span class="kw">:</span></span>
-<span id="cb3-9"><a></a><span class="at">    </span><span class="kw">-</span><span class="at"> gaming</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-9"><a></a><span class="at">    </span><span class="kw">-</span><span class="at"> gaming</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><code>-</code> defines list items, indentation defines structure, <code>:</code> separates keys and values</p>
 </div></div>
 </section>
@@ -824,7 +827,7 @@ Jan Lorenz
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -898,13 +901,14 @@ Jan Lorenz
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

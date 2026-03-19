@@ -1,280 +1,408 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Science Lab",
+    "objectID": "tutorial_data_methods.html#this-tutorial",
+    "href": "tutorial_data_methods.html#this-tutorial",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "This tutorial",
+    "text": "This tutorial\n\nThis tutorial is more a discussion and hand-on looking at your projects.\nI have your repositories cloned and we will look at them together.\nSo, these slides are more a sketch of the topics we will discuss and are not self-contained slides.\nTo follow asynchronously it is best to rewatch the video recorded on Teams.\nAsk questions!\n\nNote:\n\nAt the end there is a self-paced tutorial for retrieving data using SQL queries on Google Cloud BigQuery. I will not go through this today. It is optional but I recommend to do it, because it is a good example of how to approach retrieval problems with limited knowledge using the right mix of searching, learning, trial and error analysis, and endurance."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#version-control",
+    "href": "tutorial_data_methods.html#version-control",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Version control",
+    "text": "Version control\n\nWhat problems did you have with git and GitHub?\nLet us discuss a few points\n\nUse the Source Control tab in Positron\nIt is always related to using git on the command line!\nIs git doing live updates/synching of the repository? No!\nDo all your local files have to be in the repository? No!\nWhat is a commit? What is a push? What is a pull? What is a merge? What is a conflict?\nWhat happens if you edit WORKPLAN.md on GitHub and then pull? The local file will be overwritten!"
+  },
+  {
+    "objectID": "tutorial_data_methods.html#collaboration-with-colleages",
+    "href": "tutorial_data_methods.html#collaboration-with-colleages",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Collaboration with Colleages",
+    "text": "Collaboration with Colleages\n\nHow do you collaborate in your team?\n\nDo you have a weekly meeting?\nDo you divide who works on what files when? It is good to have a plan to avoid too many sources for conflict.\nPlease maintain a rough work plan in WORKPLAN.md with personalized tasks.\nPlease stick to the reporting requirements explained in the syllabus!\n\nPlease do not overdo reporting and project management. Doing the Data Science is the most important part!"
+  },
+  {
+    "objectID": "tutorial_data_methods.html#collaboration-with-ai-tools",
+    "href": "tutorial_data_methods.html#collaboration-with-ai-tools",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Collaboration with AI tools",
+    "text": "Collaboration with AI tools\n\nDo you collaborate with AI tools for coding?\nCoding is a very common use case for AI tools.\nI expose you to some ways. I encourage to try them.\nWarning! AI tools can deliver impressive results, especially on standard things, but …\n\nthey can stop you from learning and understanding the code and the structure of programming.\n\nUse AI also to have code explained! Read the explanations and ask back if you do not know concepts.\n\nthey can also be wrong. They can get stuck and you need to help. See Fun. If you do not understand anything you can not help!\n\nIt is a known fact that vibe coding with AI may feel like much faster but helping and understanding with all the problems can lead to effectively similar times as doing it mostly yourself."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#ways-to-collaborate-with-ai-tools",
+    "href": "tutorial_data_methods.html#ways-to-collaborate-with-ai-tools",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "3 ways to collaborate with AI tools",
+    "text": "3 ways to collaborate with AI tools\n\nUse chat interfaces like https://chatgpt.com/, https://claude.ai, https://gemini.google.com, …\n\nAsk for code snippets, explanations, and so on.\nYou can paste in a blunt error message and often it gives good advice.\nCheck the Chat tab for the Positron Assistant!\n\n\nUse code suggestion tools in the IDE. For example GitHub Copilot in Positron.\n\nStudents and teachers at universities get a free plan.\nGives you suggestions for the next lines of code.\nWarning! Suggestions can be bad this can get annoying. Know the switch off!\nCopilot suggestion can also overrule Positrons code completion. You may recieve wrong path suggestions by AI instead of the correct ones by Positron.\n\nAgentic AI tools like Claude Code (Command Line tool solving larger codig tasks)."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#reproducibility-open-science",
+    "href": "tutorial_data_methods.html#reproducibility-open-science",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Reproducibility / Open Science",
+    "text": "Reproducibility / Open Science\nWe are working on GitHub repositories which can be public.\nThis is a good step towards open science.\n\nYou can share your code and data with the world.\n\nWarning! Not all data should be shared! It may even not be allowed.\n\nCode delivery is a good step towards reproducibility.\n\nReproducibility means that other people can run your code and get the same results.\nBut it is not always enough. You also need to document how to run the code and which packages and versions are needed, at least a bit."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#data-cleaning",
+    "href": "tutorial_data_methods.html#data-cleaning",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Data “cleaning”",
+    "text": "Data “cleaning”\n\nI do not like the term “cleaning”. It is more about understanding the data and making it usable for your analysis. Lets call it data wrangling or data preparation.\nIt is often the most time-consuming part of a data science project!\nFor most project: Work on a data preparation script in a coordinated way. The scipt\n\nimports the raw data\nproduces data frames you need for analysis\nwrites these out to import them in your analysis and reporting files.\n\nImportant skill to learn: Which operation should go into the data preparation script and which should be done in the analysis script?\nThe scripts leading from raw data to the final report are sometimes called the data pipeline.\nWhat to do with missing data? It depends! Find the appropriate way to deal with them for each of your specific purposes. Want to impute data? My advice is: Do not."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#machine-learning-is-very-broad",
+    "href": "tutorial_data_methods.html#machine-learning-is-very-broad",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Machine Learning is very broad",
+    "text": "Machine Learning is very broad\n\nMachine Learning is a very broad field.\nIt is always about an algorithm that learns from data in a certain way. Often this is about fixing weights.\nThere are machine learning algorithms for classification, regression, clustering, dimensionality reduction, and so on.\nMachine learning is also the backbone of generative AI tools.\nFor your project you will probably work on machine learning for more classical prediction problems for classification or regression."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#prediction-models",
+    "href": "tutorial_data_methods.html#prediction-models",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Prediction models",
+    "text": "Prediction models\n\nYou can always compare the performance of your machine learning model to a simple baseline model.\n\nFor the regresssion problem (prediciting a numerical value), a simple baseline is the linear model\nFor the classification problem (predicting a category), a simple baseline is the logistic regression.\n\nIf your model does not perform better than the baseline, you have not done anything wrong. You have just not found a better model.\nIf your model performs better than the baseline, you have done something right. You have found a better model. It may be better in predicting the data, but it may not be better in understanding the data."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#doing-machine-learning",
+    "href": "tutorial_data_methods.html#doing-machine-learning",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Doing machine learning",
+    "text": "Doing machine learning\n\nA lot of computer science machine learning is about finding better learning algorithms. However for data science projects it is often more important to find better features.\nFor data science most work goes into\n\nfeature engineering and data preparation. The machine learning part is often just a small part of the project.\nValidation. You need to make sure that your model generalizes to new data and does not just memorize the training data. Cross-validation is a common technique for this.\n\nFor reporting of machine learning results, it is important to\n\nExplain the prediction problem first!\nUnderstand the particular challenges for your type of problem. (For example: class imbalance for classification problems.)\nHave a baseline model for comparison.\nReport the performance of your model on a test set that was not used for training.\nUnderstand the performance measures you use and report them correctly."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#google-cloud-bigquery-public-datasets",
+    "href": "tutorial_data_methods.html#google-cloud-bigquery-public-datasets",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Google Cloud BigQuery Public Datasets",
+    "text": "Google Cloud BigQuery Public Datasets\n\nWe use the Google Cloud Platform which offers several cloud computing services based on Google’s infrastructure.\nWe use the service BigQuery which is the data warehouse of Google Cloud.\nThere is a sandbox mode which does not require anymore than a Google Account. (There is even no Free Trial registration or Credit Card Detail necessary!) https://console.cloud.google.com/bigquery"
+  },
+  {
+    "objectID": "tutorial_data_methods.html#google-cloud-bigquery-sandbox",
+    "href": "tutorial_data_methods.html#google-cloud-bigquery-sandbox",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Google Cloud BigQuery Sandbox",
+    "text": "Google Cloud BigQuery Sandbox\nThere is a sandbox mode which does not require anymore than a Google Account. No Free Trial registration or Credit Card Details necessary.\n\nGo to https://console.cloud.google.com/bigquery. If necessary, log in with a Google Account.\nClick on “Create Project”. Leaving the default specification. Create the project.\nGo to the “SQL workspace” (if you are not already there)\nIn the “Explorer” click “Add Data”, select “Public Datasets”, search for “usa names”, click on the data set “USA Names”, and then “View Dataset”.\nThe bigquery-public-data should appear in the Explorer.\nUse pressing the triangle to navigate the hierarchy in the Explorer. Go to the dataset usa_names and then click on its table usa_1910_2013. To the right should appear a tab with information about the table."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#usa-names-dataset-in-bigquery",
+    "href": "tutorial_data_methods.html#usa-names-dataset-in-bigquery",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "USA Names dataset in BigQuery",
+    "text": "USA Names dataset in BigQuery"
+  },
+  {
+    "objectID": "tutorial_data_methods.html#input-databases-and-sql",
+    "href": "tutorial_data_methods.html#input-databases-and-sql",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Input: Databases and SQL",
+    "text": "Input: Databases and SQL\n\nStructured Query Language (SQL) is a language to query relational databases.\nA relational database\n\npresents data to users in the form of a collection of tables with rows and columns, and\nprovides relational operators to manipulate the data in tabular form.\n\nSQL is somehow a standard but may come in different flavors\nSome call it “S,Q,L”, other “SEQUEL”"
+  },
+  {
+    "objectID": "tutorial_data_methods.html#input-database-data-frame",
+    "href": "tutorial_data_methods.html#input-database-data-frame",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Input: Database = data frame?",
+    "text": "Input: Database = data frame?\n\nTables in a database are indeed essentially the same as data frames in R, or python-pandas.\n\nWhat is the different use cases?\n\nSQL databases are\n\nfor storing and querying large amounts of data\noften being access through a network\noften so large to be distributed over several severs\n\nThe data frames in our data science tools are for smaller datasets to manipulate and analyze then within a programming environment and typically in memory."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#lets-do-a-sql-query-on-usa-names",
+    "href": "tutorial_data_methods.html#lets-do-a-sql-query-on-usa-names",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Let’s do a SQL query on USA Names!",
+    "text": "Let’s do a SQL query on USA Names!\nOn the BigQuery interface The tab for the table usa_1910_2013 shows\n\nThe table Schema which shows names and data types of the columns.\nWhat are the columns in USA Names?\nSome Details about the data in the table: Metadate and data about Storage\nA preview of the first rows of the table\n\n\nSelect “Query” –&gt; “In split tab” to open a new tab for our query.\nWe want to extract the numbers of babies with the name “Kevin” for each year in the whole USA.\nCopy this query\n\nSELECT year, sum(number) AS num\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = \"Kevin\"\nGROUP BY year\n\nClick “Run” and explore the results."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#explanations",
+    "href": "tutorial_data_methods.html#explanations",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Explanations",
+    "text": "Explanations\nSELECT year, sum(number) AS num\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = \"Kevin\"\nGROUP BY year\n\nLine 1 specifies what columns we want to have. It also specifies that we compute a new variable num which is the sum of number. To that end, we need some GROUP BY which comes later in Line 4.\nLine 2 specifies the data table. Note the dot-notation with the database collection bigquery-public-data, the database usa_names, and the table usa_1910_2013\nLine 3 specifies a filter\nThe line breaks are not relevant for the execution.\n\nThe UPPERCASE of the syntax words is not necessary and only a convention."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#query-from-r",
+    "href": "tutorial_data_methods.html#query-from-r",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Query from R",
+    "text": "Query from R\nNow, let’s do the same query from R using a copy of the script Tutorials/CollectingData_YOURNAME.R.\n\nLoad the package bigrquery\nExecute the bq_auth() command (check the text in the comments)\nUse this code\n\nbilling &lt;- \"blabla-380021\"  # This must be your project ID! \nsql &lt;- \"SELECT year, sum(number\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = 'Kevin'\nGROUP BY year\"\ntb &lt;- bq_project_query(billing, sql)\ndata &lt;- bq_table_download(tb, n_max = 100)\nImportant: Replace the billing string with your project ID. Find it clicking here"
+  },
+  {
+    "objectID": "tutorial_data_methods.html#plot-the-data-in-r",
+    "href": "tutorial_data_methods.html#plot-the-data-in-r",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Plot the data in R",
+    "text": "Plot the data in R\nNow we can look at the evolution of the popularity of the name “Kevin” with\ndata |&gt; ggplot(aes(year, num, color = name)) + geom_line()\n\nNext challenge: Extract also the data for the name “Martin”. Hint: You need to add “Martin” (comma-separated) to the SELECT and add a condition with OR at the end of the WHERE. You also need to add name to the GROUP BY."
+  },
+  {
+    "objectID": "tutorial_data_methods.html#learing-sql",
+    "href": "tutorial_data_methods.html#learing-sql",
+    "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
+    "section": "Learing SQL",
+    "text": "Learing SQL\nSuppose we have the data frame usa_names in R or python. Then the same data wrangling operations are quite similar.\n\n\nSQL\nSELECT year, sum(number) AS num\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = \"Kevin\"\nGROUP BY year\n\nR dplyr\nusa_names |&gt; \nfilter(name == \"Kevin\") |&gt; \nselect(year, number) |&gt; \ngroup_by(year) |&gt; \nsummarize(num = sum(number))\n\npy pandas\nusa_names.loc[usa_names['name'] == 'Kevin', \n['year', 'number']].\\\ngroupby('year').\\\nagg(num=('number', 'sum'))\n\nThere are libraries for linking python or R to SQL databases\n\nUse these when your data is in a database anyway\n\nIt may even make sense to make some computations in a SQL query (often much faster!)\nSQL skills are useful (often must-have) for data scientists! Whenever there is an opportunity to learn a bit of SQL, take it!\nBasics are not too complicated. AI tools can help to translate!"
+  },
+  {
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "Presentation Guide",
     "section": "",
-    "text": "This syllabus may change during the course of the semester additions and clarifications. All substantial changes will marked here with date.",
+    "text": "Each Team presents 3 times. See the Schedule.\nThese are the guidelines for the presentations\nDuration: A schedule will be provided.\nDiscussion: After each presentation, actively contribute to the discussion challenging and inspiring the other project teams.",
     "crumbs": [
-      "Syllabus"
+      "Syllabus",
+      "Presentation Guide"
     ]
   },
   {
-    "objectID": "index.html#module-names",
-    "href": "index.html#module-names",
-    "title": "Data Science Lab",
-    "section": "1 Module Names",
-    "text": "1 Module Names\nMDSSSB-DSCI-01 Data Science Lab (Discovery area, 5 credits)\nOffered in the Master program: Data Science for Society and Business (DSSB). See the module description in the DSSB Handbook.",
+    "objectID": "presentation.html#proposal-presentation-you-present-the-project-you-want-to-do.",
+    "href": "presentation.html#proposal-presentation-you-present-the-project-you-want-to-do.",
+    "title": "Presentation Guide",
+    "section": "1 💡💭 Proposal Presentation: You present the project you want to do.",
+    "text": "1 💡💭 Proposal Presentation: You present the project you want to do.\nGoals: Show what your project shall be about, what data and literature you depart from, and a feasible way how to work towards it.\nContent: (In brackets an average expectation how much attention to spend on the points. Not a strict rule!)\n\nExplain what main questions or problems your project wants to address. (40%)\nRefer to core materials you want to use and how much you have worked into: (20%)\n\nData: Which data? Have you put it in place already? Can you import it? Have you started to explore it? Aim to show feasibility by doing first steps, runing your idea in a minimal setting, do a first test, …!\nLiterature and web resources: Which papers, documentations, websites are essential for your project?\nIs something essential missing? What additional material would you like to find?\n\nExplain what methods you want to use: (20%)\n\nDo you know which methods can be used to answer your questions or solve your problems?\nWhich ones will you try first?\nHow much are you into the method yet?\nWhat can be an interesting learning topic for the whole course?\n\nShow a workplan: What are the most important things to do next? (20%)\n\nWhich material to study first with what focus?\nHow to setup your data and analysis pipeline?\nProvide sensible task list\nList who is responsible for what\n\n\nFormat: Informal. Show your workplan in your project repository. You can provide some informal slides to show some of your materials or present the materials directly.\nNote: First Team Member Contributions report is due.",
     "crumbs": [
-      "Syllabus"
+      "Syllabus",
+      "Presentation Guide"
     ]
   },
   {
-    "objectID": "index.html#module-components",
-    "href": "index.html#module-components",
-    "title": "Data Science Lab",
-    "section": "2 Module Components",
-    "text": "2 Module Components\n\nData Science Lab (5 Credits)\n\nPre-requisits\n\nData Science Concepts\nData Science Tools\nCurrent Topics and Applications in Data Science",
+    "objectID": "presentation.html#progress-presentation",
+    "href": "presentation.html#progress-presentation",
+    "title": "Presentation Guide",
+    "section": "2 🚧 Progress Presentation",
+    "text": "2 🚧 Progress Presentation\nGoal: Show your progress! First what worked and is done, then what is still open, what confused you, and finally your updated workplan to finish the project. Give some insights on learning which can be of interest for the whole course.\nContent:\n\nQuestions and problem refined (20%)\nCore materials with core essentials extracted: Data and Literature (20%)\nMethods: What did you try, what works, what are the challenges? (40%)\nUpdated workplan (20%)\n\nImportant: With each project team we will specify a learning focus which is interesting for the whole course. Share some insights with the class on that topic. For example: What is it? For what it is used? What is easier what is harder to learn than expected?\nFormat: Mostly Informal is fine. Provide indroductory slides for questions and problems your project is about. For intermeidate results it is enough to show materials, code-files, or output from your repository directly.\nNote: Second Team Member Contributions report is due.",
     "crumbs": [
-      "Syllabus"
+      "Syllabus",
+      "Presentation Guide"
     ]
   },
   {
-    "objectID": "index.html#class-meeting-information",
-    "href": "index.html#class-meeting-information",
-    "title": "Data Science Lab",
-    "section": "3 Class Meeting Information",
-    "text": "3 Class Meeting Information\nThursday: 2 consecutive Sessions duing 14:15 - 17:00\nLocation: IRC-Seminar Room III in-person\nAsynchronous communication about course organization as well as occasional video streaming and recording will be done in Microsoft Teams:\nTeam S26-MSDSSB-DSCI-01-DataScienceLab, General Channel",
+    "objectID": "presentation.html#final-presentations",
+    "href": "presentation.html#final-presentations",
+    "title": "Presentation Guide",
+    "section": "3 👩‍🏫👨‍🏫 Final Presentations",
+    "text": "3 👩‍🏫👨‍🏫 Final Presentations\nGoal: Show your results! What is the main achievement. Critically reflect.\nFormat: Do a presentation with slides guiding through the project’s results.\nNote: Third and final Team Member Contributions report is due.",
     "crumbs": [
-      "Syllabus"
+      "Syllabus",
+      "Presentation Guide"
     ]
   },
   {
-    "objectID": "index.html#instructor",
-    "href": "index.html#instructor",
-    "title": "Data Science Lab",
-    "section": "4 Instructor",
-    "text": "4 Instructor\nJan Lorenz contact via Teams or email.",
-    "crumbs": [
-      "Syllabus"
-    ]
+    "objectID": "llm_writing_bullshit.html#text-generating-ai-tool",
+    "href": "llm_writing_bullshit.html#text-generating-ai-tool",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Text generating AI Tool",
+    "text": "Text generating AI Tool\n\nUsing text generating AI tools has become a reality and is used for\n\nlearning,\ntranslating,\ncoding,\nreceiving advice,\nleisure, and\n\nfor writing and revising text for us.\n\nThe backbone of the generative AI tools ar large language models which generate text"
   },
   {
-    "objectID": "index.html#format-and-workload",
-    "href": "index.html#format-and-workload",
-    "title": "Data Science Lab",
-    "section": "5 Format and Workload",
-    "text": "5 Format and Workload\nLab sessions (35 hours in presence)\nWork on project (125 hours)",
-    "crumbs": [
-      "Syllabus"
-    ]
+    "objectID": "llm_writing_bullshit.html#use-as-a-student",
+    "href": "llm_writing_bullshit.html#use-as-a-student",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Use as a student",
+    "text": "Use as a student\n\nHelp to solve assessment and other tasks ☑️\n👍 Especially for coding, but understand and scrutinize output!\n⚠️ Don’t forget the learning!\nLearning by asking for explanations ✅\nAdjust the detail level 📑 and specificity 🔎 with follow up prompts.\n⚠️ Don’t stop at the chat, get productive 🧑‍💻, find authorative sources and continue 📚.\nGenerate ideas for your own project (☑️)\n⚠️ Often generic unspecific ideas.\n🧑‍💻 quickly start to get productive.\nWrite text for your own project reports ((☑️))\n⚠️ Often generic unspecific text.\n✏️ You have to write the core research questions, arguments, and results yourself!"
   },
   {
-    "objectID": "index.html#sec-ilos",
-    "href": "index.html#sec-ilos",
-    "title": "Data Science Lab",
-    "section": "6 Intended Learning Outcomes",
-    "text": "6 Intended Learning Outcomes\nThe following 8 points are the Intended Learning Outcomes (ILOs) taken from the Handbook.\nThe bold text below each ILO operationalizes the ILO for assessment of your project submission (see Section 7.3).\nBy the end of this module, students should be able to\n\nunderstand and critically evaluate current data science applications, identify new innovative research questions and data science applications\nThe project communicates the problem, approach, and results effectively and clearly. It also critically evaluates the approach and/or results.\nexperiment with and simulate data science solutions\nThe project describes how the presented approach or the results may practically be used in data science application.\nwrite/configure computer programs/tools specific to certain subject areas\nThe tools used in the project are well chosen.\nmaster relevant data pre/post-processing routines\nThe project shows and documents the data flow from its origin to the results which can be reproduced.\ndesign and schedule a DS project of medium complexity, including escape options, and keep milestones/timelines\nThis not an assessment criterion, but is realized through the activities and presentations during the semester.\nimprove their academic writing skills\nThe text in the project reports is well structured and well written.\ncommunicate results to a non-expert audience\nThe text has an introduction or abstract and conclusion which are understandable by a non-expert audience.\ndesign their own digital application\nThis is not an assessment criterion. The ILO is touched in 2.\n\n\n6.1 Main Learning Goal\nThis Data Science Lab shall deepen your skills for your more and more independent data science work based on a self-designed project. That means you become more experienced in\n\nin using the core concepts in data science on your own, for example\n\nexploring data (import, wrangle, visualize)\nlearning, exploring and applying mathematics and statistics through the data science lens\nlearning and applying concepts to model and draw conclusions from data (model, infer, predict)\n\ncreating and maintaining a digital working environment on your computer to do data science\nprogramming in the data science languages R and/or python, and become able to learn new skills in these independently\nimprove your skills in documenting and presenting your findings with compelling visualizations, descriptions, interpretations, and narratives",
-    "crumbs": [
-      "Syllabus"
-    ]
+    "objectID": "llm_writing_bullshit.html#prompting-workflow",
+    "href": "llm_writing_bullshit.html#prompting-workflow",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Prompting workflow",
+    "text": "Prompting workflow\nText development works with chatting via a chain of prompts\n\nYou write what you want\nWrite an outline for data science project about cricket.\nYou ask for refinement, reshaping, and restructuring on further prompts\nWrite an abstract of about 200 words on it.\nContinue until you are satisfied. Copy, edit and finalize yourself."
   },
   {
-    "objectID": "index.html#examination-and-assessment",
-    "href": "index.html#examination-and-assessment",
-    "title": "Data Science Lab",
-    "section": "7 Examination and Assessment",
-    "text": "7 Examination and Assessment\nAssessment Type: Project Assessment (see Section 6) Weight: 100%\nScope: All intended learning outcomes of the module (see Section 6).\nCompletion: to pass this module, the examination has to be passed with at least 45%\n\n7.1 Team work policy\n\nProjects have to be done in teams of students.\nEvery team member has to contribute substantially to the success of the project.\nTeams have to provide three Team Member Contributions reports. The dates are analog to the three presentations. All team members must be listed. Note down for each team member:\n\nfull name\nrole\ncontributions so far\nexpected contributions until project end\n\nAll three Team Member Contributions reports shall be provided on the same dedicated file TEAM-CONTRIBUTIONS.md in the project repository.\nTeam Grading: By default project reports are graded collectively such that all team members receive the same grade. However, there are two exceptions:\n\nThe instructor reserves the option to change form collective to individual grades when workload and contributions are very unbalanced. Indications for this are the Team Member Contributions report, presence and participation during presentations (proposal, progress, and final), and contributions to the repository. The team members will be informed when individual grading applies.\nTeams can opt for partially individual grades. To that end, the report needs identifiable parts made by individual members or subgroups, typically individual pages. In any case, the project needs a collectively written abstract, introduction, and conclusion. The individual grade will than be computed 50% by a team grade (based mainly on abstract, introduction, and conclusion) and 50% by an individual grade. Alignment of the individual work to the overall project is a component in assessment of the individual work.\n\nTeams have to ask for this option.\nThe structure of the individual contributions has to be discussed with the instructor.\n\n\n\n\n\n7.2 Project Delivery\nThe project components must be delivered in a project-repository on GitHub provided by the instructor in the GitHub-Organization CU-S26-MSDSSB-DSCI-01-DataScienceLab.\nMark the finalization of the project with commit message “Finalized project”. It will be cloned after the submission deadline and assessed from the repository content.\nIf your project requires another way of delivery, get in contact with the instructor before the submission.\n\n\n7.3 Project Format\nLab projects can have different formats. The main contribution need not be a text. It will be developed during the course.\nFor proper assessment, the repository should have at least one human-readable document which can be read without considering code. Examples:\n\nA rendered quarto file in html-format guiding through the project. These files can be best viewed on a local machine in a browser (but not from the GitHub-Website in a private repository). However, they can be made publically viewable from the Internet via GitHub-pages with a few clicks later if you want.\n\nFiles in GitHub flavored markdown (gfm) like the typical README.md. These have slightly fewer formatting options but can be viewed directly on GitHub. This may be a good solution for code-heavy projects.\nAlternative or additional options which may be used with a particular reason: A slide deck in revealjs-html or PDF-file. A paged report as a PDF-file.\nIn any case: Do not submit your work in Word or PowerPoint format (e.g., docx, pptx) or related formats from Apple or Libre Office. All these formats can be converted to PDF – submit such as a PDF.\n\nThe instructor starts assessment with reading the README.md of the project repository, then going to the main description file specified as the main human-readable document. Assessment criteria are written down in Section 6.\nThe repository should also include all the code used to do data collection and import, data analysis, visualizations, predictions, and whatever else the project is about.\n\n\n7.4 Project “Length”\nYour text should begin with a section called Abstract, Outline, or Executive Summary with between 120 and 500 words.\n\nThere is no minimal or maximal number of words! (Some project’s main part maybe code or visualizations.)\nThere is no minimal or maximal number of lines of code! (Some project’s main part may be the documentation, description, interpretation, and critical reflection.)\n\nThere is no minimal or maximal number of pages! (You can count pages only if you deliver a slidedeck, or a PDF.)\n\nSome guidelines are:\n\nA short contribution is good when it is concise and covers all aspects. A long contribution is good when it is well structured (in a hierarchy of importance) and not redundant.\nIf your human-readable text is much less than 3,000 words: Consider if some parts should be extended. Go in detail over the assessment criteria and check that your document covers all the aspects which need to be assessed, is well readable, clear, and concise for an external reader. If this is the case it is great when you can stay below 3,000 words!\nIf your human-readable text has more than 6,000 words: Consider to\n\nmake it shorter by making it more concise and less redundant\nstructure it in a core part with less than 3,000 words and appendices with additional information (your main text can refer to appendix sections)\nusing footnotes for additional information (However, avoid too extensive use of long footnotes. At some point it is better to make an appendix section.)\n\nThe assessment goes only along the criteria listed below. A long contribution may receive lower assessments when it communicates less effectively and less to the point. Beware not to deliver generic ChatGPT-like “bla-bla”!\nCheck and polish your code. Check if the code reproduces your results. Remove unnecessary code, and spend some explanatory comments on interesting non-standard steps. Large parts of unnecessary code can be considered as less effective and less clear communication. However, your code need not be excessively educational with a comment on every line.",
-    "crumbs": [
-      "Syllabus"
-    ]
+    "objectID": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive",
+    "href": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "How LLMs work: Autocomplete on Overdrive",
+    "text": "How LLMs work: Autocomplete on Overdrive\nActivity\nFollow The Bullshit Machines\nChapter 1: Autocomplete on Overdrive\nQuestions:\n\nDoes the same prompt always lead to the same outcome?\n(From The Bullshit Machines) Why do you think a program that simply tries to predict the most likely next word in a sequence would be good at holding conversations?"
   },
   {
-    "objectID": "index.html#module-policies",
-    "href": "index.html#module-policies",
-    "title": "Data Science Lab",
-    "section": "8 Module Policies",
-    "text": "8 Module Policies\nThere are no formal requirement about attendance and active participation. However, the instructor relies on your engagement in a many-facted way including:\n\nPreparation (looking at readings and material before and after class, being informed about syllabus and course material)\nFocus (avoid distraction during in class and self-learning activities)\nPresence (listening and responding during group activities)\nAsking questions (in class, out of class, online, offline, when you get stuck conclude by writing a question)\nSpecificity (being as specific as possible when describing your problem or question)\nSynthesizing (making connections between concepts from reading and discussion)\nPersistence (you don’t need to understand everything immediately, but stay engaged, try again, confusion shows that you pay attention)",
-    "crumbs": [
-      "Syllabus"
-    ]
+    "objectID": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive-1",
+    "href": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive-1",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "How LLMs work: Autocomplete on Overdrive",
+    "text": "How LLMs work: Autocomplete on Overdrive\nActivity\nWhy do some call LLM Bullshit Machines?\nFollow The Bullshit Machines\nChapter 2: The Nature of Bullshit\nQuestions:\n\n(From The Bullshit Machines) People are perfectly good at producing bullshit without AI assistance—but with AI, people can produce more bullshit, faster. Who might find that useful? How?"
   },
   {
-    "objectID": "index.html#academic-integrity",
-    "href": "index.html#academic-integrity",
-    "title": "Data Science Lab",
-    "section": "9 Academic Integrity",
-    "text": "9 Academic Integrity\nAll involved parties (professors and lecturers, instructors and students) are expected to abide by the word and spirit of the Code of Academic Integrity. Violations of the Code will be brought to the attention of the Academic Integrity Committee.",
-    "crumbs": [
-      "Syllabus"
-    ]
+    "objectID": "llm_writing_bullshit.html#the-instructors-perspective",
+    "href": "llm_writing_bullshit.html#the-instructors-perspective",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "The instructors perspective",
+    "text": "The instructors perspective\nThe instructor\n\nhas to read a lot\nmust read all student reports with an equal grading mindset\nshould provide some constructive feedback\n\n\nProblem\nAI generated text increases the amount of text which reads (superficially) well but it can become even harder to find the own contribution. It may read a bit like bullshit. Often it is very generic."
   },
   {
-    "objectID": "index.html#artifical-intelligence-ai-use-policy",
-    "href": "index.html#artifical-intelligence-ai-use-policy",
-    "title": "Data Science Lab",
-    "section": "10 Artifical Intelligence (AI) Use Policy",
-    "text": "10 Artifical Intelligence (AI) Use Policy\nThis policy covers any generative AI tool, such as ChatGPT, Gemini, Claude, Elicit, etc. This includes text, code, slides, artwork/graphics/video/audio and other products.\nI encourage you to using and exploring AI tools for these purposes:\n\nLearning by dialog with a chatbot. AI chatbots can be helpful to explain you concepts on your desired level and get a feeling about how certain topics are treated. You can ask for an easier or more detailed explanation or focus on certain aspects. Note: The capabilities are limited and you likely receive a lot of false information! Using chatbots should remain a small part of your learning process. Rule of thumb: Spend not more than 25% of the learning time with chatting. There is no way around reading textbooks, reading software documentation, learning and understanding concepts, practicing, searching for help online, asking instructors or fellow students.\nHave code snippets written. Tools like GitHub Copilot (free to use for students and teachers) are heavily used and currently change code-writing. They can speed up writing your code. However, they do not deliver always correct solutions. There is no way around understanding yourself what a code is doing! Do not spend endless hours asking for new code with new prompts, spend time understanding a language and the functions and objects you are using! Copilots can be a great help to get a skeleton of code and an idea how your solution might look, they rarely deliver the complete code. Expect that the code does not work, expect that the code seems to works but the results are wrong. You are 100% accountable for the code you produce, with or without the help of a copilot!\nHave a draft text snippet written. Data science is also about formulating and describing research questions, describing data, documenting code, interpreting results, and deriving conclusion form the results. This is all verbal text and chatbots are good in writing text which often appears well readable. You can use this to inspire yourself and to polish and improve your texts. However, you are 100% accountable for the text you deliver. You are expected to know what your text is about and to be able to answer questions about what your text means! In text generated purely by a chatbot it is often evident that you do not.\n\nNote: Philosophical and legal questions around the training and use of chatbots and code copilots are controversially contested and re-examined constantly! We encourage to engage with such questions and become aware of arguments and debates.\nNote on assessment of your text be it written with or without AI: Text written by chatbots is often very generic and less specific. Often, ChatBots deliver bullshit (as defined by H. Frankfurt) . Large parts of very generic bullshit-like text will be assessed worse than a short more specific text!\nIf any part of this AI policy is confusing or uncertain, please reach out to us for a conversation before submitting your work.",
-    "crumbs": [
-      "Syllabus"
-    ]
+    "objectID": "llm_writing_bullshit.html#ai-may-be-used-also-by-the-instructor",
+    "href": "llm_writing_bullshit.html#ai-may-be-used-also-by-the-instructor",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "AI may be used also by the instructor!",
+    "text": "AI may be used also by the instructor!\n\nSummarize student contributions\nWrite Feedback\n\n(I haven’t done so far ✌🤞️.) However, we want to avoid this"
   },
   {
-    "objectID": "index.html#schedule",
-    "href": "index.html#schedule",
-    "title": "Data Science Lab",
-    "section": "11 Schedule",
-    "text": "11 Schedule\nThe Schedule is on an extra page and will be updated continuously.",
-    "crumbs": [
-      "Syllabus"
-    ]
+    "objectID": "llm_writing_bullshit.html#is-using-text-generating-ai-plagiarism",
+    "href": "llm_writing_bullshit.html#is-using-text-generating-ai-plagiarism",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Is using text generating AI plagiarism?",
+    "text": "Is using text generating AI plagiarism?\nActivity\nTwo (or more) groups to answer the same questions:\n\nWhat is plagiarism?\nIs using AI to write text a form of plagiarism? Why? Why not?\n\nGroup 1 Read Constructor University’s Code of Academic Conduct\nGroup 2-X Ask AI!"
   },
   {
-    "objectID": "index.html#feedback-from-students",
-    "href": "index.html#feedback-from-students",
-    "title": "Data Science Lab",
-    "section": "12 Feedback from Students",
-    "text": "12 Feedback from Students\nWe are eager to constantly improve the quality of our teaching. We would be glad to obtain your feedback at any time of the course to improve your learning experience.",
-    "crumbs": [
-      "Syllabus"
-    ]
+    "objectID": "llm_writing_bullshit.html#data-science-project-abstract-writing",
+    "href": "llm_writing_bullshit.html#data-science-project-abstract-writing",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Data Science Project Abstract Writing",
+    "text": "Data Science Project Abstract Writing\nActivity\nLet us try different AI Tools: OpenAI’s ChatGPT, Antrophic’s Claude, Mistral AI’s Le Chat, Google’s Gemini, …\nGroup 1-X Two on ChatGPT, more with other tools\nUse this prompts:\n\nYou write what you want\nWrite an outline for data science project about cricket.\nYou ask for refinement, reshaping, and restructuring on further prompts\nWrite an abstract of about 150 words on it.\n\nDiscussion: Read out the texts and we discuss its quality from the educated reader’s and instructor’s perspective."
   },
   {
-    "objectID": "schedule_final.html",
-    "href": "schedule_final.html",
+    "objectID": "llm_writing_bullshit.html#final-activity-abstract-for-your-project",
+    "href": "llm_writing_bullshit.html#final-activity-abstract-for-your-project",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Final Activity: Abstract for your project",
+    "text": "Final Activity: Abstract for your project\nActivity\nIn your group:\nCreate a project abstract of about 150 words for your project with as many prompts as you want.\n(10-15 minutes)\nDiscussion: Read your abstracts and we discuss its quality from the educated reader’s and instructor’s perspective."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Developing Schedule\n\n\n\n\n\nThe schedule is tentative. It can be updated.\n\n\n\n\nTabular Schedule\nClass is Thursday in 2 consecutive Sessions 14:15 - 17:00\nLocation: ?var:location in-person if not stated otherwise\n\n\n\n\n\n\n\n\n\nWeek\nDates\nWhat?\nWhere?\n\n\n\n\n1\nFeb 05\nKick off the Lab  Watch out for survey link: To collect data for team and topic matching!\nCampus\n\n\n2\nFeb 12\nTopics and Team Formation, Q&A\nCampus\n\n\n3\nFeb 19\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n4\nFeb 26\n🧑‍💻 Tutorial quarto/git/GitHub: Refresh the basics; Report writing; Figures; Referencing; Reproducible code; Literature Management; Websites \nCampus\n\n\n5\nMar 05\n1️⃣ Student Proposal Presentations Presentation Guide\nCampus\n\n\n6\nMar 12\n🧑‍💻 Tutorial Collecting Data SQL/APIs/Webscraping Slides\nCampus\n\n\n7\nMar 19\nIndividual meetings with student teams\nOnline only\n\n\n8\nMar 26\nIndividual meetings with student teams\nOnline only\n\n\n\n\nSpring break\n\n\n\n9\nApr 09\n2️⃣ Student Progress and Learning Presentations Presentation Guide\nCampus\n\n\n10\nApr 16\n🧑‍💻 Tutorial Generate Text with AI, Avoid Bullshit Slides\nCampus\n\n\n11\nApr 23\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n12\nApr 30\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n13\nMay 07\n3️⃣ Student Final Presentations  Schedule Presentation Guide\nCampus\n\n\n\nDeadline for Project Reports is the regular deadline in the Academic Calendar, see the Deadline for Students to Submit Assessments, Spring Semester."
+    "text": "ImportantDeveloping Schedule\n\n\n\n\n\nThe schedule can be updated. Updates will be marked here and announced on Teams.\n\n\n\n\nTabular Schedule\nClass is Thursday in 2 consecutive Sessions 14:15 - 17:00\nLocation: IRC-Seminar Room III in-person if not stated otherwise\n\n\n\n\n\n\n\n\n\nWeek\nDates\nWhat?\nWhere?\n\n\n\n\n1\nFeb 05\nKick off the Lab Survey link\nIRC-Seminar Room III\n\n\n2\nFeb 12\nTopics and Team Formation, Q&A\nIRC-Seminar Room III\n\n\n3\nFeb 19\n🧑‍💻 Tutorial: Communicating and Reporting of Data Science Projects, Literature Management\nIRC-Seminar Room III\n\n\n4\nFeb 26\nIndividual meetings with student teams\nOnline\n\n\n5\nMar 05\n1️⃣ Student Proposal Presentations Presentation Guide  Schedule (in private repo):Teams Schedule\nIRC-Seminar Room III\n\n\n6\nMar 12\nIndividual meetings with student teams\nOnline\n\n\n7\nMar 19\n🧑‍💻 Tutorial Collaboration, Data, Machine Learning, Reporting\nIRC-Seminar Room III\n\n\n8\nMar 26\nIndividual meetings with student teams\nOnline or  IRC-Seminar Room III\n\n\n\n\nSpring break\n\n\n\n9\nApr 09\n2️⃣ Student Progress and Learning Presentations Presentation Guide\nIRC-Seminar Room III\n\n\n10\nApr 16\n🧑‍💻 Tutorial Generate Text with AI, Avoid Bullshit\nIRC-Seminar Room III\n\n\n11\nApr 23\nIndividual meetings with student teams \nOnline or  IRC-Seminar Room III\n\n\n12\nApr 30\nIndividual meetings with student teams \nOnline or  IRC-Seminar Room III\n\n\n13\nMay 07\n3️⃣ Student Final Presentations  Presentation Guide\nIRC-Seminar Room III\n\n\n\nDeadline for Project Reports is the regular deadline in the Academic Calendar, see the Deadline for Students to Submit Assessments, Spring Semester.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule"
+    ]
   },
   {
-    "objectID": "tools_reporting_literature.html#communicating-and-reporting-in-the-data-science-process",
-    "href": "tools_reporting_literature.html#communicating-and-reporting-in-the-data-science-process",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#communicating-and-reporting-in-the-data-science-process",
+    "href": "tools_reporting_literature_BACKUP.html#communicating-and-reporting-in-the-data-science-process",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Communicating and Reporting in the Data Science Process",
     "text": "Communicating and Reporting in the Data Science Process\nFrom R for Data Science:"
   },
   {
-    "objectID": "tools_reporting_literature.html#sort-our-reporting-tools",
-    "href": "tools_reporting_literature.html#sort-our-reporting-tools",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#sort-our-reporting-tools",
+    "href": "tools_reporting_literature_BACKUP.html#sort-our-reporting-tools",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Sort our reporting tools",
     "text": "Sort our reporting tools\n\n\n\nquarto (.qmd)\nhtml\ngit\npdf\nGitHub\njson\nVirtual Studio Code\nnotebook (.ipynb)\nGoogle Docs, Spreadsheets, Slides\n\n\n\nPowerPoint\n\\(\\LaTeX\\)\nPositron\nmarkdown (.md)\npandoc\nWord\nExcel\n\n\nWhat are the different categories in this list?"
   },
   {
-    "objectID": "tools_reporting_literature.html#tools-sorted",
-    "href": "tools_reporting_literature.html#tools-sorted",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#tools-sorted",
+    "href": "tools_reporting_literature_BACKUP.html#tools-sorted",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Tools sorted",
     "text": "Tools sorted\n\n\nFile Formats\n\nhtml\npdf\njson\nqmd\nipynb\ndocx, pptx, xlsx\n\n\nCommandline tools\n\nquarto\ngit\npandoc\n\\(\\LaTeX\\)\n\n\nIDEs / App’s\n\nVSCode\nRStudio\nExcel\nPowerPoint\nWord\n\n\nWeb services\n\nGitHub\nGoogle Docs\nGoogle Spreadsheets\nGoogle Slides"
   },
   {
-    "objectID": "tools_reporting_literature.html#open-source-freeware-proprietary",
-    "href": "tools_reporting_literature.html#open-source-freeware-proprietary",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#open-source-freeware-proprietary",
+    "href": "tools_reporting_literature_BACKUP.html#open-source-freeware-proprietary",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Open-source, freeware, proprietary",
-    "text": "Open-source, freeware, proprietary\n\nOpen-source software: Has source code that anyone can inspect, modify, and enhance.\n\nExamples: quarto, git, pandoc, R, python\n\nProprietary software is software that is owned by an individual or a company and has restrictions on its use, modification, and distribution. It typically requires a license which costs money.\n\nExamples: Microsoft Word, Excel, PowerPoint, Adobe Photoshop\n\nFreeware is software that is available for use at no cost, but it may not necessarily be open-source but can be propriatary.\n\nExamples: Virtual Studio Code, Positron"
+    "text": "Open-source, freeware, proprietary\n\nOpen-source software: Has source code that anyone can inspect, modify, and enhance.\n\nExamples: quarto, git, pandoc, R, python\n\nProprietary software is software that is owned by an individual or a company and has restrictions on its use, modification, and distribution. It typically requires a license which costs money.\n\nExamples: Microsoft Word, Excel, PowerPoint, Adobe Photoshop\n\nFreeware is software that is available for use at no cost, but it may not necessarily be open-source but can be propriatary.\n\nExamples: Virtual Studio Code, Positron\n\n\n\nCommon special case:\n\nSoftware is open-source but developers and maintainers are tied to a company which builds a business around it.\n\nExample: Virtual Studio Code is built on the open-source codebase “Code - OSS” and this is developed and maintained by Microsoft.\n\nSo, others can build on and maybe even contribute to\nIt is available for free, but it is not open-source software. The open-source version of Visual Studio Code is available as “Code - OSS” and can be built from source code, but it does not include some of the proprietary features that are included in the official Visual Studio Code distribution."
   },
   {
-    "objectID": "tools_reporting_literature.html#common-special-case",
-    "href": "tools_reporting_literature.html#common-special-case",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
-    "section": "Common special case",
-    "text": "Common special case\n\nSoftware is open-source but developers and maintainers are tied to a company which builds a business around it.\n\nExample: Virtual Studio Code is built on the open-source codebase “Code - OSS” and this is developed and maintained by Microsoft.\n\nOthers can build on and maybe even contribute to it.\nPositron did that (using Code - OSS) and added some data science specific features.\nMicrosoft did it themselves with Virtual Studio Code\n\nSo, Virtual Studio Code and Positron ar both propriatary freeware (for private or educational users). They build a business around business and cloud usage."
-  },
-  {
-    "objectID": "tools_reporting_literature.html#web-services",
-    "href": "tools_reporting_literature.html#web-services",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#web-services",
+    "href": "tools_reporting_literature_BACKUP.html#web-services",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Web services",
     "text": "Web services\nExamples: GitHub, Google Docs, Google Spreadsheets, Google Slides, cloud versions of Microsoft Word, Excel, PowerPoint\n\nSome web service are open-source, but the biggest value of webservice for the consumer is that it can be used to a large extent in the browser without installing software.\nMany webservices provide a basic version of their service for free, but they also offer premium features that require a paid subscription.\n\n\nParadoxical story:\n\nGitHub is fully proprietary. However, it is built on the open-source software Git.\nMoreover, the largest share of open-source software projects are hosted on GitHub (also we do)\n\nBUT, there are open souce alternatives like GitLab and Bitbucket."
   },
   {
-    "objectID": "tools_reporting_literature.html#xml-json-yaml",
-    "href": "tools_reporting_literature.html#xml-json-yaml",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#xml-json-yaml",
+    "href": "tools_reporting_literature_BACKUP.html#xml-json-yaml",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "XML, JSON, YAML",
     "text": "XML, JSON, YAML\n\nXML is a general markup language generalized from HTML developed for structuring webpages.\nJSON is a lightweight data-interchange format. It is easier for humans to read and write. It is easy for machines to parse and generate. It has been developed for data storage and transmission, especially in web applications using JavaScript.\nYAML is an even more human-readable format that is often used for configuration files and in applications where data is being stored or transmitted. It is designed to be easy to read and write, and it uses indentation to indicate structure.\n\nAll are called serialization formats, because they are used to serialize data structures into a format that can be easily stored or transmitted and then deserialized back into the original data structure in memory when needed."
   },
   {
-    "objectID": "tools_reporting_literature.html#serialization-formats-examples",
-    "href": "tools_reporting_literature.html#serialization-formats-examples",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#serialization-formats-examples",
+    "href": "tools_reporting_literature_BACKUP.html#serialization-formats-examples",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Serialization formats: Examples",
-    "text": "Serialization formats: Examples\n\n\nXML\n&lt;people&gt;\n  &lt;person&gt;\n    &lt;name&gt;Alice&lt;/name&gt;\n    &lt;age&gt;30&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;reading&lt;/hobby&gt;\n      &lt;hobby&gt;cycling&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n  &lt;person&gt;\n    &lt;name&gt;Bob&lt;/name&gt;\n    &lt;age&gt;25&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;gaming&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n&lt;/people&gt;\nEverything is a &lt;tag&gt;, tags are nested, closing tags with &lt;/tag&gt; are required\n\nJSON\n[\n  {\n    \"name\": \"Alice\",\n    \"age\": 30,\n    \"hobbies\": [\"reading\", \"cycling\"]\n  },\n  {\n    \"name\": \"Bob\",\n    \"age\": 25,\n    \"hobbies\": [\"gaming\"]\n  }\n]\n[] define lists, {} define objects, : separates keys and values, , separates items in lists and objects, indentation is not relevant\n\nYAML\n- name: Alice\n  age: 30\n  hobbies:\n    - reading\n    - cycling\n- name: Bob\n  age: 25\n  hobbies:\n    - gaming\n- defines list items, indentation defines structure, : separates keys and values"
+    "text": "Serialization formats: Examples\n\n\nXML\n&lt;people&gt;\n  &lt;person&gt;\n    &lt;name&gt;Alice&lt;/name&gt;\n    &lt;age&gt;30&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;reading&lt;/hobby&gt;\n      &lt;hobby&gt;cycling&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n  &lt;person&gt;\n    &lt;name&gt;Bob&lt;/name&gt;\n    &lt;age&gt;25&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;gaming&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n&lt;/people&gt;\nEverything is a , tags are nested, closing tags with &lt;/tag&gt; are required\n\nJSON\n[\n  {\n    \"name\": \"Alice\",\n    \"age\": 30,\n    \"hobbies\": [\"reading\", \"cycling\"]\n  },\n  {\n    \"name\": \"Bob\",\n    \"age\": 25,\n    \"hobbies\": [\"gaming\"]\n  }\n]\n[] define lists, {} define objects, : separates keys and values, , separates items in lists and objects, indentation is not relevant\n\nYAML\n- name: Alice\n  age: 30\n  hobbies:\n    - reading\n    - cycling\n- name: Bob\n  age: 25\n  hobbies:\n    - gaming\n- defines list items, indentation defines structure, : separates keys and values"
   },
   {
-    "objectID": "tools_reporting_literature.html#for-data-science-we-want-data-frames",
-    "href": "tools_reporting_literature.html#for-data-science-we-want-data-frames",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#for-data-science-we-want-data-frames",
+    "href": "tools_reporting_literature_BACKUP.html#for-data-science-we-want-data-frames",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "For data science we want data frames",
     "text": "For data science we want data frames\nFor the representation as a dataframe we have to make design choices:\n\n\nTwo tables\nWith name as key:\n\n\n\nname\nage\n\n\n\n\nAlice\n30\n\n\nBob\n25\n\n\n\n\n\n\nname\nhobby\n\n\n\n\nAlice\nreading\n\n\nAlice\ncycling\n\n\nBob\ngaming\n\n\n\n\nOne table\nWith redundant information:\n\n\n\nname\nage\nhobby\n\n\n\n\nAlice\n30\nreading\n\n\nAlice\n30\ncycling\n\n\nBob\n25\ngaming\n\n\n\n\n\n\nThe are packages in R and python to read and write all three formats, e.g. yaml in R and PyYAML in python for YAML, jsonlite in R and json in python for JSON, xml2 in R and xml.etree.ElementTree in python for XML."
   },
   {
-    "objectID": "tools_reporting_literature.html#markdown-and-notebooks",
-    "href": "tools_reporting_literature.html#markdown-and-notebooks",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#markdown-and-notebooks",
+    "href": "tools_reporting_literature_BACKUP.html#markdown-and-notebooks",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Markdown and Notebooks",
-    "text": "Markdown and Notebooks\nMarkdown is a lightweight markup language with plain text formatting syntax\n\nIt is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\nCan be rendered to html or other markup languages, e.g. by quarto from a quarto markdown file (qmd).\n\nNotebooks are a way to write and execute code in an interactive environment\n\nJupyter notebooks are essentially JSON files that contain code, markdown, and the output of the code.\nImportant difference to markdown: The code is executed and the output is stored in the notebook file. Quarto runs on a file and renders new files, but does not store the output in the source file.\n\nCheck the source file of an ipynb with graphs!"
+    "text": "Markdown and Notebooks\nMarkdown is a lightweight markup language with plain text formatting syntax\n\nIt is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\nCan be rendered to html or other markup languages, e.g. by quarto from a quarto markdown file (qmd).\n\nNotebooks are a way to write and execute code in an interactive environment\n\nJupyter notebooks are essentially json files that contain code, markdown, and the output of the code.\nImportant difference to markdown: The code is executed and the output is stored in the notebook file. Quarto runs on a file and renders new files, but does not store the output in the source file.\n\nCheck the source file of an ipynb with graphs!"
   },
   {
-    "objectID": "tools_reporting_literature.html#quarto",
-    "href": "tools_reporting_literature.html#quarto",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#quarto",
+    "href": "tools_reporting_literature_BACKUP.html#quarto",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Quarto",
     "text": "Quarto\n\nAdapted from the paradigm of literate programming: Computer-readable source code should be interspersed with human-readable explanations.\n\nOriginal: Write code together with a human-readable documentation report\nQuarto: Write a report together with your code of analysis\n\n\n\nIt is a standalone (cross-language, R-independent) adaptation from Rmarkdown and the R-packages knitr."
   },
   {
-    "objectID": "tools_reporting_literature.html#quarto-works-with-r-and-python1",
-    "href": "tools_reporting_literature.html#quarto-works-with-r-and-python1",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#quarto-works-with-r-and-python1",
+    "href": "tools_reporting_literature_BACKUP.html#quarto-works-with-r-and-python1",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Quarto works with R and python1",
     "text": "Quarto works with R and python1\n\n\n\nUses the independent software pandoc “a universal document converter” with markdown as its heart.\nYou can also render jupyter notebooks (ipynb files) by adding a raw cell with quarto YAML at the beginning.\n\nand other languages"
   },
   {
-    "objectID": "tools_reporting_literature.html#quarto-for-data-science-projects",
-    "href": "tools_reporting_literature.html#quarto-for-data-science-projects",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#quarto-for-data-science-projects",
+    "href": "tools_reporting_literature_BACKUP.html#quarto-for-data-science-projects",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Quarto for Data Science Projects",
     "text": "Quarto for Data Science Projects\nFour purposes:\n\nProvide a format to write code, documentation, and other plain text systematically in one file\nProvide reproducible data analysis\nProvide an environment to update reports easily when new data has arrived\nSmoothly move from your working files to publication-ready reports in formats like pdf, docx, html, or a multipage website"
   },
   {
-    "objectID": "tools_reporting_literature.html#tutorial-today",
-    "href": "tools_reporting_literature.html#tutorial-today",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#tutorial-today",
+    "href": "tools_reporting_literature_BACKUP.html#tutorial-today",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Tutorial today",
-    "text": "Tutorial today\n\nMake a one page Website with Github Pages.\n\nYou can use this for the FinalProject from Data Science Tools\n\nMake a multipage Website with quarto using .qmd and .ipynb files.\n\nYou should use this for the Data Science Lab project report. In particular, when you have independent parts."
+    "text": "Tutorial today\n\nMake a joint Test Website\nSketch a quarto report for your project\n\nDiscuss various aspects of reports\n\nMake a presentation from it\nMake a website from it\n(optional) Discuss more aspects"
   },
   {
-    "objectID": "tools_reporting_literature.html#one-page-website-with-github-pages",
-    "href": "tools_reporting_literature.html#one-page-website-with-github-pages",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
-    "section": "One page website with GitHub Pages",
-    "text": "One page website with GitHub Pages\nPrelminary Note: By doing this tutorial you make your work public on the internet. You are not obliged to do. You can skip to do this here and just learn how to do it.\n\n\nIn your repository on your computer\n\nRename the one page HTML to index.html\nPush the file to GitHub\n\nIn your repository on GitHub\n\nMake the repository public (Scroll down to “Danger Zone” in Settings)\nGo to “Pages” in the left sidebar and select the branch and folder where your index.html is located (e.g. main and /root if it is in the root of your repository)\n\n\n\n\nAfter a few minutes, your website should be available at https://&lt;organization-name&gt;.github.io/&lt;repository-name&gt;/"
+    "objectID": "tools_reporting_literature_BACKUP.html#reports",
+    "href": "tools_reporting_literature_BACKUP.html#reports",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "section": "Reports",
+    "text": "Reports\nTypes of reports: Article &lt;- Technical Report &lt;- Tutorial &lt;- Homework (many more)\n\n\n\nStructure\n\nHeader with title, author, and (optional) abstract/executive summary\nMain headings: Introduction, Data, Methods, Results, Discussion\nSub-headings: Topic specific\nFootnotes\nFigures\nTables\nCross-references\nLiterature references\n\n\n\nCode things\n\nEquations (\\(\\LaTeX\\)-style)\nCode chunks\nCode output\nIn-text code-output"
   },
   {
-    "objectID": "tools_reporting_literature.html#multipage-website-with-quarto",
-    "href": "tools_reporting_literature.html#multipage-website-with-quarto",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
-    "section": "Multipage website with quarto",
-    "text": "Multipage website with quarto\nCore idea:\n\nSpecify the website and its stucture in a Config File _quarto.yml file.\nWrite the content of the pages in .qmd files.\n\nAll information: https://quarto.org/docs/websites/\n\nYou can publish this website on GitHub Pages as well, but you have to render the website first and push the rendered files (in the _site folder) to GitHub or use the more advanced methods using\n\na branch gh-pages (way the instructor) or\nGitHub Actions (requires configuring a whole software setup on GitHu such that rendering runs remotely and automatically on GitHub after each commit)."
+    "objectID": "tools_reporting_literature_BACKUP.html#excursion-header-yaml-vs.-json",
+    "href": "tools_reporting_literature_BACKUP.html#excursion-header-yaml-vs.-json",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "section": "Excursion Header: YAML vs. JSON",
+    "text": "Excursion Header: YAML vs. JSON\n\nYAML is a human-readable data serialization standard that can be used in conjunction with all programming languages and is often used to write configuration files.\nIt is even simpler/more “human-readable” than JSON (which is simpler than XML/HTML)\nIt uses less brackets and commas but white space (as python)\n\nYAML: https://en.wikipedia.org/wiki/YAML\nOfficial: https://yaml.org/\nTutorial: https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started\nWhat’s the difference to JSON? https://aws.amazon.com/compare/the-difference-between-yaml-and-json/\nLets make some specifications in the YAML header for HTML output. https://quarto.org/docs/output-formats/html-basics.html: a table-of-content, code-folding, …"
   },
   {
-    "objectID": "tools_reporting_literature.html#excursion-literature-management",
-    "href": "tools_reporting_literature.html#excursion-literature-management",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "objectID": "tools_reporting_literature_BACKUP.html#tutorial-authoring-and-scholarly-writing",
+    "href": "tools_reporting_literature_BACKUP.html#tutorial-authoring-and-scholarly-writing",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "section": "Tutorial: Authoring and Scholarly Writing",
+    "text": "Tutorial: Authoring and Scholarly Writing\nLet us do the following in a quarto markdown file (qmd)\n\n\nFor the following get help at quarto-Guide -&gt; Authoring\n\nYAML with author and abstract\nHeadlines\nAn equation\nAn image\nAn image created by a code chunk\nAn in-text code-output of a numerical value\n\n\nFor the following scholarly writing get help at quarto-Guide -&gt; Authoring -&gt; Scholarly Writing\n\nMake additional name information\nMake a figure with caption we can refer to\nAdd a bibliography"
+  },
+  {
+    "objectID": "tools_reporting_literature_BACKUP.html#excursion-literature-management",
+    "href": "tools_reporting_literature_BACKUP.html#excursion-literature-management",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
     "section": "Excursion: Literature Management",
-    "text": "Excursion: Literature Management\n\nYou should start to use a reference manager for your literature management.\nA de facto standard for reference management is Zotero.\n\nIt is open-source, free, and has a large user base."
+    "text": "Excursion: Literature Management\nDo you use literature management systems?\n\nGoogle Scholar -&gt; BibTeX\nZotero"
   },
   {
-    "objectID": "tools_reporting_literature.html#zotero-features-to-make-use-of",
-    "href": "tools_reporting_literature.html#zotero-features-to-make-use-of",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
-    "section": "Zotero Features to make use of",
-    "text": "Zotero Features to make use of\n\nStore and organize your literature (including pdfs and your notes)\nHas browser extensions to easily add literature from the web with one click while on the website (knows many journals)\nCreate bibliographies (collections) in different citation styles\nIntegrate with word processors and markdown editors (e.g. quarto)\nHas a free tier for web storage in sync with your local Zotero\nYou can collaborate with others in making a shared collections of references\nSome people manage to import their Zotero notes in their note-taking apps (like Obsidian)"
+    "objectID": "tools_reporting_literature_BACKUP.html#data-science-workflow",
+    "href": "tools_reporting_literature_BACKUP.html#data-science-workflow",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "section": "Data Science Workflow",
+    "text": "Data Science Workflow\nIn a normal data science workflow you first:\n\nDo exploratory data analysis (EDA).\n\nThis produces many output you need to see to understand the data and progress deeper towards your goal.\nYou also want to see the code in your output.\n\nTry several versions of different visualizations of your insights.\nYou end up with a very cluttered file which maybe helpful for you but not for external readers (and in the end not even for you anymore…)"
   },
   {
-    "objectID": "tools_reporting_literature.html#in-week-4-and-5",
-    "href": "tools_reporting_literature.html#in-week-4-and-5",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
-    "section": "In week 4 and 5",
-    "text": "In week 4 and 5\nWeek 4:\nIndividual meetings with me. Will be scheduled by me in the regular meeting times.\nYou can still reshuffle teams but I aim for\n\nPreliminary project check-in by team members.\nCreating a repository for each project.\n\n\nWeek 5:\n\nProposal presentations by teams.\nFollow the guidelins on this website.\nYou also have to prepare some basic workplan and team member roles and tasks in your repository (see Syllabus). A template shall be provided"
+    "objectID": "tools_reporting_literature_BACKUP.html#workflow-towards-a-final-report",
+    "href": "tools_reporting_literature_BACKUP.html#workflow-towards-a-final-report",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "section": "Workflow: Towards a final report",
+    "text": "Workflow: Towards a final report\n\nClean your code!\n\nRemove unnecessary objects\nStructure that it is most readable for others coders (like you in some weeks)\n\nCondense your insights of the EDA to\n\nsummarizing text\nfew nicely formatted tables and informative graphics which are relevant for the reader\n\nMake code and raw output vanish by\n\nremoving raw output (or make it a formatted table, or inline code to show code output in markdown text)\nhide code or use code folding in html (the user can check the reproducibility and details by folding out the code snippet)\n\nStructure the text: sensible (numbered) headingsines, table of content, cross references to figures, footnotes, citations, appendices …"
   },
   {
-    "objectID": "tools_reporting_literature.html#now",
-    "href": "tools_reporting_literature.html#now",
-    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
-    "section": "Now",
-    "text": "Now\n\nLet us look at the current distribution. In the Ad-hoc group sheet.\nTime to coordinate Teams and coordinate in Teams."
+    "objectID": "tools_reporting_literature_BACKUP.html#derivatives-of-your-report",
+    "href": "tools_reporting_literature_BACKUP.html#derivatives-of-your-report",
+    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "section": "Derivatives of your report",
+    "text": "Derivatives of your report\n\nA presentation with revealjs https://quarto.org/docs/presentations/\n\nDuplicate the file, adjust the YAML to revealjs and see how it looks and adjust\n\nA website https://quarto.org/docs/websites/\n\nWe need to write a file _quarto.yml to specify the website settings"
   },
   {
     "objectID": "collecting_data.html#google-cloud-bigquery-public-datasets",
@@ -494,268 +622,280 @@
     "text": "Learnings\n\nWhy do we need the “live” session and not just a downloaded HTML-file?\n\nNowadays, often the interesting part is loaded via some java-script files and only appears on the website once it is sent to a specific browser!\n\nYou need to learn a bit of the structure of HTML and CSS.\nLearn to fiddle around with strings is often key!\n\nTo that end regular expressions can be magic (see https://xkcd.com/208/)! AI Tools can help you get the one you need."
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#communicating-and-reporting-in-the-data-science-process",
-    "href": "tools_reporting_literature_BACKUP.html#communicating-and-reporting-in-the-data-science-process",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#communicating-and-reporting-in-the-data-science-process",
+    "href": "tools_reporting_literature.html#communicating-and-reporting-in-the-data-science-process",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Communicating and Reporting in the Data Science Process",
     "text": "Communicating and Reporting in the Data Science Process\nFrom R for Data Science:"
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#sort-our-reporting-tools",
-    "href": "tools_reporting_literature_BACKUP.html#sort-our-reporting-tools",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#sort-our-reporting-tools",
+    "href": "tools_reporting_literature.html#sort-our-reporting-tools",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Sort our reporting tools",
     "text": "Sort our reporting tools\n\n\n\nquarto (.qmd)\nhtml\ngit\npdf\nGitHub\njson\nVirtual Studio Code\nnotebook (.ipynb)\nGoogle Docs, Spreadsheets, Slides\n\n\n\nPowerPoint\n\\(\\LaTeX\\)\nPositron\nmarkdown (.md)\npandoc\nWord\nExcel\n\n\nWhat are the different categories in this list?"
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#tools-sorted",
-    "href": "tools_reporting_literature_BACKUP.html#tools-sorted",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#tools-sorted",
+    "href": "tools_reporting_literature.html#tools-sorted",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Tools sorted",
     "text": "Tools sorted\n\n\nFile Formats\n\nhtml\npdf\njson\nqmd\nipynb\ndocx, pptx, xlsx\n\n\nCommandline tools\n\nquarto\ngit\npandoc\n\\(\\LaTeX\\)\n\n\nIDEs / App’s\n\nVSCode\nRStudio\nExcel\nPowerPoint\nWord\n\n\nWeb services\n\nGitHub\nGoogle Docs\nGoogle Spreadsheets\nGoogle Slides"
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#open-source-freeware-proprietary",
-    "href": "tools_reporting_literature_BACKUP.html#open-source-freeware-proprietary",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#open-source-freeware-proprietary",
+    "href": "tools_reporting_literature.html#open-source-freeware-proprietary",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Open-source, freeware, proprietary",
-    "text": "Open-source, freeware, proprietary\n\nOpen-source software: Has source code that anyone can inspect, modify, and enhance.\n\nExamples: quarto, git, pandoc, R, python\n\nProprietary software is software that is owned by an individual or a company and has restrictions on its use, modification, and distribution. It typically requires a license which costs money.\n\nExamples: Microsoft Word, Excel, PowerPoint, Adobe Photoshop\n\nFreeware is software that is available for use at no cost, but it may not necessarily be open-source but can be propriatary.\n\nExamples: Virtual Studio Code, Positron\n\n\n\nCommon special case:\n\nSoftware is open-source but developers and maintainers are tied to a company which builds a business around it.\n\nExample: Virtual Studio Code is built on the open-source codebase “Code - OSS” and this is developed and maintained by Microsoft.\n\nSo, others can build on and maybe even contribute to\nIt is available for free, but it is not open-source software. The open-source version of Visual Studio Code is available as “Code - OSS” and can be built from source code, but it does not include some of the proprietary features that are included in the official Visual Studio Code distribution."
+    "text": "Open-source, freeware, proprietary\n\nOpen-source software: Has source code that anyone can inspect, modify, and enhance.\n\nExamples: quarto, git, pandoc, R, python\n\nProprietary software is software that is owned by an individual or a company and has restrictions on its use, modification, and distribution. It typically requires a license which costs money.\n\nExamples: Microsoft Word, Excel, PowerPoint, Adobe Photoshop\n\nFreeware is software that is available for use at no cost, but it may not necessarily be open-source but can be propriatary.\n\nExamples: Virtual Studio Code, Positron"
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#web-services",
-    "href": "tools_reporting_literature_BACKUP.html#web-services",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#common-special-case",
+    "href": "tools_reporting_literature.html#common-special-case",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Common special case",
+    "text": "Common special case\n\nSoftware is open-source but developers and maintainers are tied to a company which builds a business around it.\n\nExample: Virtual Studio Code is built on the open-source codebase “Code - OSS” and this is developed and maintained by Microsoft.\n\nOthers can build on and maybe even contribute to it.\nPositron did that (using Code - OSS) and added some data science specific features.\nMicrosoft did it themselves with Virtual Studio Code\n\nSo, Virtual Studio Code and Positron ar both propriatary freeware (for private or educational users). They build a business around business and cloud usage."
+  },
+  {
+    "objectID": "tools_reporting_literature.html#web-services",
+    "href": "tools_reporting_literature.html#web-services",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Web services",
     "text": "Web services\nExamples: GitHub, Google Docs, Google Spreadsheets, Google Slides, cloud versions of Microsoft Word, Excel, PowerPoint\n\nSome web service are open-source, but the biggest value of webservice for the consumer is that it can be used to a large extent in the browser without installing software.\nMany webservices provide a basic version of their service for free, but they also offer premium features that require a paid subscription.\n\n\nParadoxical story:\n\nGitHub is fully proprietary. However, it is built on the open-source software Git.\nMoreover, the largest share of open-source software projects are hosted on GitHub (also we do)\n\nBUT, there are open souce alternatives like GitLab and Bitbucket."
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#xml-json-yaml",
-    "href": "tools_reporting_literature_BACKUP.html#xml-json-yaml",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#xml-json-yaml",
+    "href": "tools_reporting_literature.html#xml-json-yaml",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "XML, JSON, YAML",
     "text": "XML, JSON, YAML\n\nXML is a general markup language generalized from HTML developed for structuring webpages.\nJSON is a lightweight data-interchange format. It is easier for humans to read and write. It is easy for machines to parse and generate. It has been developed for data storage and transmission, especially in web applications using JavaScript.\nYAML is an even more human-readable format that is often used for configuration files and in applications where data is being stored or transmitted. It is designed to be easy to read and write, and it uses indentation to indicate structure.\n\nAll are called serialization formats, because they are used to serialize data structures into a format that can be easily stored or transmitted and then deserialized back into the original data structure in memory when needed."
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#serialization-formats-examples",
-    "href": "tools_reporting_literature_BACKUP.html#serialization-formats-examples",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#serialization-formats-examples",
+    "href": "tools_reporting_literature.html#serialization-formats-examples",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Serialization formats: Examples",
-    "text": "Serialization formats: Examples\n\n\nXML\n&lt;people&gt;\n  &lt;person&gt;\n    &lt;name&gt;Alice&lt;/name&gt;\n    &lt;age&gt;30&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;reading&lt;/hobby&gt;\n      &lt;hobby&gt;cycling&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n  &lt;person&gt;\n    &lt;name&gt;Bob&lt;/name&gt;\n    &lt;age&gt;25&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;gaming&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n&lt;/people&gt;\nEverything is a , tags are nested, closing tags with &lt;/tag&gt; are required\n\nJSON\n[\n  {\n    \"name\": \"Alice\",\n    \"age\": 30,\n    \"hobbies\": [\"reading\", \"cycling\"]\n  },\n  {\n    \"name\": \"Bob\",\n    \"age\": 25,\n    \"hobbies\": [\"gaming\"]\n  }\n]\n[] define lists, {} define objects, : separates keys and values, , separates items in lists and objects, indentation is not relevant\n\nYAML\n- name: Alice\n  age: 30\n  hobbies:\n    - reading\n    - cycling\n- name: Bob\n  age: 25\n  hobbies:\n    - gaming\n- defines list items, indentation defines structure, : separates keys and values"
+    "text": "Serialization formats: Examples\n\n\nXML\n&lt;people&gt;\n  &lt;person&gt;\n    &lt;name&gt;Alice&lt;/name&gt;\n    &lt;age&gt;30&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;reading&lt;/hobby&gt;\n      &lt;hobby&gt;cycling&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n  &lt;person&gt;\n    &lt;name&gt;Bob&lt;/name&gt;\n    &lt;age&gt;25&lt;/age&gt;\n    &lt;hobbies&gt;\n      &lt;hobby&gt;gaming&lt;/hobby&gt;\n    &lt;/hobbies&gt;\n  &lt;/person&gt;\n&lt;/people&gt;\nEverything is a &lt;tag&gt;, tags are nested, closing tags with &lt;/tag&gt; are required\n\nJSON\n[\n  {\n    \"name\": \"Alice\",\n    \"age\": 30,\n    \"hobbies\": [\"reading\", \"cycling\"]\n  },\n  {\n    \"name\": \"Bob\",\n    \"age\": 25,\n    \"hobbies\": [\"gaming\"]\n  }\n]\n[] define lists, {} define objects, : separates keys and values, , separates items in lists and objects, indentation is not relevant\n\nYAML\n- name: Alice\n  age: 30\n  hobbies:\n    - reading\n    - cycling\n- name: Bob\n  age: 25\n  hobbies:\n    - gaming\n- defines list items, indentation defines structure, : separates keys and values"
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#for-data-science-we-want-data-frames",
-    "href": "tools_reporting_literature_BACKUP.html#for-data-science-we-want-data-frames",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#for-data-science-we-want-data-frames",
+    "href": "tools_reporting_literature.html#for-data-science-we-want-data-frames",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "For data science we want data frames",
     "text": "For data science we want data frames\nFor the representation as a dataframe we have to make design choices:\n\n\nTwo tables\nWith name as key:\n\n\n\nname\nage\n\n\n\n\nAlice\n30\n\n\nBob\n25\n\n\n\n\n\n\nname\nhobby\n\n\n\n\nAlice\nreading\n\n\nAlice\ncycling\n\n\nBob\ngaming\n\n\n\n\nOne table\nWith redundant information:\n\n\n\nname\nage\nhobby\n\n\n\n\nAlice\n30\nreading\n\n\nAlice\n30\ncycling\n\n\nBob\n25\ngaming\n\n\n\n\n\n\nThe are packages in R and python to read and write all three formats, e.g. yaml in R and PyYAML in python for YAML, jsonlite in R and json in python for JSON, xml2 in R and xml.etree.ElementTree in python for XML."
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#markdown-and-notebooks",
-    "href": "tools_reporting_literature_BACKUP.html#markdown-and-notebooks",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#markdown-and-notebooks",
+    "href": "tools_reporting_literature.html#markdown-and-notebooks",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Markdown and Notebooks",
-    "text": "Markdown and Notebooks\nMarkdown is a lightweight markup language with plain text formatting syntax\n\nIt is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\nCan be rendered to html or other markup languages, e.g. by quarto from a quarto markdown file (qmd).\n\nNotebooks are a way to write and execute code in an interactive environment\n\nJupyter notebooks are essentially json files that contain code, markdown, and the output of the code.\nImportant difference to markdown: The code is executed and the output is stored in the notebook file. Quarto runs on a file and renders new files, but does not store the output in the source file.\n\nCheck the source file of an ipynb with graphs!"
+    "text": "Markdown and Notebooks\nMarkdown is a lightweight markup language with plain text formatting syntax\n\nIt is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.\nCan be rendered to html or other markup languages, e.g. by quarto from a quarto markdown file (qmd).\n\nNotebooks are a way to write and execute code in an interactive environment\n\nJupyter notebooks are essentially JSON files that contain code, markdown, and the output of the code.\nImportant difference to markdown: The code is executed and the output is stored in the notebook file. Quarto runs on a file and renders new files, but does not store the output in the source file.\n\nCheck the source file of an ipynb with graphs!"
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#quarto",
-    "href": "tools_reporting_literature_BACKUP.html#quarto",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#quarto",
+    "href": "tools_reporting_literature.html#quarto",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Quarto",
     "text": "Quarto\n\nAdapted from the paradigm of literate programming: Computer-readable source code should be interspersed with human-readable explanations.\n\nOriginal: Write code together with a human-readable documentation report\nQuarto: Write a report together with your code of analysis\n\n\n\nIt is a standalone (cross-language, R-independent) adaptation from Rmarkdown and the R-packages knitr."
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#quarto-works-with-r-and-python1",
-    "href": "tools_reporting_literature_BACKUP.html#quarto-works-with-r-and-python1",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#quarto-works-with-r-and-python1",
+    "href": "tools_reporting_literature.html#quarto-works-with-r-and-python1",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Quarto works with R and python1",
     "text": "Quarto works with R and python1\n\n\n\nUses the independent software pandoc “a universal document converter” with markdown as its heart.\nYou can also render jupyter notebooks (ipynb files) by adding a raw cell with quarto YAML at the beginning.\n\nand other languages"
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#quarto-for-data-science-projects",
-    "href": "tools_reporting_literature_BACKUP.html#quarto-for-data-science-projects",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#quarto-for-data-science-projects",
+    "href": "tools_reporting_literature.html#quarto-for-data-science-projects",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Quarto for Data Science Projects",
     "text": "Quarto for Data Science Projects\nFour purposes:\n\nProvide a format to write code, documentation, and other plain text systematically in one file\nProvide reproducible data analysis\nProvide an environment to update reports easily when new data has arrived\nSmoothly move from your working files to publication-ready reports in formats like pdf, docx, html, or a multipage website"
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#tutorial-today",
-    "href": "tools_reporting_literature_BACKUP.html#tutorial-today",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#tutorial-today",
+    "href": "tools_reporting_literature.html#tutorial-today",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Tutorial today",
-    "text": "Tutorial today\n\nMake a joint Test Website\nSketch a quarto report for your project\n\nDiscuss various aspects of reports\n\nMake a presentation from it\nMake a website from it\n(optional) Discuss more aspects"
+    "text": "Tutorial today\n\nMake a one page Website with Github Pages.\n\nYou can use this for the FinalProject from Data Science Tools\n\nMake a multipage Website with quarto using .qmd and .ipynb files.\n\nYou should use this for the Data Science Lab project report. In particular, when you have independent parts."
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#reports",
-    "href": "tools_reporting_literature_BACKUP.html#reports",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
-    "section": "Reports",
-    "text": "Reports\nTypes of reports: Article &lt;- Technical Report &lt;- Tutorial &lt;- Homework (many more)\n\n\n\nStructure\n\nHeader with title, author, and (optional) abstract/executive summary\nMain headings: Introduction, Data, Methods, Results, Discussion\nSub-headings: Topic specific\nFootnotes\nFigures\nTables\nCross-references\nLiterature references\n\n\n\nCode things\n\nEquations (\\(\\LaTeX\\)-style)\nCode chunks\nCode output\nIn-text code-output"
+    "objectID": "tools_reporting_literature.html#one-page-website-with-github-pages",
+    "href": "tools_reporting_literature.html#one-page-website-with-github-pages",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "One page website with GitHub Pages",
+    "text": "One page website with GitHub Pages\nPrelminary Note: By doing this tutorial you make your work public on the internet. You are not obliged to do. You can skip to do this here and just learn how to do it.\n\n\nIn your repository on your computer\n\nRename the one page HTML to index.html\nPush the file to GitHub\n\nIn your repository on GitHub\n\nMake the repository public (Scroll down to “Danger Zone” in Settings)\nGo to “Pages” in the left sidebar and select the branch and folder where your index.html is located (e.g. main and /root if it is in the root of your repository)\n\n\n\n\nAfter a few minutes, your website should be available at https://&lt;organization-name&gt;.github.io/&lt;repository-name&gt;/"
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#excursion-header-yaml-vs.-json",
-    "href": "tools_reporting_literature_BACKUP.html#excursion-header-yaml-vs.-json",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
-    "section": "Excursion Header: YAML vs. JSON",
-    "text": "Excursion Header: YAML vs. JSON\n\nYAML is a human-readable data serialization standard that can be used in conjunction with all programming languages and is often used to write configuration files.\nIt is even simpler/more “human-readable” than JSON (which is simpler than XML/HTML)\nIt uses less brackets and commas but white space (as python)\n\nYAML: https://en.wikipedia.org/wiki/YAML\nOfficial: https://yaml.org/\nTutorial: https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started\nWhat’s the difference to JSON? https://aws.amazon.com/compare/the-difference-between-yaml-and-json/\nLets make some specifications in the YAML header for HTML output. https://quarto.org/docs/output-formats/html-basics.html: a table-of-content, code-folding, …"
+    "objectID": "tools_reporting_literature.html#multipage-website-with-quarto",
+    "href": "tools_reporting_literature.html#multipage-website-with-quarto",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Multipage website with quarto",
+    "text": "Multipage website with quarto\nCore idea:\n\nSpecify the website and its stucture in a Config File _quarto.yml file.\nWrite the content of the pages in .qmd files.\n\nAll information: https://quarto.org/docs/websites/\n\nYou can publish this website on GitHub Pages as well, but you have to render the website first and push the rendered files (in the _site folder) to GitHub or use the more advanced methods using\n\na branch gh-pages (way the instructor) or\nGitHub Actions (requires configuring a whole software setup on GitHu such that rendering runs remotely and automatically on GitHub after each commit)."
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#tutorial-authoring-and-scholarly-writing",
-    "href": "tools_reporting_literature_BACKUP.html#tutorial-authoring-and-scholarly-writing",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
-    "section": "Tutorial: Authoring and Scholarly Writing",
-    "text": "Tutorial: Authoring and Scholarly Writing\nLet us do the following in a quarto markdown file (qmd)\n\n\nFor the following get help at quarto-Guide -&gt; Authoring\n\nYAML with author and abstract\nHeadlines\nAn equation\nAn image\nAn image created by a code chunk\nAn in-text code-output of a numerical value\n\n\nFor the following scholarly writing get help at quarto-Guide -&gt; Authoring -&gt; Scholarly Writing\n\nMake additional name information\nMake a figure with caption we can refer to\nAdd a bibliography"
-  },
-  {
-    "objectID": "tools_reporting_literature_BACKUP.html#excursion-literature-management",
-    "href": "tools_reporting_literature_BACKUP.html#excursion-literature-management",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
+    "objectID": "tools_reporting_literature.html#excursion-literature-management",
+    "href": "tools_reporting_literature.html#excursion-literature-management",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
     "section": "Excursion: Literature Management",
-    "text": "Excursion: Literature Management\nDo you use literature management systems?\n\nGoogle Scholar -&gt; BibTeX\nZotero"
+    "text": "Excursion: Literature Management\n\nYou should start to use a reference manager for your literature management.\nA de facto standard for reference management is Zotero.\n\nIt is open-source, free, and has a large user base."
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#data-science-workflow",
-    "href": "tools_reporting_literature_BACKUP.html#data-science-workflow",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
-    "section": "Data Science Workflow",
-    "text": "Data Science Workflow\nIn a normal data science workflow you first:\n\nDo exploratory data analysis (EDA).\n\nThis produces many output you need to see to understand the data and progress deeper towards your goal.\nYou also want to see the code in your output.\n\nTry several versions of different visualizations of your insights.\nYou end up with a very cluttered file which maybe helpful for you but not for external readers (and in the end not even for you anymore…)"
+    "objectID": "tools_reporting_literature.html#zotero-features-to-make-use-of",
+    "href": "tools_reporting_literature.html#zotero-features-to-make-use-of",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Zotero Features to make use of",
+    "text": "Zotero Features to make use of\n\nStore and organize your literature (including pdfs and your notes)\nHas browser extensions to easily add literature from the web with one click while on the website (knows many journals)\nCreate bibliographies (collections) in different citation styles\nIntegrate with word processors and markdown editors (e.g. quarto)\nHas a free tier for web storage in sync with your local Zotero\nYou can collaborate with others in making a shared collections of references\nSome people manage to import their Zotero notes in their note-taking apps (like Obsidian)"
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#workflow-towards-a-final-report",
-    "href": "tools_reporting_literature_BACKUP.html#workflow-towards-a-final-report",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
-    "section": "Workflow: Towards a final report",
-    "text": "Workflow: Towards a final report\n\nClean your code!\n\nRemove unnecessary objects\nStructure that it is most readable for others coders (like you in some weeks)\n\nCondense your insights of the EDA to\n\nsummarizing text\nfew nicely formatted tables and informative graphics which are relevant for the reader\n\nMake code and raw output vanish by\n\nremoving raw output (or make it a formatted table, or inline code to show code output in markdown text)\nhide code or use code folding in html (the user can check the reproducibility and details by folding out the code snippet)\n\nStructure the text: sensible (numbered) headingsines, table of content, cross references to figures, footnotes, citations, appendices …"
+    "objectID": "tools_reporting_literature.html#in-week-4-and-5",
+    "href": "tools_reporting_literature.html#in-week-4-and-5",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "In week 4 and 5",
+    "text": "In week 4 and 5\nWeek 4:\nIndividual meetings with me. Will be scheduled by me in the regular meeting times.\nYou can still reshuffle teams but I aim for\n\nPreliminary project check-in by team members.\nCreating a repository for each project.\n\n\nWeek 5:\n\nProposal presentations by teams.\nFollow the guidelins on this website.\nYou also have to prepare some basic workplan and team member roles and tasks in your repository (see Syllabus). A template shall be provided"
   },
   {
-    "objectID": "tools_reporting_literature_BACKUP.html#derivatives-of-your-report",
-    "href": "tools_reporting_literature_BACKUP.html#derivatives-of-your-report",
-    "title": "Communicating and Reporting of Data Science Projects, Websites, Literature Management",
-    "section": "Derivatives of your report",
-    "text": "Derivatives of your report\n\nA presentation with revealjs https://quarto.org/docs/presentations/\n\nDuplicate the file, adjust the YAML to revealjs and see how it looks and adjust\n\nA website https://quarto.org/docs/websites/\n\nWe need to write a file _quarto.yml to specify the website settings"
+    "objectID": "tools_reporting_literature.html#now",
+    "href": "tools_reporting_literature.html#now",
+    "title": "Communicating and Reporting of Data Science Projects, Literature Management",
+    "section": "Now",
+    "text": "Now\n\nLet us look at the current distribution. In the Ad-hoc group sheet.\nTime to coordinate Teams and coordinate in Teams."
   },
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
+    "objectID": "schedule_final.html",
+    "href": "schedule_final.html",
     "title": "Schedule",
     "section": "",
-    "text": "Developing Schedule\n\n\n\n\n\nThe schedule can be updated. Updates will be marked here and announced on Teams.\n\n\n\n\nTabular Schedule\nClass is Thursday in 2 consecutive Sessions 14:15 - 17:00\nLocation: IRC-Seminar Room III in-person if not stated otherwise\n\n\n\n\n\n\n\n\n\nWeek\nDates\nWhat?\nWhere?\n\n\n\n\n1\nFeb 05\nKick off the Lab Survey link\nIRC-Seminar Room III\n\n\n2\nFeb 12\nTopics and Team Formation, Q&A\nIRC-Seminar Room III\n\n\n3\nFeb 19\n🧑‍💻 Tutorial: Communicating and Reporting of Data Science Projects, Literature Management\nIRC-Seminar Room III\n\n\n4\nFeb 26\nIndividual meetings with student teams\nOnline\n\n\n5\nMar 05\n1️⃣ Student Proposal Presentations Presentation Guide  Schedule (in private repo):Teams Schedule\nIRC-Seminar Room III\n\n\n7\nMar 12\nIndividual meetings with student teams\nOnline\n\n\n6\nMar 19\n🧑‍💻 Tutorial (Topic to be announced)\nIRC-Seminar Room III\n\n\n8\nMar 26\nIndividual meetings with student teams\nOnline or  IRC-Seminar Room III\n\n\n\n\nSpring break\n\n\n\n9\nApr 09\n2️⃣ Student Progress and Learning Presentations Presentation Guide\nIRC-Seminar Room III\n\n\n10\nApr 16\n🧑‍💻 Tutorial Generate Text with AI, Avoid Bullshit\nIRC-Seminar Room III\n\n\n11\nApr 23\nIndividual meetings with student teams \nOnline or  IRC-Seminar Room III\n\n\n12\nApr 30\nIndividual meetings with student teams \nOnline or  IRC-Seminar Room III\n\n\n13\nMay 07\n3️⃣ Student Final Presentations  Presentation Guide\nIRC-Seminar Room III\n\n\n\nDeadline for Project Reports is the regular deadline in the Academic Calendar, see the Deadline for Students to Submit Assessments, Spring Semester.",
-    "crumbs": [
-      "Syllabus",
-      "Schedule"
-    ]
+    "text": "ImportantDeveloping Schedule\n\n\n\n\n\nThe schedule is tentative. It can be updated.\n\n\n\n\nTabular Schedule\nClass is Thursday in 2 consecutive Sessions 14:15 - 17:00\nLocation: ?var:location in-person if not stated otherwise\n\n\n\n\n\n\n\n\n\nWeek\nDates\nWhat?\nWhere?\n\n\n\n\n1\nFeb 05\nKick off the Lab  Watch out for survey link: To collect data for team and topic matching!\nCampus\n\n\n2\nFeb 12\nTopics and Team Formation, Q&A\nCampus\n\n\n3\nFeb 19\nIndividual meetings with student teams\nOnline or Instructor’s Office\n\n\n4\nFeb 26\n🧑‍💻 Tutorial quarto/git/GitHub: Refresh the basics; Report writing; Figures; Referencing; Reproducible code; Literature Management; Websites \nCampus\n\n\n5\nMar 05\n1️⃣ Student Proposal Presentations Presentation Guide\nCampus\n\n\n6\nMar 12\n🧑‍💻 Tutorial Collecting Data SQL/APIs/Webscraping Slides\nCampus\n\n\n7\nMar 19\nIndividual meetings with student teams\nOnline only\n\n\n8\nMar 26\nIndividual meetings with student teams\nOnline only\n\n\n\n\nSpring break\n\n\n\n9\nApr 09\n2️⃣ Student Progress and Learning Presentations Presentation Guide\nCampus\n\n\n10\nApr 16\n🧑‍💻 Tutorial Generate Text with AI, Avoid Bullshit Slides\nCampus\n\n\n11\nApr 23\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n12\nApr 30\nIndividual meetings with student teams \nOnline or Instructor’s Office\n\n\n13\nMay 07\n3️⃣ Student Final Presentations  Schedule Presentation Guide\nCampus\n\n\n\nDeadline for Project Reports is the regular deadline in the Academic Calendar, see the Deadline for Students to Submit Assessments, Spring Semester."
   },
   {
-    "objectID": "llm_writing_bullshit.html#text-generating-ai-tool",
-    "href": "llm_writing_bullshit.html#text-generating-ai-tool",
-    "title": "Tutorial: Writing Text with LLM",
-    "section": "Text generating AI Tool",
-    "text": "Text generating AI Tool\n\nUsing text generating AI tools has become a reality and is used for\n\nlearning,\ntranslating,\ncoding,\nreceiving advice,\nleisure, and\n\nfor writing and revising text for us.\n\nThe backbone of the generative AI tools ar large language models which generate text"
-  },
-  {
-    "objectID": "llm_writing_bullshit.html#use-as-a-student",
-    "href": "llm_writing_bullshit.html#use-as-a-student",
-    "title": "Tutorial: Writing Text with LLM",
-    "section": "Use as a student",
-    "text": "Use as a student\n\nHelp to solve assessment and other tasks ☑️\n👍 Especially for coding, but understand and scrutinize output!\n⚠️ Don’t forget the learning!\nLearning by asking for explanations ✅\nAdjust the detail level 📑 and specificity 🔎 with follow up prompts.\n⚠️ Don’t stop at the chat, get productive 🧑‍💻, find authorative sources and continue 📚.\nGenerate ideas for your own project (☑️)\n⚠️ Often generic unspecific ideas.\n🧑‍💻 quickly start to get productive.\nWrite text for your own project reports ((☑️))\n⚠️ Often generic unspecific text.\n✏️ You have to write the core research questions, arguments, and results yourself!"
-  },
-  {
-    "objectID": "llm_writing_bullshit.html#prompting-workflow",
-    "href": "llm_writing_bullshit.html#prompting-workflow",
-    "title": "Tutorial: Writing Text with LLM",
-    "section": "Prompting workflow",
-    "text": "Prompting workflow\nText development works with chatting via a chain of prompts\n\nYou write what you want\nWrite an outline for data science project about cricket.\nYou ask for refinement, reshaping, and restructuring on further prompts\nWrite an abstract of about 200 words on it.\nContinue until you are satisfied. Copy, edit and finalize yourself."
-  },
-  {
-    "objectID": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive",
-    "href": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive",
-    "title": "Tutorial: Writing Text with LLM",
-    "section": "How LLMs work: Autocomplete on Overdrive",
-    "text": "How LLMs work: Autocomplete on Overdrive\nActivity\nFollow The Bullshit Machines\nChapter 1: Autocomplete on Overdrive\nQuestions:\n\nDoes the same prompt always lead to the same outcome?\n(From The Bullshit Machines) Why do you think a program that simply tries to predict the most likely next word in a sequence would be good at holding conversations?"
-  },
-  {
-    "objectID": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive-1",
-    "href": "llm_writing_bullshit.html#how-llms-work-autocomplete-on-overdrive-1",
-    "title": "Tutorial: Writing Text with LLM",
-    "section": "How LLMs work: Autocomplete on Overdrive",
-    "text": "How LLMs work: Autocomplete on Overdrive\nActivity\nWhy do some call LLM Bullshit Machines?\nFollow The Bullshit Machines\nChapter 2: The Nature of Bullshit\nQuestions:\n\n(From The Bullshit Machines) People are perfectly good at producing bullshit without AI assistance—but with AI, people can produce more bullshit, faster. Who might find that useful? How?"
-  },
-  {
-    "objectID": "llm_writing_bullshit.html#the-instructors-perspective",
-    "href": "llm_writing_bullshit.html#the-instructors-perspective",
-    "title": "Tutorial: Writing Text with LLM",
-    "section": "The instructors perspective",
-    "text": "The instructors perspective\nThe instructor\n\nhas to read a lot\nmust read all student reports with an equal grading mindset\nshould provide some constructive feedback\n\n\nProblem\nAI generated text increases the amount of text which reads (superficially) well but it can become even harder to find the own contribution. It may read a bit like bullshit. Often it is very generic."
-  },
-  {
-    "objectID": "llm_writing_bullshit.html#ai-may-be-used-also-by-the-instructor",
-    "href": "llm_writing_bullshit.html#ai-may-be-used-also-by-the-instructor",
-    "title": "Tutorial: Writing Text with LLM",
-    "section": "AI may be used also by the instructor!",
-    "text": "AI may be used also by the instructor!\n\nSummarize student contributions\nWrite Feedback\n\n(I haven’t done so far ✌🤞️.) However, we want to avoid this"
-  },
-  {
-    "objectID": "llm_writing_bullshit.html#is-using-text-generating-ai-plagiarism",
-    "href": "llm_writing_bullshit.html#is-using-text-generating-ai-plagiarism",
-    "title": "Tutorial: Writing Text with LLM",
-    "section": "Is using text generating AI plagiarism?",
-    "text": "Is using text generating AI plagiarism?\nActivity\nTwo (or more) groups to answer the same questions:\n\nWhat is plagiarism?\nIs using AI to write text a form of plagiarism? Why? Why not?\n\nGroup 1 Read Constructor University’s Code of Academic Conduct\nGroup 2-X Ask AI!"
-  },
-  {
-    "objectID": "llm_writing_bullshit.html#data-science-project-abstract-writing",
-    "href": "llm_writing_bullshit.html#data-science-project-abstract-writing",
-    "title": "Tutorial: Writing Text with LLM",
-    "section": "Data Science Project Abstract Writing",
-    "text": "Data Science Project Abstract Writing\nActivity\nLet us try different AI Tools: OpenAI’s ChatGPT, Antrophic’s Claude, Mistral AI’s Le Chat, Google’s Gemini, …\nGroup 1-X Two on ChatGPT, more with other tools\nUse this prompts:\n\nYou write what you want\nWrite an outline for data science project about cricket.\nYou ask for refinement, reshaping, and restructuring on further prompts\nWrite an abstract of about 150 words on it.\n\nDiscussion: Read out the texts and we discuss its quality from the educated reader’s and instructor’s perspective."
-  },
-  {
-    "objectID": "llm_writing_bullshit.html#final-activity-abstract-for-your-project",
-    "href": "llm_writing_bullshit.html#final-activity-abstract-for-your-project",
-    "title": "Tutorial: Writing Text with LLM",
-    "section": "Final Activity: Abstract for your project",
-    "text": "Final Activity: Abstract for your project\nActivity\nIn your group:\nCreate a project abstract of about 150 words for your project with as many prompts as you want.\n(10-15 minutes)\nDiscussion: Read your abstracts and we discuss its quality from the educated reader’s and instructor’s perspective."
-  },
-  {
-    "objectID": "presentation.html",
-    "href": "presentation.html",
-    "title": "Presentation Guide",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science Lab",
     "section": "",
-    "text": "Each Team presents 3 times. See the Schedule.\nThese are the guidelines for the presentations\nDuration: A schedule will be provided.\nDiscussion: After each presentation, actively contribute to the discussion challenging and inspiring the other project teams.",
+    "text": "This syllabus may change during the course of the semester additions and clarifications. All substantial changes will marked here with date.",
     "crumbs": [
-      "Syllabus",
-      "Presentation Guide"
+      "Syllabus"
     ]
   },
   {
-    "objectID": "presentation.html#proposal-presentation-you-present-the-project-you-want-to-do.",
-    "href": "presentation.html#proposal-presentation-you-present-the-project-you-want-to-do.",
-    "title": "Presentation Guide",
-    "section": "1 💡💭 Proposal Presentation: You present the project you want to do.",
-    "text": "1 💡💭 Proposal Presentation: You present the project you want to do.\nGoals: Show what your project shall be about, what data and literature you depart from, and a feasible way how to work towards it.\nContent: (In brackets an average expectation how much attention to spend on the points. Not a strict rule!)\n\nExplain what main questions or problems your project wants to address. (40%)\nRefer to core materials you want to use and how much you have worked into: (20%)\n\nData: Which data? Have you put it in place already? Can you import it? Have you started to explore it? Aim to show feasibility by doing first steps, runing your idea in a minimal setting, do a first test, …!\nLiterature and web resources: Which papers, documentations, websites are essential for your project?\nIs something essential missing? What additional material would you like to find?\n\nExplain what methods you want to use: (20%)\n\nDo you know which methods can be used to answer your questions or solve your problems?\nWhich ones will you try first?\nHow much are you into the method yet?\nWhat can be an interesting learning topic for the whole course?\n\nShow a workplan: What are the most important things to do next? (20%)\n\nWhich material to study first with what focus?\nHow to setup your data and analysis pipeline?\nProvide sensible task list\nList who is responsible for what\n\n\nFormat: Informal. Show your workplan in your project repository. You can provide some informal slides to show some of your materials or present the materials directly.\nNote: First Team Member Contributions report is due.",
+    "objectID": "index.html#module-names",
+    "href": "index.html#module-names",
+    "title": "Data Science Lab",
+    "section": "1 Module Names",
+    "text": "1 Module Names\nMDSSSB-DSCI-01 Data Science Lab (Discovery area, 5 credits)\nOffered in the Master program: Data Science for Society and Business (DSSB). See the module description in the DSSB Handbook.",
     "crumbs": [
-      "Syllabus",
-      "Presentation Guide"
+      "Syllabus"
     ]
   },
   {
-    "objectID": "presentation.html#progress-presentation",
-    "href": "presentation.html#progress-presentation",
-    "title": "Presentation Guide",
-    "section": "2 🚧 Progress Presentation",
-    "text": "2 🚧 Progress Presentation\nGoal: Show your progress! First what worked and is done, then what is still open, what confused you, and finally your updated workplan to finish the project. Give some insights on learning which can be of interest for the whole course.\nContent:\n\nQuestions and problem refined (20%)\nCore materials with core essentials extracted: Data and Literature (20%)\nMethods: What did you try, what works, what are the challenges? (40%)\nUpdated workplan (20%)\n\nImportant: With each project team we will specify a learning focus which is interesting for the whole course. Share some insights with the class on that topic. For example: What is it? For what it is used? What is easier what is harder to learn than expected?\nFormat: Mostly Informal is fine. Provide indroductory slides for questions and problems your project is about. For intermeidate results it is enough to show materials, code-files, or output from your repository directly.\nNote: Second Team Member Contributions report is due.",
+    "objectID": "index.html#module-components",
+    "href": "index.html#module-components",
+    "title": "Data Science Lab",
+    "section": "2 Module Components",
+    "text": "2 Module Components\n\nData Science Lab (5 Credits)\n\nPre-requisits\n\nData Science Concepts\nData Science Tools\nCurrent Topics and Applications in Data Science",
     "crumbs": [
-      "Syllabus",
-      "Presentation Guide"
+      "Syllabus"
     ]
   },
   {
-    "objectID": "presentation.html#final-presentations",
-    "href": "presentation.html#final-presentations",
-    "title": "Presentation Guide",
-    "section": "3 👩‍🏫👨‍🏫 Final Presentations",
-    "text": "3 👩‍🏫👨‍🏫 Final Presentations\nGoal: Show your results! What is the main achievement. Critically reflect.\nFormat: Do a presentation with slides guiding through the project’s results.\nNote: Third and final Team Member Contributions report is due.",
+    "objectID": "index.html#class-meeting-information",
+    "href": "index.html#class-meeting-information",
+    "title": "Data Science Lab",
+    "section": "3 Class Meeting Information",
+    "text": "3 Class Meeting Information\nThursday: 2 consecutive Sessions duing 14:15 - 17:00\nLocation: IRC-Seminar Room III in-person\nAsynchronous communication about course organization as well as occasional video streaming and recording will be done in Microsoft Teams:\nTeam S26-MSDSSB-DSCI-01-DataScienceLab, General Channel",
     "crumbs": [
-      "Syllabus",
-      "Presentation Guide"
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#instructor",
+    "href": "index.html#instructor",
+    "title": "Data Science Lab",
+    "section": "4 Instructor",
+    "text": "4 Instructor\nJan Lorenz contact via Teams or email.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#format-and-workload",
+    "href": "index.html#format-and-workload",
+    "title": "Data Science Lab",
+    "section": "5 Format and Workload",
+    "text": "5 Format and Workload\nLab sessions (35 hours in presence)\nWork on project (125 hours)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-ilos",
+    "href": "index.html#sec-ilos",
+    "title": "Data Science Lab",
+    "section": "6 Intended Learning Outcomes",
+    "text": "6 Intended Learning Outcomes\nThe following 8 points are the Intended Learning Outcomes (ILOs) taken from the Handbook.\nThe bold text below each ILO operationalizes the ILO for assessment of your project submission (see Section 7.3).\nBy the end of this module, students should be able to\n\nunderstand and critically evaluate current data science applications, identify new innovative research questions and data science applications\nThe project communicates the problem, approach, and results effectively and clearly. It also critically evaluates the approach and/or results.\nexperiment with and simulate data science solutions\nThe project describes how the presented approach or the results may practically be used in data science application.\nwrite/configure computer programs/tools specific to certain subject areas\nThe tools used in the project are well chosen.\nmaster relevant data pre/post-processing routines\nThe project shows and documents the data flow from its origin to the results which can be reproduced.\ndesign and schedule a DS project of medium complexity, including escape options, and keep milestones/timelines\nThis not an assessment criterion, but is realized through the activities and presentations during the semester.\nimprove their academic writing skills\nThe text in the project reports is well structured and well written.\ncommunicate results to a non-expert audience\nThe text has an introduction or abstract and conclusion which are understandable by a non-expert audience.\ndesign their own digital application\nThis is not an assessment criterion. The ILO is touched in 2.\n\n\n6.1 Main Learning Goal\nThis Data Science Lab shall deepen your skills for your more and more independent data science work based on a self-designed project. That means you become more experienced in\n\nin using the core concepts in data science on your own, for example\n\nexploring data (import, wrangle, visualize)\nlearning, exploring and applying mathematics and statistics through the data science lens\nlearning and applying concepts to model and draw conclusions from data (model, infer, predict)\n\ncreating and maintaining a digital working environment on your computer to do data science\nprogramming in the data science languages R and/or python, and become able to learn new skills in these independently\nimprove your skills in documenting and presenting your findings with compelling visualizations, descriptions, interpretations, and narratives",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#examination-and-assessment",
+    "href": "index.html#examination-and-assessment",
+    "title": "Data Science Lab",
+    "section": "7 Examination and Assessment",
+    "text": "7 Examination and Assessment\nAssessment Type: Project Assessment (see Section 6) Weight: 100%\nScope: All intended learning outcomes of the module (see Section 6).\nCompletion: to pass this module, the examination has to be passed with at least 45%\n\n7.1 Team work policy\n\nProjects have to be done in teams of students.\nEvery team member has to contribute substantially to the success of the project.\nTeams have to provide three Team Member Contributions reports. The dates are analog to the three presentations. All team members must be listed. Note down for each team member:\n\nfull name\nrole\ncontributions so far\nexpected contributions until project end\n\nAll three Team Member Contributions reports shall be provided on the same dedicated file TEAM-CONTRIBUTIONS.md in the project repository.\nTeam Grading: By default project reports are graded collectively such that all team members receive the same grade. However, there are two exceptions:\n\nThe instructor reserves the option to change form collective to individual grades when workload and contributions are very unbalanced. Indications for this are the Team Member Contributions report, presence and participation during presentations (proposal, progress, and final), and contributions to the repository. The team members will be informed when individual grading applies.\nTeams can opt for partially individual grades. To that end, the report needs identifiable parts made by individual members or subgroups, typically individual pages. In any case, the project needs a collectively written abstract, introduction, and conclusion. The individual grade will than be computed 50% by a team grade (based mainly on abstract, introduction, and conclusion) and 50% by an individual grade. Alignment of the individual work to the overall project is a component in assessment of the individual work.\n\nTeams have to ask for this option.\nThe structure of the individual contributions has to be discussed with the instructor.\n\n\n\n\n\n7.2 Project Delivery\nThe project components must be delivered in a project-repository on GitHub provided by the instructor in the GitHub-Organization CU-S26-MSDSSB-DSCI-01-DataScienceLab.\nMark the finalization of the project with commit message “Finalized project”. It will be cloned after the submission deadline and assessed from the repository content.\nIf your project requires another way of delivery, get in contact with the instructor before the submission.\n\n\n7.3 Project Format\nLab projects can have different formats. The main contribution need not be a text. It will be developed during the course.\nFor proper assessment, the repository should have at least one human-readable document which can be read without considering code. Examples:\n\nA rendered quarto file in html-format guiding through the project. These files can be best viewed on a local machine in a browser (but not from the GitHub-Website in a private repository). However, they can be made publically viewable from the Internet via GitHub-pages with a few clicks later if you want.\n\nFiles in GitHub flavored markdown (gfm) like the typical README.md. These have slightly fewer formatting options but can be viewed directly on GitHub. This may be a good solution for code-heavy projects.\nAlternative or additional options which may be used with a particular reason: A slide deck in revealjs-html or PDF-file. A paged report as a PDF-file.\nIn any case: Do not submit your work in Word or PowerPoint format (e.g., docx, pptx) or related formats from Apple or Libre Office. All these formats can be converted to PDF – submit such as a PDF.\n\nThe instructor starts assessment with reading the README.md of the project repository, then going to the main description file specified as the main human-readable document. Assessment criteria are written down in Section 6.\nThe repository should also include all the code used to do data collection and import, data analysis, visualizations, predictions, and whatever else the project is about.\n\n\n7.4 Project “Length”\nYour text should begin with a section called Abstract, Outline, or Executive Summary with between 120 and 500 words.\n\nThere is no minimal or maximal number of words! (Some project’s main part maybe code or visualizations.)\nThere is no minimal or maximal number of lines of code! (Some project’s main part may be the documentation, description, interpretation, and critical reflection.)\n\nThere is no minimal or maximal number of pages! (You can count pages only if you deliver a slidedeck, or a PDF.)\n\nSome guidelines are:\n\nA short contribution is good when it is concise and covers all aspects. A long contribution is good when it is well structured (in a hierarchy of importance) and not redundant.\nIf your human-readable text is much less than 3,000 words: Consider if some parts should be extended. Go in detail over the assessment criteria and check that your document covers all the aspects which need to be assessed, is well readable, clear, and concise for an external reader. If this is the case it is great when you can stay below 3,000 words!\nIf your human-readable text has more than 6,000 words: Consider to\n\nmake it shorter by making it more concise and less redundant\nstructure it in a core part with less than 3,000 words and appendices with additional information (your main text can refer to appendix sections)\nusing footnotes for additional information (However, avoid too extensive use of long footnotes. At some point it is better to make an appendix section.)\n\nThe assessment goes only along the criteria listed below. A long contribution may receive lower assessments when it communicates less effectively and less to the point. Beware not to deliver generic ChatGPT-like “bla-bla”!\nCheck and polish your code. Check if the code reproduces your results. Remove unnecessary code, and spend some explanatory comments on interesting non-standard steps. Large parts of unnecessary code can be considered as less effective and less clear communication. However, your code need not be excessively educational with a comment on every line.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#module-policies",
+    "href": "index.html#module-policies",
+    "title": "Data Science Lab",
+    "section": "8 Module Policies",
+    "text": "8 Module Policies\nThere are no formal requirement about attendance and active participation. However, the instructor relies on your engagement in a many-facted way including:\n\nPreparation (looking at readings and material before and after class, being informed about syllabus and course material)\nFocus (avoid distraction during in class and self-learning activities)\nPresence (listening and responding during group activities)\nAsking questions (in class, out of class, online, offline, when you get stuck conclude by writing a question)\nSpecificity (being as specific as possible when describing your problem or question)\nSynthesizing (making connections between concepts from reading and discussion)\nPersistence (you don’t need to understand everything immediately, but stay engaged, try again, confusion shows that you pay attention)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#academic-integrity",
+    "href": "index.html#academic-integrity",
+    "title": "Data Science Lab",
+    "section": "9 Academic Integrity",
+    "text": "9 Academic Integrity\nAll involved parties (professors and lecturers, instructors and students) are expected to abide by the word and spirit of the Code of Academic Integrity. Violations of the Code will be brought to the attention of the Academic Integrity Committee.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#artifical-intelligence-ai-use-policy",
+    "href": "index.html#artifical-intelligence-ai-use-policy",
+    "title": "Data Science Lab",
+    "section": "10 Artifical Intelligence (AI) Use Policy",
+    "text": "10 Artifical Intelligence (AI) Use Policy\nThis policy covers any generative AI tool, such as ChatGPT, Gemini, Claude, Elicit, etc. This includes text, code, slides, artwork/graphics/video/audio and other products.\nI encourage you to using and exploring AI tools for these purposes:\n\nLearning by dialog with a chatbot. AI chatbots can be helpful to explain you concepts on your desired level and get a feeling about how certain topics are treated. You can ask for an easier or more detailed explanation or focus on certain aspects. Note: The capabilities are limited and you likely receive a lot of false information! Using chatbots should remain a small part of your learning process. Rule of thumb: Spend not more than 25% of the learning time with chatting. There is no way around reading textbooks, reading software documentation, learning and understanding concepts, practicing, searching for help online, asking instructors or fellow students.\nHave code snippets written. Tools like GitHub Copilot (free to use for students and teachers) are heavily used and currently change code-writing. They can speed up writing your code. However, they do not deliver always correct solutions. There is no way around understanding yourself what a code is doing! Do not spend endless hours asking for new code with new prompts, spend time understanding a language and the functions and objects you are using! Copilots can be a great help to get a skeleton of code and an idea how your solution might look, they rarely deliver the complete code. Expect that the code does not work, expect that the code seems to works but the results are wrong. You are 100% accountable for the code you produce, with or without the help of a copilot!\nHave a draft text snippet written. Data science is also about formulating and describing research questions, describing data, documenting code, interpreting results, and deriving conclusion form the results. This is all verbal text and chatbots are good in writing text which often appears well readable. You can use this to inspire yourself and to polish and improve your texts. However, you are 100% accountable for the text you deliver. You are expected to know what your text is about and to be able to answer questions about what your text means! In text generated purely by a chatbot it is often evident that you do not.\n\nNote: Philosophical and legal questions around the training and use of chatbots and code copilots are controversially contested and re-examined constantly! We encourage to engage with such questions and become aware of arguments and debates.\nNote on assessment of your text be it written with or without AI: Text written by chatbots is often very generic and less specific. Often, ChatBots deliver bullshit (as defined by H. Frankfurt) . Large parts of very generic bullshit-like text will be assessed worse than a short more specific text!\nIf any part of this AI policy is confusing or uncertain, please reach out to us for a conversation before submitting your work.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Data Science Lab",
+    "section": "11 Schedule",
+    "text": "11 Schedule\nThe Schedule is on an extra page and will be updated continuously.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#feedback-from-students",
+    "href": "index.html#feedback-from-students",
+    "title": "Data Science Lab",
+    "section": "12 Feedback from Students",
+    "text": "12 Feedback from Students\nWe are eager to constantly improve the quality of our teaching. We would be glad to obtain your feedback at any time of the course to improve your learning experience.",
+    "crumbs": [
+      "Syllabus"
     ]
   }
 ]

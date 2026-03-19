@@ -6,8 +6,8 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.31">
 
   <meta name="author" content="Jan Lorenz">
   <title>Data Science Lab – Tutorial: Collecting Data</title>
@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -95,7 +98,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -329,20 +332,20 @@ What are the columns in USA Names?</li>
 <li>We want to extract the numbers of babies with the name “Kevin” for each year in the whole USA.</li>
 <li>Copy this query</li>
 </ol>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb1-1"><a></a><span class="kw">SELECT</span> <span class="dt">year</span>, <span class="fu">sum</span>(<span class="dt">number</span>) <span class="kw">AS</span> num</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb1-1"><a></a><span class="kw">SELECT</span> <span class="dt">year</span>, <span class="fu">sum</span>(<span class="dt">number</span>) <span class="kw">AS</span> num</span>
 <span id="cb1-2"><a></a><span class="kw">FROM</span> `bigquery<span class="op">-</span><span class="kw">public</span><span class="op">-</span><span class="kw">data</span>.usa_names.usa_1910_2013`</span>
 <span id="cb1-3"><a></a><span class="kw">WHERE</span> name <span class="op">=</span> <span class="ot">"Kevin"</span></span>
-<span id="cb1-4"><a></a><span class="kw">GROUP</span> <span class="kw">BY</span> <span class="dt">year</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-4"><a></a><span class="kw">GROUP</span> <span class="kw">BY</span> <span class="dt">year</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ol start="4" type="1">
 <li>Click “Run” and explore the results.</li>
 </ol>
 </section>
 <section id="explanations" class="slide level2">
 <h2>Explanations</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb2-1"><a></a><span class="kw">SELECT</span> <span class="dt">year</span>, <span class="fu">sum</span>(<span class="dt">number</span>) <span class="kw">AS</span> num</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb2-1"><a></a><span class="kw">SELECT</span> <span class="dt">year</span>, <span class="fu">sum</span>(<span class="dt">number</span>) <span class="kw">AS</span> num</span>
 <span id="cb2-2"><a></a><span class="kw">FROM</span> `bigquery<span class="op">-</span><span class="kw">public</span><span class="op">-</span><span class="kw">data</span>.usa_names.usa_1910_2013`</span>
 <span id="cb2-3"><a></a><span class="kw">WHERE</span> name <span class="op">=</span> <span class="ot">"Kevin"</span></span>
-<span id="cb2-4"><a></a><span class="kw">GROUP</span> <span class="kw">BY</span> <span class="dt">year</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-4"><a></a><span class="kw">GROUP</span> <span class="kw">BY</span> <span class="dt">year</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
 <li>Line 1 specifies what columns we want to have. It also specifies that we compute a new variable <code>num</code> which is the sum of <code>number</code>. To that end, we need some <code>GROUP BY</code> which comes later in Line 4.</li>
 <li>Line 2 specifies the data table. Note the dot-notation with the database collection <code>bigquery-public-data</code>, the database <code>usa_names</code>, and the table <code>usa_1910_2013</code></li>
@@ -360,20 +363,20 @@ What are the columns in USA Names?</li>
 <li>Execute the <code>bq_auth()</code> command (check the text in the comments)</li>
 <li>Use this code</li>
 </ol>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>billing <span class="ot">&lt;-</span> <span class="st">"blabla-380021"</span>  <span class="co"># This must be your project ID! </span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>billing <span class="ot">&lt;-</span> <span class="st">"blabla-380021"</span>  <span class="co"># This must be your project ID! </span></span>
 <span id="cb3-2"><a></a>sql <span class="ot">&lt;-</span> <span class="st">"SELECT year, sum(number</span></span>
 <span id="cb3-3"><a></a><span class="st">FROM `bigquery-public-data.usa_names.usa_1910_2013`</span></span>
 <span id="cb3-4"><a></a><span class="st">WHERE name = 'Kevin'</span></span>
 <span id="cb3-5"><a></a><span class="st">GROUP BY year"</span></span>
 <span id="cb3-6"><a></a>tb <span class="ot">&lt;-</span> <span class="fu">bq_project_query</span>(billing, sql)</span>
-<span id="cb3-7"><a></a>data <span class="ot">&lt;-</span> <span class="fu">bq_table_download</span>(tb, <span class="at">n_max =</span> <span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-7"><a></a>data <span class="ot">&lt;-</span> <span class="fu">bq_table_download</span>(tb, <span class="at">n_max =</span> <span class="dv">100</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><strong>Important:</strong> Replace the <code>billing</code> string with your project ID. Find it clicking here</p>
 <p><img data-src="img/ggoglecloudproject.png" style="width:20.0%"></p>
 </section>
 <section id="plot-the-data-in-r" class="slide level2">
 <h2>Plot the data in R</h2>
 <p>Now we can look at the evolution of the popularity of the name “Kevin” with</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>data <span class="sc">|&gt;</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(year, num, <span class="at">color =</span> name)) <span class="sc">+</span> <span class="fu">geom_line</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>data <span class="sc">|&gt;</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(year, num, <span class="at">color =</span> name)) <span class="sc">+</span> <span class="fu">geom_line</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="fragment">
 <p>Next challenge: Extract also the data for the name “Martin”. Hint: You need to add “Martin” (comma-separated) to the <code>SELECT</code> and add a condition with <code>OR</code> at the end of the <code>WHERE</code>. You also need to add <code>name</code> to the <code>GROUP BY</code>.</p>
 <p><img data-src="img/usamartinkevin.png"></p>
@@ -385,23 +388,23 @@ What are the columns in USA Names?</li>
 <div class="columns">
 <div class="column" style="width:33%;">
 <h3 id="sql">SQL</h3>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb5-1"><a></a><span class="kw">SELECT</span> <span class="dt">year</span>, <span class="fu">sum</span>(<span class="dt">number</span>) <span class="kw">AS</span> num</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb5-1"><a></a><span class="kw">SELECT</span> <span class="dt">year</span>, <span class="fu">sum</span>(<span class="dt">number</span>) <span class="kw">AS</span> num</span>
 <span id="cb5-2"><a></a><span class="kw">FROM</span> `bigquery<span class="op">-</span><span class="kw">public</span><span class="op">-</span><span class="kw">data</span>.usa_names.usa_1910_2013`</span>
 <span id="cb5-3"><a></a><span class="kw">WHERE</span> name <span class="op">=</span> <span class="ot">"Kevin"</span></span>
-<span id="cb5-4"><a></a><span class="kw">GROUP</span> <span class="kw">BY</span> <span class="dt">year</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-4"><a></a><span class="kw">GROUP</span> <span class="kw">BY</span> <span class="dt">year</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column" style="width:33%;">
 <h3 id="r-dplyr">R dplyr</h3>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>usa_names <span class="sc">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>usa_names <span class="sc">|&gt;</span> </span>
 <span id="cb6-2"><a></a><span class="fu">filter</span>(name <span class="sc">==</span> <span class="st">"Kevin"</span>) <span class="sc">|&gt;</span> </span>
 <span id="cb6-3"><a></a><span class="fu">select</span>(year, number) <span class="sc">|&gt;</span> </span>
 <span id="cb6-4"><a></a><span class="fu">group_by</span>(year) <span class="sc">|&gt;</span> </span>
-<span id="cb6-5"><a></a><span class="fu">summarize</span>(<span class="at">num =</span> <span class="fu">sum</span>(number))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-5"><a></a><span class="fu">summarize</span>(<span class="at">num =</span> <span class="fu">sum</span>(number))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column" style="width:33%;">
 <h3 id="py-pandas">py pandas</h3>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>usa_names.loc[usa_names[<span class="st">'name'</span>] <span class="op">==</span> <span class="st">'Kevin'</span>, </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>usa_names.loc[usa_names[<span class="st">'name'</span>] <span class="op">==</span> <span class="st">'Kevin'</span>, </span>
 <span id="cb7-2"><a></a>[<span class="st">'year'</span>, <span class="st">'number'</span>]].<span class="op">\</span></span>
 <span id="cb7-3"><a></a>groupby(<span class="st">'year'</span>).<span class="op">\</span></span>
-<span id="cb7-4"><a></a>agg(num<span class="op">=</span>(<span class="st">'number'</span>, <span class="st">'sum'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-4"><a></a>agg(num<span class="op">=</span>(<span class="st">'number'</span>, <span class="st">'sum'</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><ul>
 <li>There are libraries for linking python or R to SQL databases
 <ul>
@@ -468,7 +471,7 @@ What are the columns in USA Names?</li>
 <p><img data-src="img/github_janlorenz_page.png"></p>
 </div><div class="column" height="'50%" style="width:33%;">
 <h3 id="html">html</h3>
-<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb8-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb8-1"><a></a></span>
 <span id="cb8-2"><a></a></span>
 <span id="cb8-3"><a></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
 <span id="cb8-4"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="ot"> lang</span><span class="op">=</span><span class="st">"en"</span><span class="ot"> data-color-mode</span><span class="op">=</span><span class="st">"auto"</span><span class="ot"> data-light-theme</span><span class="op">=</span><span class="st">"light"</span><span class="ot"> data-dark-theme</span><span class="op">=</span><span class="st">"dark"</span><span class="ot"> data-a11y-animated-images</span><span class="op">=</span><span class="st">"system"</span><span class="dt">&gt;</span></span>
@@ -783,10 +786,10 @@ What are the columns in USA Names?</li>
 <span id="cb8-313"><a></a>        <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"color-fg-default h4"</span><span class="dt">&gt;</span>Discussions<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
 <span id="cb8-314"><a></a>        Collaborate outside of code</span>
 <span id="cb8-315"><a></a>      <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb8-316"><a></a>...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-316"><a></a>...</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column" style="width:33%;">
 <h3 id="json">json</h3>
-<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource json number-lines code-with-copy"><code class="sourceCode json"><span id="cb9-1"><a></a><span class="fu">{</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode numberSource json number-lines code-with-copy"><code class="sourceCode json"><span id="cb9-1"><a></a><span class="fu">{</span></span>
 <span id="cb9-2"><a></a>  <span class="dt">"login"</span><span class="fu">:</span> <span class="st">"janlorenz"</span><span class="fu">,</span></span>
 <span id="cb9-3"><a></a>  <span class="dt">"id"</span><span class="fu">:</span> <span class="dv">7503499</span><span class="fu">,</span></span>
 <span id="cb9-4"><a></a>  <span class="dt">"node_id"</span><span class="fu">:</span> <span class="st">"MDQ6VXNlcjc1MDM0OTk="</span><span class="fu">,</span></span>
@@ -819,7 +822,7 @@ What are the columns in USA Names?</li>
 <span id="cb9-31"><a></a>  <span class="dt">"following"</span><span class="fu">:</span> <span class="dv">2</span><span class="fu">,</span></span>
 <span id="cb9-32"><a></a>  <span class="dt">"created_at"</span><span class="fu">:</span> <span class="st">"2014-05-06T17:55:13Z"</span><span class="fu">,</span></span>
 <span id="cb9-33"><a></a>  <span class="dt">"updated_at"</span><span class="fu">:</span> <span class="st">"2023-02-25T13:02:51Z"</span></span>
-<span id="cb9-34"><a></a><span class="fu">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-34"><a></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div></div>
 </section>
 <section id="input-website-description-languages" class="slide level2">
@@ -870,16 +873,16 @@ What are the columns in USA Names?</li>
 <p>We can use the <a href="https://docs.github.com/en/rest?apiVersion=2022-11-28">GitHub API</a>.</p>
 <p>We can get the JSON file from the user <code>janlorenz</code> by: <a href="http://api.github.com/users/janlorenz" class="uri">http://api.github.com/users/janlorenz</a></p>
 <p>Let us do the following in R:</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a>githubname <span class="ot">=</span> <span class="st">"janlorenz"</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a>githubname <span class="ot">=</span> <span class="st">"janlorenz"</span></span>
 <span id="cb10-2"><a></a><span class="fu">download.file</span>(<span class="fu">glue</span>(<span class="st">"https://api.github.com/users/{githubname}"</span>), <span class="at">destfile =</span> <span class="fu">glue</span>(<span class="st">"{githubname}.json"</span>))</span>
-<span id="cb10-3"><a></a>user <span class="ot">&lt;-</span> <span class="fu">read_json</span>(<span class="fu">glue</span>(<span class="st">"{githubname}.json"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-3"><a></a>user <span class="ot">&lt;-</span> <span class="fu">read_json</span>(<span class="fu">glue</span>(<span class="st">"{githubname}.json"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Now you have downloaded the JSON file, and read it into the R object <code>user</code>.<br>
 Explore this nested list object!</p>
 </section>
 <section id="the-tbl_json-object-is-nested" class="slide level2">
 <h2>The <code>tbl_json</code> object is <strong>nested</strong></h2>
 <p>For example: The Name of the user is at</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a>user<span class="sc">$</span><span class="st">`</span><span class="at">..JSON</span><span class="st">`</span>[[<span class="dv">1</span>]]<span class="sc">$</span>name</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a>user<span class="sc">$</span><span class="st">`</span><span class="at">..JSON</span><span class="st">`</span>[[<span class="dv">1</span>]]<span class="sc">$</span>name</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Explanations</p>
 <ul>
 <li><code>user</code> is a list of 2 with the strange item name <code>..JSON</code> we have to put it in backticks <code>`</code> to access it with <code>$</code>.</li>
@@ -899,7 +902,7 @@ Explore this nested list object!</p>
 </section>
 <section id="code-for-number-of-following-and-followers" class="slide level2">
 <h2>Code for number of following and followers</h2>
-<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="fu">download.file</span>(<span class="fu">glue</span>(<span class="st">"https://api.github.com/users/{githubname}/following"</span>), <span class="at">destfile =</span> <span class="fu">glue</span>(<span class="st">"{githubname}-following.json"</span>))</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="fu">download.file</span>(<span class="fu">glue</span>(<span class="st">"https://api.github.com/users/{githubname}/following"</span>), <span class="at">destfile =</span> <span class="fu">glue</span>(<span class="st">"{githubname}-following.json"</span>))</span>
 <span id="cb12-2"><a></a><span class="fu">download.file</span>(<span class="fu">glue</span>(<span class="st">"https://api.github.com/users/{githubname}/followers"</span>), <span class="at">destfile =</span> <span class="fu">glue</span>(<span class="st">"{githubname}-followers.json"</span>))</span>
 <span id="cb12-3"><a></a>following <span class="ot">&lt;-</span> <span class="fu">read_json</span>(<span class="fu">glue</span>(<span class="st">"{githubname}-following.json"</span>))</span>
 <span id="cb12-4"><a></a>following<span class="sc">$</span><span class="st">`</span><span class="at">..JSON</span><span class="st">`</span>[[<span class="dv">1</span>]]</span>
@@ -909,17 +912,17 @@ Explore this nested list object!</p>
 <span id="cb12-8"><a></a>df_following<span class="sc">$</span>login</span>
 <span id="cb12-9"><a></a>df_following<span class="sc">$</span>login <span class="sc">|&gt;</span> <span class="fu">length</span>() <span class="co"># Number of following</span></span>
 <span id="cb12-10"><a></a>df_followers<span class="sc">$</span>login</span>
-<span id="cb12-11"><a></a>df_followers<span class="sc">$</span>login <span class="sc">|&gt;</span> <span class="fu">length</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-11"><a></a>df_followers<span class="sc">$</span>login <span class="sc">|&gt;</span> <span class="fu">length</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="retrieve-followers-of-following" class="slide level2">
 <h2>Retrieve followers of following …</h2>
-<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a>df_following<span class="sc">$</span>login <span class="sc">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a>df_following<span class="sc">$</span>login <span class="sc">|&gt;</span> </span>
 <span id="cb13-2"><a></a>  <span class="fu">walk</span>(\(x) <span class="fu">download.file</span>(<span class="fu">glue</span>(<span class="st">"https://api.github.com/users/{x}/followers"</span>), </span>
 <span id="cb13-3"><a></a>                          <span class="at">destfile =</span> <span class="fu">glue</span>(<span class="st">"following_{x}.json"</span>)))</span>
 <span id="cb13-4"><a></a>follower_following_user <span class="ot">&lt;-</span> df_following<span class="sc">$</span>login <span class="sc">|&gt;</span> </span>
 <span id="cb13-5"><a></a>  <span class="fu">map</span>(\(x) <span class="fu">read_json</span>(<span class="fu">glue</span>(<span class="st">"following_{x}.json"</span>))<span class="sc">$</span><span class="st">`</span><span class="at">..JSON</span><span class="st">`</span>[[<span class="dv">1</span>]] <span class="sc">|&gt;</span> <span class="fu">spread_all</span>())</span>
 <span id="cb13-6"><a></a>follower_following_user <span class="sc">|&gt;</span> <span class="fu">map</span>(\(x) x[[<span class="st">"login"</span>]])</span>
-<span id="cb13-7"><a></a>follower_following_user <span class="sc">|&gt;</span> <span class="fu">map_dbl</span>(\(x) x[[<span class="st">"login"</span>]] <span class="sc">|&gt;</span> <span class="fu">length</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-7"><a></a>follower_following_user <span class="sc">|&gt;</span> <span class="fu">map_dbl</span>(\(x) x[[<span class="st">"login"</span>]] <span class="sc">|&gt;</span> <span class="fu">length</span>())</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Note: The maximum number of retrieved followers seems to be limited 30.</p>
 </section>
 <section id="can-i-get-data-from-any-site-with-apis" class="slide level2">
@@ -987,22 +990,22 @@ This already shows the page with the rating distribution.</li>
 </section>
 <section id="code-for-imdb-oppenheimer" class="slide level2">
 <h2>Code for IMDb Oppenheimer</h2>
-<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a>session <span class="ot">&lt;-</span> <span class="fu">read_html_live</span>(<span class="st">"https://www.imdb.com/title/tt15398776/ratings/"</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a>session <span class="ot">&lt;-</span> <span class="fu">read_html_live</span>(<span class="st">"https://www.imdb.com/title/tt15398776/ratings/"</span>)</span>
 <span id="cb14-2"><a></a>session <span class="sc">|&gt;</span> <span class="fu">html_elements</span>(<span class="st">"tspan"</span>)</span>
 <span id="cb14-3"><a></a>session <span class="sc">|&gt;</span> <span class="fu">html_elements</span>(<span class="st">"tspan"</span>) <span class="sc">|&gt;</span> <span class="fu">html_text</span>()</span>
 <span id="cb14-4"><a></a>session <span class="sc">|&gt;</span> <span class="fu">html_elements</span>(<span class="st">"tspan"</span>) <span class="sc">|&gt;</span> <span class="fu">html_text</span>() <span class="sc">|&gt;</span> </span>
 <span id="cb14-5"><a></a>  <span class="fu">word</span>(<span class="dv">1</span>) <span class="sc">|&gt;</span> <span class="fu">str_extract</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">d+</span><span class="sc">\\</span><span class="st">.</span><span class="sc">\\</span><span class="st">d+"</span>) <span class="sc">|&gt;</span> <span class="fu">as.numeric</span>() <span class="sc">|&gt;</span> <span class="fu">na.omit</span>() <span class="sc">|&gt;</span> <span class="fu">rev</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb14-6"><a></a>  <span class="fu">barplot</span>(<span class="at">main =</span> <span class="st">"IMDb Oppenheimer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-6"><a></a>  <span class="fu">barplot</span>(<span class="at">main =</span> <span class="st">"IMDb Oppenheimer"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="code-for-letterboxd-oppenheimer" class="slide level2">
 <h2>Code for Letterboxd Oppenheimer</h2>
-<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>session <span class="ot">&lt;-</span> <span class="fu">read_html_live</span>(<span class="st">"https://letterboxd.com/film/oppenheimer-2023/"</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>session <span class="ot">&lt;-</span> <span class="fu">read_html_live</span>(<span class="st">"https://letterboxd.com/film/oppenheimer-2023/"</span>)</span>
 <span id="cb15-2"><a></a>session <span class="sc">|&gt;</span> <span class="fu">html_elements</span>(<span class="st">"li.rating-histogram-bar"</span>)</span>
 <span id="cb15-3"><a></a>session <span class="sc">|&gt;</span> <span class="fu">html_elements</span>(<span class="st">"li.rating-histogram-bar"</span>) <span class="sc">|&gt;</span> <span class="fu">html_text</span>() </span>
 <span id="cb15-4"><a></a>session <span class="sc">|&gt;</span> <span class="fu">html_elements</span>(<span class="st">"li.rating-histogram-bar"</span>) <span class="sc">|&gt;</span> <span class="fu">html_text</span>() <span class="sc">|&gt;</span> </span>
 <span id="cb15-5"><a></a>  <span class="fu">str_remove_all</span>(<span class="st">","</span>) <span class="sc">|&gt;</span> <span class="fu">str_remove_all</span>(<span class="st">"★"</span>) <span class="sc">|&gt;</span> <span class="fu">str_remove_all</span>(<span class="st">"½"</span>) <span class="sc">|&gt;</span> <span class="fu">str_remove_all</span>(<span class="st">"ratings"</span>) <span class="sc">|&gt;</span> </span>
 <span id="cb15-6"><a></a>  <span class="fu">str_remove_all</span>(<span class="st">"half-"</span>) <span class="sc">|&gt;</span> <span class="fu">str_remove_all</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">(</span><span class="sc">\\</span><span class="st">d+%</span><span class="sc">\\</span><span class="st">)"</span>) <span class="sc">|&gt;</span> <span class="fu">str_trim</span>() <span class="sc">|&gt;</span> <span class="fu">as.numeric</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb15-7"><a></a>  <span class="fu">barplot</span>(<span class="at">main =</span> <span class="st">"Letterboxd Oppenheimer"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-7"><a></a>  <span class="fu">barplot</span>(<span class="at">main =</span> <span class="st">"Letterboxd Oppenheimer"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="learnings" class="slide level2">
 <h2>Learnings</h2>
@@ -1220,7 +1223,7 @@ This already shows the page with the rating distribution.</li>
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1294,13 +1297,14 @@ This already shows the page with the rating distribution.</li>
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
