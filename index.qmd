@@ -4,15 +4,11 @@ title: "Data Science Lab"
 
 This syllabus may change during the course of the semester additions and clarifications. All substantial changes will marked here with date. 
 
-**Important Links:**     
-[{{< var org.name >}}]({{< var org.link >}})  
-[Course-Organization-Resources]({{< var org.link-org-repo >}}) (private repository, you need to be logged in on GitHub)
-
 ## Module Names
 
 MDSSSB-DSCI-01 Data Science Lab (Discovery area, 5 credits)
 
-Offered in the [Master program: Data Science for Society and Business (DSSB)](https://constructor.university/programs/graduate-education/data-science-for-society-business). See the module description in the [DSSB Handbook]({{<var link.handbook >}}). 
+Offered in the [Master program: Data Science for Society and Business (DSSB)](https://constructor.university/programs/graduate-education/data-science-for-society-business). See the module description in the [DSSB Handbook]({{<var link.handbook_onsite >}}). 
 
 
 ## Module Components
@@ -28,17 +24,16 @@ Pre-requisits
 
 ## Class Meeting Information
 
-**{{<var class.day>}}:** 2 consecutive Sessions duing **{{<var class.time>}}**    
-Location: **{{<var class.location>}}** in-person  
+**{{<var day>}}:** 2 consecutive Sessions duing **{{<var time>}}**    
+Location: **{{<var room>}}** in-person  
 
 Asynchronous communication about course organization as well as occasional video streaming and recording will be done in Microsoft Teams:   
-Team **S25_MDSSB-DSCI-01_Data Science Lab**, General Channel
+Team [**{{<var teams.name>}}**]({{<var teams.link>}}), General Channel
 
 
 ## Instructor
 
-{{< var instructor >}}
-
+{{< var instructor >}} contact via Teams or email.
 
 ## Format and Workload
 
@@ -49,7 +44,7 @@ Team **S25_MDSSB-DSCI-01_Data Science Lab**, General Channel
 
 ## Intended Learning Outcomes {#sec-ilos}
 
-The following 8 points are the Intended Learning Outcomes (ILOs) taken from the [Handbook]({{<var link.handbook>}}).   
+The following 8 points are the Intended Learning Outcomes (ILOs) taken from the [Handbook]({{<var link.handbook_onsite>}}).   
 The **bold** text below each ILO operationalizes the ILO for **assessment** of your project submission (see @sec-project-format). 
 
 By the end of this module, students should be able to
@@ -90,9 +85,30 @@ This Data Science Lab shall deepen your skills for your more and more independen
 *Scope:* All intended learning outcomes of the module (see @sec-ilos).  
 *Completion:* to pass this module, the examination has to be passed with at least 45%  
 
+### Team work policy
+
+- Projects have to be done in **teams** of students.
+- Every team member has to contribute **substantially** to the success of the project.
+- Teams have to provide three *Team Member Contributions* reports. The dates are analog to the three [presentations](presentation.qmd).  All team members must be listed. Note down for each team member: 
+  - full name
+  - role 
+  - contributions so far
+  - expected contributions until project end
+- All three *Team Member Contributions* reports shall be provided on the same dedicated file `TEAM-CONTRIBUTIONS.md` in the project repository.
+- **Team Grading:** By default project reports are graded collectively such that all team members receive the same grade. However, there are two exceptions:
+  - The *instructor reserves the option to change form collective to individual grades when workload and contributions are very unbalanced*. Indications for this are the *Team Member Contributions* report, presence and participation during presentations (proposal, progress, and final), and contributions to the repository. The team members will be informed when individual grading applies.
+  - Teams can opt for *partially individual grades*. To that end, the report needs identifiable parts made by individual members or subgroups, typically individual pages. In any case, the project needs a collectively written abstract, introduction, and conclusion. The individual grade will than be computed 50% by a team grade (based mainly on abstract, introduction, and conclusion) and 50% by an individual grade. Alignment of the individual work to the overall project is a component in assessment of the individual work. 
+    - Teams have to ask for this option. 
+    - The structure of the individual contributions has to be discussed with the instructor. 
+
+
 ### Project Delivery
 
-The project components must be delivered in a **project-repository** on **GitHub** provided by the instructor in the GitHub-Organization  [{{< var org.name >}}]({{< var org.link >}}). If your project requires another way of delivery, get in contact with the instructor before the submission.
+The project components must be delivered in a **project-repository** on **GitHub** provided by the instructor in the GitHub-Organization  [{{< var org.name >}}]({{< var org.link >}}). 
+
+Mark the finalization of the project with commit message "Finalized project". It will be cloned after the submission deadline and assessed from the repository content. 
+
+If your project requires another way of delivery, get in contact with the instructor before the submission.
 
 ### Project Format {#sec-project-format} 
 
@@ -103,11 +119,11 @@ For proper assessment, the repository should have at least one **human-readable 
 - A rendered quarto file in **html-format** guiding through the project. These files can be best viewed on a local machine in a browser (but not from the GitHub-Website in a private repository). However, they can be made publically viewable from the Internet via GitHub-pages with a few clicks later if you want.  
 - Files in **GitHub flavored markdown** (gfm) like the typical `README.md`. These have slightly fewer formatting options but can be viewed directly on GitHub. This may be a good solution for code-heavy projects. 
 - Alternative or additional options which may be used with a particular reason: A *slide deck* in revealjs-html or PDF-file. A *paged report* as a PDF-file. 
-- In any case: Do **not** submit your work in Word or PowerPoint format (e.g., docx, pptx) or related formats from Apple or Libre Office. All these formats can be converted to PDF -- submit such a PDF.
+- In any case: Do **not** submit your work in Word or PowerPoint format (e.g., docx, pptx) or related formats from Apple or Libre Office. All these formats can be converted to PDF -- submit such as a PDF.
 
-The instructor starts assessment with reading the README.md of the project repository, then going to the main description file specified as the main human-readable document. 
+The instructor starts assessment with reading the README.md of the project repository, then going to the main description file specified as the main human-readable document. Assessment criteria are written down in @sec-ilos.
 
-The repository should also include all the code used to do data collection and import, data analysis, visualizations, predictions, and whatever else the project is about. If useful this can be in scripts separated from the human-readable file. 
+The repository should also include all the code used to do data collection and import, data analysis, visualizations, predictions, and whatever else the project is about. 
 
 
 ### Project "Length"
@@ -164,8 +180,6 @@ If any part of this AI policy is confusing or uncertain, please reach out to us 
 ## Schedule
 
 The [**Schedule**](schedule.qmd) is on an extra page and will be updated continuously. 
-
-Detailed schedule information with personalized student information will appear in the private repository [Course-Organisation-Resources]({{<var org.link-org-repo>}})
 
 
 ## Feedback from Students

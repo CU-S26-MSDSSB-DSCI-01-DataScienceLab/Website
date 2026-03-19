@@ -1,0 +1,399 @@
+---
+title: "Communicating and Reporting of Data Science Projects, Literature Management"
+subtitle: ""
+author: "Jan Lorenz"
+format: 
+  revealjs:
+    slide-number: true   
+    auto-stretch: false 
+    smaller: true
+    chalkboard:
+      buttons: true
+    preview-links: false
+    toc: true
+    toc-depth: 1
+    logo: "img/ConstructorUniversity.png"
+---
+
+
+# Tutorial
+
+## Communicating and Reporting in the Data Science Process
+
+From [R for Data Science](https://r4ds.hadley.nz):
+
+![](https://r4ds.hadley.nz/diagrams/data-science/base.png)
+
+## Sort our reporting tools
+
+::::: columns
+::: {.column width="50%"}
+-   quarto (.qmd)
+-   html
+-   git
+-   pdf
+-   GitHub
+-   json
+-   Virtual Studio Code
+-   notebook (.ipynb)
+-   Google Docs, Spreadsheets, Slides
+:::
+
+::: {.column width="50%"}
+-   PowerPoint
+-   $\LaTeX$
+-   Positron
+-   markdown (.md)
+-   pandoc
+-   Word
+-   Excel
+:::
+:::::
+
+[What are the different categories in this list?]{style="color:red;"}
+
+## Tools sorted
+
+::::::: columns
+::: {.column width="25%"}
+**File Formats**
+
+-   html
+-   pdf
+-   json
+-   qmd
+-   ipynb
+-   docx, pptx, xlsx
+:::
+
+::: {.column width="25%"}
+**Commandline tools**
+
+-   quarto
+-   git
+-   pandoc
+-   $\LaTeX$
+:::
+
+::: {.column width="25%"}
+**IDEs / App's**
+
+-   VSCode
+-   RStudio
+-   Excel
+-   PowerPoint
+-   Word
+:::
+
+::: {.column width="25%"}
+**Web services**
+
+-   GitHub
+-   Google Docs
+-   Google Spreadsheets
+-   Google Slides
+:::
+:::::::
+
+
+## Open-source, freeware, proprietary
+
+::: {.incremental}
+- **Open-source software:**  Has source code that anyone can inspect, modify, and enhance.  
+    - Examples: quarto, git, pandoc, R, python
+- **Proprietary software** is software that is owned by an individual or a company and has restrictions on its use, modification, and distribution. It typically requires a license which costs money. 
+    - Examples: Microsoft Word, Excel, PowerPoint, Adobe Photoshop
+- **Freeware** is software that is available for use at no cost, but it may not necessarily be open-source but can be propriatary. 
+    - Examples: Virtual Studio Code, Positron
+:::
+
+
+## Common special case
+
+- Software is open-source but developers and maintainers are tied to a company which builds a business around it. 
+    - Example: Virtual Studio Code is built on the open-source codebase "Code - OSS" and this is developed and maintained by Microsoft.
+       - Others can build on and maybe even contribute to it. 
+       - Positron did that (using Code - OSS) and added some data science specific features.
+       - Microsoft did it themselves with Virtual Studio Code
+    - So, Virtual Studio Code and Positron ar both propriatary freeware (for private or educational users). They build a business around business and cloud usage. 
+
+## Web services
+
+Examples: GitHub, Google Docs, Google Spreadsheets, Google Slides, cloud versions of Microsoft Word, Excel, PowerPoint
+
+- Some web service are open-source, but the biggest value of webservice for the consumer is that it can be used to a large extent in the browser without installing software.
+- Many webservices provide a basic version of their service for free, but they also offer premium features that require a paid subscription.
+
+. . .
+
+Paradoxical story:
+
+- **GitHub** is fully proprietary. However, it is built on the open-source software Git. 
+- Moreover, the largest share of open-source software projects are hosted on GitHub (also we do)
+
+BUT, there are open souce alternatives like GitLab and Bitbucket. 
+
+
+
+## XML, JSON, YAML
+
+-   XML is a general markup language generalized from HTML developed for structuring webpages. 
+-   JSON is a lightweight data-interchange format. It is easier for humans to read and write. It is easy for machines to parse and generate. It has been developed for data storage and transmission, especially in web applications using JavaScript. 
+-   YAML is an even more human-readable format that is often used for configuration files and in applications where data is being stored or transmitted. It is designed to be easy to read and write, and it uses indentation to indicate structure.
+
+All are called serialization formats, because they are used to serialize data structures into a format that can be easily stored or transmitted and then deserialized back into the original data structure in memory when needed.
+
+
+## Serialization formats: Examples
+
+:::::: columns
+::: {.column width="33%"}
+##### XML
+``` html
+<people>
+  <person>
+    <name>Alice</name>
+    <age>30</age>
+    <hobbies>
+      <hobby>reading</hobby>
+      <hobby>cycling</hobby>
+    </hobbies>
+  </person>
+  <person>
+    <name>Bob</name>
+    <age>25</age>
+    <hobbies>
+      <hobby>gaming</hobby>
+    </hobbies>
+  </person>
+</people>
+```
+
+Everything is a `<tag>`, tags are nested, closing tags with `</tag>` are required
+:::
+
+::: {.column width="33%" .fragment}
+##### JSON
+
+``` json
+[
+  {
+    "name": "Alice",
+    "age": 30,
+    "hobbies": ["reading", "cycling"]
+  },
+  {
+    "name": "Bob",
+    "age": 25,
+    "hobbies": ["gaming"]
+  }
+]
+```
+
+`[]` define lists, `{}` define objects, `:` separates keys and values, `,` separates items in lists and objects, indentation is not relevant
+:::
+
+
+::: {.column width="33%" .fragment}
+##### YAML
+
+``` yaml
+- name: Alice
+  age: 30
+  hobbies:
+    - reading
+    - cycling
+- name: Bob
+  age: 25
+  hobbies:
+    - gaming
+```
+
+`-` defines list items, indentation defines structure, `:` separates keys and values
+:::
+::::::
+
+
+## For data science we want data frames
+
+For the representation as a dataframe we have to make design choices: 
+
+::: {.columns}
+::: {.column}
+##### Two tables
+
+With name as key:
+
+| name | age |
+|------|-----|
+| Alice | 30 |
+| Bob | 25 |
+
+| name | hobby |
+|------|-------|
+| Alice | reading |
+| Alice | cycling |
+| Bob | gaming |
+:::
+
+::: {.column .fragment}
+##### One table
+
+With redundant information:
+
+| name | age | hobby |
+|------|-----|-----|
+| Alice | 30 | reading |
+| Alice | 30 | cycling |
+| Bob | 25 | gaming |
+
+:::
+:::
+<!-- end columns -->
+
+. . . 
+
+
+The are packages in R and python to read and write all three formats, e.g. `yaml` in R and `PyYAML` in python for YAML, `jsonlite` in R and `json` in python for JSON, `xml2` in R and `xml.etree.ElementTree` in python for XML.
+
+
+
+## Markdown and Notebooks
+
+**Markdown is a lightweight markup language with plain text formatting syntax**
+
+-   It is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+-   Can be rendered to html or other markup languages, e.g. by **quarto** from a *quarto markdown file* (`qmd`).
+
+**Notebooks are a way to write and execute code in an interactive environment**
+
+-   Jupyter notebooks are essentially JSON files that contain code, markdown, and the output of the code.
+-   **Important difference to markdown:** The code is executed and the output is stored in the notebook file. Quarto runs *on* a file and renders new files, but does not store the output in the source file.
+
+[Check the source file of an ipynb with graphs!]{style='color:red;'}
+
+## Quarto
+
+-   Adapted from the paradigm of [literate programming](https://en.wikipedia.org/wiki/Literate_programming): *Computer-readable* source code should be interspersed with *human-readable* explanations.
+    -   Original: Write code together with a human-readable documentation report
+    -   Quarto: Write a report together with your code of analysis
+
+![](https://quarto.org/quarto.png){width="50%"}
+
+It is a standalone (cross-language, R-independent) adaptation from `Rmarkdown` and the R-packages `knitr`.
+
+## Quarto works with R and python[^1] {.smaller}
+
+[^1]: and other languages
+
+![](https://quarto.org/docs/get-started/hello/images/rstudio-qmd-how-it-works.png){width="70%"}
+
+![](https://quarto.org/docs/get-started/hello/images/qmd-how-it-works.png){width="70%"}
+
+-   Uses the independent software [`pandoc`](https://pandoc.org/) "a universal document converter" with markdown as its heart.
+-   You can also render jupyter notebooks (`ipynb` files) by adding a raw cell with quarto YAML at the beginning.
+
+## Quarto for Data Science Projects
+
+Four purposes:
+
+::: incremental
+1.  Provide a format to write **code**, documentation, and other plain **text** systematically in one file
+2.  Provide **reproducible** data analysis
+3.  Provide an environment to update reports easily when new data has arrived
+4.  [Smoothly move from your working files to **publication-ready** reports in formats like *pdf*, *docx*, *html*, or a multipage website]{style="color:red;"}
+:::
+
+## Tutorial today
+
+1.  Make a one page Website with Github Pages.  
+    - You can use this for the FinalProject from Data Science Tools
+2.  Make a multipage Website with quarto using `.qmd` and `.ipynb` files.
+    - You should use this for the Data Science Lab project report. In particular, when you have independent parts.   
+
+## One page website with GitHub Pages
+
+**Prelminary Note:** By doing this tutorial you make your work public on the internet. You are not obliged to do. You can skip to do this here and just learn how to do it. 
+
+. . . 
+
+- In your repository on your computer
+    - Rename the one page HTML to `index.html`
+    - Push the file to GitHub
+- In your repository on GitHub
+    - Make the repository public (Scroll down to "Danger Zone" in Settings)
+    - Go to "Pages" in the left sidebar and select the branch and folder where your `index.html` is located (e.g. `main` and `/root` if it is in the root of your repository)
+
+. . . 
+
+After a few minutes, your website should be available at `https://<organization-name>.github.io/<repository-name>/`
+
+## Multipage website with quarto
+
+Core idea: 
+
+- Specify the website and its stucture in a **Config File** `_quarto.yml` file. 
+- Write the content of the pages in `.qmd` files.
+
+All information: <https://quarto.org/docs/websites/>
+
+. . . 
+
+You can publish this website on GitHub Pages as well, but you have to render the website first and push the rendered files (in the `_site` folder) to GitHub or use the more advanced methods using 
+
+- a branch `gh-pages` (way the instructor) or 
+- GitHub Actions (requires configuring a whole software setup on GitHu such that rendering runs remotely and automatically on GitHub after each commit).
+
+
+
+## Excursion: Literature Management
+
+::: {.incremental}
+- You should start to use a reference manager for your literature management. 
+- A de facto standard for reference management is **Zotero**.   
+![](https://www.zotero.org/support/_media/logo/zotero_128x128x32.png) 
+- It is open-source, free, and has a large user base. 
+:::
+
+## Zotero Features to make use of
+
+:::: {.incremental}
+-   Store and organize your literature (including pdfs and your notes)
+-   Has browser extensions to easily add literature from the web with one click while on the website (knows many journals)
+-   Create bibliographies (collections) in different citation styles
+-   Integrate with word processors and markdown editors (e.g. quarto)
+-   Has a free tier for **web storage** in sync with your local Zotero
+-   You can **collaborate** with others in making a **shared collections** of references
+-   Some people manage to import their Zotero notes in their note-taking apps (like Obsidian)
+::::
+
+# Next steps towards project teams
+
+## In week 4 and 5
+
+**Week 4:**
+
+Individual meetings with me. Will be scheduled by me in the regular meeting times. 
+
+You can still reshuffle teams but I aim for 
+
+- Preliminary project check-in by team members. 
+- Creating a repository for each project.  
+
+. . . 
+
+**Week 5:**
+
+- Proposal presentations by teams.
+- Follow the guidelins on this website. 
+- You also have to prepare some basic workplan and team member roles and tasks in your repository (see Syllabus). A template shall be provided
+
+
+## Now
+
+- Let us look at the current distribution. In the Ad-hoc group sheet. 
+- Time to coordinate Teams and coordinate in Teams.
+
+
+
+

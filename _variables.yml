@@ -1,6 +1,6 @@
 org:
   link: "https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab"
-  link-org-repo: https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab/Course-Organization-Resources
+#  link-org-repo: https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab/Course-Organization-Resources
   name: CU-S26-MSDSSB-DSCI-01-DataScienceLab
   
 link: 
@@ -14,5 +14,5 @@ teams:
   name: S26-MSDSSB-DSCI-01-DataScienceLab
 room: "IRC-Seminar Room III"
 day: Thursday
-time: "15:45 - 18:30"
+time: "14:15 - 17:00"
 instructor: "[Jan Lorenz](mailto:jlorenz@constructor.university)"

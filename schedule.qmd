@@ -14,20 +14,20 @@ Location: **{{<var room>}}** in-person if not stated otherwise
 
 Week | Dates  | What?                  | Where?                  |
 -----|--------|------------------------|-------------------------|
-1    | Feb 05 | **Kick off the Lab** <br> Watch out for survey link: To collect data for team and topic matching!  | Campus  |
-2    | Feb 12 | **Topics and Team Formation**, Q&A | Campus         |
-3    | Feb 19 | 🧑‍💻 **Tutorial** (Topic to be announced) | Campus  |
-4    | Feb 26 | *Individual meetings with student teams* | Online or Instructor's Office  |
-5    | Mar 05 | 1️⃣ **Student Proposal Presentations** [Presentation Guide](presentation.qmd)  | Campus |
-6    | Mar 12 | 🧑‍💻 **Tutorial** (Topic to be announced) | Campus    |
-7    | Mar 19 | *Individual meetings with student teams*  | Online or Instructor's Office |
-8    | Mar 26 | *Individual meetings with student teams*  | Online or Instructor's Office |
+1    | Feb 05 | [**Kick off the Lab**](https://docs.google.com/presentation/d/e/2PACX-1vQlilYye6gLj3-Ab2HIIi6q01GZwEV_NlG0VD1yO62rxO5KmVOhKvRMU21mhUVvTtXuIGKW4H2p73wl/pub?start=false&loop=false&delayms=3000) [Survey link](https://forms.office.com/e/E8c3HqRiY8)  | {{<var room>}}  |
+2    | Feb 12 | [**Topics and Team Formation**](https://docs.google.com/presentation/d/e/2PACX-1vQVTQ_R5q5Ed69l8_3-uciMS8w1zuiL-0RNiuU12LG3I6UhmZ98g9OuL3qL1MdYFD2HDWCj8Gngz1pp/pub?start=false&loop=false&delayms=3000), Q&A | {{<var room>}}         |
+3    | Feb 19 | 🧑‍💻 **Tutorial:** [Communicating and Reporting of Data Science Projects, Literature Management](tools_reporting_literature.qmd) | {{<var room>}}  |
+4    | Feb 26 | *Individual meetings with student teams* | Online |
+5    | Mar 05 | 1️⃣ **Student Proposal Presentations** [Presentation Guide](presentation.qmd) <br> **Schedule** (in private repo):[Teams](https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab/LabProjectTopicInput/blob/main/TEAMS.md) [Schedule](https://github.com/CU-S26-MSDSSB-DSCI-01-DataScienceLab/LabProjectTopicInput/blob/main/SCHEDULE.md) | {{<var room>}} |
+6    | Mar 12 | *Individual meetings with student teams*  | Online |
+7    | Mar 19 | 🧑‍💻 **Tutorial** [Collaboration, Data, Methods, Reporting](tutorial_data_methods.qmd) | {{<var room>}} |
+8    | Mar 26 | *Individual meetings with student teams*  | Online or <br> {{<var room>}} |
      |        |     | Spring break           |        |
-9    | Apr 09 | 2️⃣ **Student Progress and Learning Presentations**  [Presentation Guide](presentation.qmd)   | Campus     |
-10   | Apr 16 | 🧑‍💻 **Tutorial** Generate Text with AI, Avoid Bullshit  | Campus     |
-11   | Apr 23 | *Individual meetings with student teams* <br> | Online or Instructor's Office |
-12   | Apr 30 | *Individual meetings with student teams* <br> | Online or Instructor's Office  |  Campus |
-13   | May 07 | 3️⃣ **Student Final Presentations ** [Schedule](https://github.com/CU-S25-MSDSSB-DSCI-01-DataScienceLab/Course-Organization-Resources?tab=readme-ov-file#schedule-for-final-presentations-may-15) [Presentation Guide](presentation.qmd)  | Campus |
+9    | Apr 09 | 2️⃣ **Student Progress and Learning Presentations**  [Presentation Guide](presentation.qmd)   | {{<var room>}}     |
+10   | Apr 16 | 🧑‍💻 **Tutorial** Generate Text with AI, Avoid Bullshit  | {{<var room>}}     |
+11   | Apr 23 | *Individual meetings with student teams* <br> | Online or  <br> {{<var room>}} |
+12   | Apr 30 | *Individual meetings with student teams* <br> | Online or  <br> {{<var room>}}  |  {{<var room>}} |
+13   | May 07 | 3️⃣ **Student Final Presentations ** [Presentation Guide](presentation.qmd)  | {{<var room>}} |
 
 : {tbl-colwidths="[5, 15, 55, 25]"}
 

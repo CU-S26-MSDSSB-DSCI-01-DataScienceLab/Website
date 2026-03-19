@@ -6,15 +6,15 @@ Each Team presents 3 times. See the [Schedule](schedule.qmd).
 
 These are the guidelines for the presentations
 
-**Duration:** Prepare for about 20 minutes presentation. A concrete time schedule will be published in the non-public [Course-Organziation-Resources]({{<var org.link-org-repo>}}) repository. 
+**Duration:** A schedule will be provided.  
 
-**Discussion:** After each presentation, actively contribute to the discussion challenging and inspiring the project team. 
+**Discussion:** After each presentation, actively contribute to the discussion challenging and inspiring the other project teams. 
 
 ## 💡💭 **Proposal Presentation:** You present the project you want to do. 
 
 **Goals:** Show what your project shall be about, what data and literature you depart from, and a feasible way how to work towards it. 
 
-**Content:** (In brackets an *average* expectation how much attention or time to spend on the points. Not a strict rule!)
+**Content:** (In brackets an *average* expectation how much attention to spend on the points. Not a strict rule!)
 
 1. Explain what main **questions or problems** your project wants to address. **(40%)**
 2. Refer to core **materials** you want to use and how much you have worked into: **(20%)**
@@ -34,6 +34,8 @@ These are the guidelines for the presentations
 
 **Format:** Informal. Show your workplan in your project repository. You can provide some informal slides to show some of your materials or present the materials directly. 
 
+**Note:** First *Team Member Contributions* report is due.  
+
 
 ## 🚧 **Progress Presentation**
 
@@ -48,12 +50,15 @@ These are the guidelines for the presentations
 
 **Important:** With each project team we will specify a **learning focus** which is interesting for the whole course. Share some insights with the class on that topic. For example: What is it? For what it is used? What is easier what is harder to learn than expected? 
 
-**Format:** Mostly Informal. 
-Provide some slides or a good introduction text for the question or problem your project is about. For the rest, you can provide slides or show materials or your code-files and output from your repository directly. 
+**Format:** Mostly Informal is fine. 
+Provide indroductory slides for questions and problems your project is about. For intermeidate results it is enough to show materials, code-files, or output from your repository directly. 
 
+**Note:** Second *Team Member Contributions* report is due. 
 
 ## 👩‍🏫👨‍🏫 **Final Presentations**
 
 **Goal:** Show your results! What is the main achievement. Critically reflect.
 
 **Format:** Do a presentation with slides guiding through the project's results. 
+
+**Note:** Third and final *Team Member Contributions* report is due. 
