@@ -4,7 +4,7 @@
     "href": "tutorial_data_methods.html#this-tutorial",
     "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
     "section": "This tutorial",
-    "text": "This tutorial\n\nThis tutorial is more a discussion and hand-on looking at your projects.\nI have your repositories cloned and we will look at them together.\nSo, these slides are more a sketch of the topics we will discuss and are not self-contained slides.\nTo follow asynchronously it is best to rewatch the video recorded on Teams.\nAsk questions!\n\nNote:\n\nAt the end there is a self-paced tutorial for retrieving data using SQL queries on Google Cloud BigQuery. I will not go through this today. It is optional but I recommend to do it, because it is a good example of how to approach retrieval problems with limited knowledge using the right mix of searching, learning, trial and error analysis, and endurance."
+    "text": "This tutorial\n\nThis tutorial is more a discussion and a hands-on look at your projects.\nI have your repositories cloned and we will look at them together.\nSo, these slides are more a sketch of the topics we will discuss and are not self-contained slides.\nTo follow asynchronously it is best to rewatch the video recorded on Teams.\nAsk questions!\n\nNote:\n\nAt the end there is a self-paced tutorial for retrieving data using SQL queries on Google Cloud BigQuery. I will not go through this today. It is optional but I recommend to do it, because it is a good example of how to approach retrieval problems with limited knowledge using the right mix of searching, learning, trial and error analysis, and endurance."
   },
   {
     "objectID": "tutorial_data_methods.html#version-control",
@@ -14,11 +14,11 @@
     "text": "Version control\n\nWhat problems did you have with git and GitHub?\nLet us discuss a few points\n\nUse the Source Control tab in Positron\nIt is always related to using git on the command line!\nIs git doing live updates/synching of the repository? No!\nDo all your local files have to be in the repository? No!\nWhat is a commit? What is a push? What is a pull? What is a merge? What is a conflict?\nWhat happens if you edit WORKPLAN.md on GitHub and then pull? The local file will be overwritten!"
   },
   {
-    "objectID": "tutorial_data_methods.html#collaboration-with-colleages",
-    "href": "tutorial_data_methods.html#collaboration-with-colleages",
+    "objectID": "tutorial_data_methods.html#collaboration-with-colleagues",
+    "href": "tutorial_data_methods.html#collaboration-with-colleagues",
     "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
-    "section": "Collaboration with Colleages",
-    "text": "Collaboration with Colleages\n\nHow do you collaborate in your team?\n\nDo you have a weekly meeting?\nDo you divide who works on what files when? It is good to have a plan to avoid too many sources for conflict.\nPlease maintain a rough work plan in WORKPLAN.md with personalized tasks.\nPlease stick to the reporting requirements explained in the syllabus!\n\nPlease do not overdo reporting and project management. Doing the Data Science is the most important part!"
+    "section": "Collaboration with Colleagues",
+    "text": "Collaboration with Colleagues\n\nHow do you collaborate in your team?\n\nDo you have a weekly meeting?\nDo you divide who works on what files when? It is good to have a plan to avoid too many sources for conflict.\nPlease maintain a rough work plan in WORKPLAN.md with personalized tasks.\nPlease stick to the reporting requirements explained in the syllabus!\n\nPlease do not overdo reporting and project management. Doing the Data Science is the most important part!"
   },
   {
     "objectID": "tutorial_data_methods.html#collaboration-with-ai-tools",
@@ -32,7 +32,7 @@
     "href": "tutorial_data_methods.html#ways-to-collaborate-with-ai-tools",
     "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
     "section": "3 ways to collaborate with AI tools",
-    "text": "3 ways to collaborate with AI tools\n\nUse chat interfaces like https://chatgpt.com/, https://claude.ai, https://gemini.google.com, …\n\nAsk for code snippets, explanations, and so on.\nYou can paste in a blunt error message and often it gives good advice.\nCheck the Chat tab for the Positron Assistant!\n\n\nUse code suggestion tools in the IDE. For example GitHub Copilot in Positron.\n\nStudents and teachers at universities get a free plan.\nGives you suggestions for the next lines of code.\nWarning! Suggestions can be bad this can get annoying. Know the switch off!\nCopilot suggestion can also overrule Positrons code completion. You may recieve wrong path suggestions by AI instead of the correct ones by Positron.\n\nAgentic AI tools like Claude Code (Command Line tool solving larger codig tasks)."
+    "text": "3 ways to collaborate with AI tools\n\nUse chat interfaces like https://chatgpt.com/, https://claude.ai, https://gemini.google.com, …\n\nAsk for code snippets, explanations, and so on.\nYou can paste in a blunt error message and often it gives good advice.\nCheck the Chat tab for the Positron Assistant!\n\n\nUse code suggestion tools in the IDE. For example GitHub Copilot in Positron.\n\nStudents and teachers at universities get a free plan.\nGives you suggestions for the next lines of code.\nWarning! Suggestions can be bad this can get annoying. Know the switch off!\nCopilot suggestions can also overrule Positron’s code completion. You may receive wrong path suggestions by AI instead of the correct ones from Positron.\n\nAgentic AI tools like Claude Code (Command Line tool solving larger codig tasks)."
   },
   {
     "objectID": "tutorial_data_methods.html#reproducibility-open-science",
@@ -46,7 +46,7 @@
     "href": "tutorial_data_methods.html#data-cleaning",
     "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
     "section": "Data “cleaning”",
-    "text": "Data “cleaning”\n\nI do not like the term “cleaning”. It is more about understanding the data and making it usable for your analysis. Lets call it data wrangling or data preparation.\nIt is often the most time-consuming part of a data science project!\nFor most project: Work on a data preparation script in a coordinated way. The scipt\n\nimports the raw data\nproduces data frames you need for analysis\nwrites these out to import them in your analysis and reporting files.\n\nImportant skill to learn: Which operation should go into the data preparation script and which should be done in the analysis script?\nThe scripts leading from raw data to the final report are sometimes called the data pipeline.\nWhat to do with missing data? It depends! Find the appropriate way to deal with them for each of your specific purposes. Want to impute data? My advice is: Do not."
+    "text": "Data “cleaning”\n\nI do not like the term “cleaning”. It is more about understanding the data and making it usable for your analysis. Let’s call it data wrangling or data preparation.\nIt is often the most time-consuming part of a data science project!\n\nFor most projects: Work on a data preparation script in a coordinated way. The script\n\n\nimports the raw data 2. produces data frames you need for analysis 3. writes these out to import them in your analysis and reporting files.\n\n\nImportant skill to learn: Which operation should go into the data preparation script and which should be done in the analysis script?\nThe scripts leading from raw data to the final report are sometimes called the data pipeline.\nWhat to do with missing data? It depends! Find the appropriate way to deal with them for each of your specific purposes. Want to impute data? My advice is: Do not."
   },
   {
     "objectID": "tutorial_data_methods.html#large-data-files-on-github",
@@ -67,7 +67,7 @@
     "href": "tutorial_data_methods.html#prediction-models",
     "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
     "section": "Prediction models",
-    "text": "Prediction models\n\nYou can always compare the performance of your machine learning model to a simple baseline model.\n\nFor the regresssion problem (prediciting a numerical value), a simple baseline is the linear model\nFor the classification problem (predicting a category), a simple baseline is the logistic regression.\n\nIf your model does not perform better than the baseline, you have not done anything wrong. You have just not found a better model.\nIf your model performs better than the baseline, you have done something right. You have found a better model. It may be better in predicting the data, but it may not be better in understanding the data."
+    "text": "Prediction models\n\nYou can always compare the performance of your machine learning model to a simple baseline model.\n\nFor the regression problem (predicting a numerical value), a simple baseline is the linear model\nFor the classification problem (predicting a category), a simple baseline is the logistic regression.\n\nIf your model does not perform better than the baseline, you have not done anything wrong. You have just not found a better model.\nIf your model performs better than the baseline, you have done something right. You have found a better model. It may be better in predicting the data, but it may not be better in understanding the data."
   },
   {
     "objectID": "tutorial_data_methods.html#doing-machine-learning",
@@ -109,14 +109,14 @@
     "href": "tutorial_data_methods.html#input-database-data-frame",
     "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
     "section": "Input: Database = data frame?",
-    "text": "Input: Database = data frame?\n\nTables in a database are indeed essentially the same as data frames in R, or python-pandas.\n\nWhat is the different use cases?\n\nSQL databases are\n\nfor storing and querying large amounts of data\noften being access through a network\noften so large to be distributed over several severs\n\nThe data frames in our data science tools are for smaller datasets to manipulate and analyze then within a programming environment and typically in memory."
+    "text": "Input: Database = data frame?\n\nTables in a database are indeed essentially the same as data frames in R, or python-pandas.\n\nWhat are the different use cases?\n\nSQL databases are\n\nfor storing and querying large amounts of data\noften being accessed through a network\noften so large to be distributed over several servers\n\nThe data frames in our data science tools are for smaller datasets to manipulate and analyze than within a programming environment and typically in memory."
   },
   {
     "objectID": "tutorial_data_methods.html#lets-do-a-sql-query-on-usa-names",
     "href": "tutorial_data_methods.html#lets-do-a-sql-query-on-usa-names",
     "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
     "section": "Let’s do a SQL query on USA Names!",
-    "text": "Let’s do a SQL query on USA Names!\nOn the BigQuery interface The tab for the table usa_1910_2013 shows\n\nThe table Schema which shows names and data types of the columns.\nWhat are the columns in USA Names?\nSome Details about the data in the table: Metadate and data about Storage\nA preview of the first rows of the table\n\n\nSelect “Query” –&gt; “In split tab” to open a new tab for our query.\nWe want to extract the numbers of babies with the name “Kevin” for each year in the whole USA.\nCopy this query\n\nSELECT year, sum(number) AS num\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = \"Kevin\"\nGROUP BY year\n\nClick “Run” and explore the results."
+    "text": "Let’s do a SQL query on USA Names!\nOn the BigQuery interface The tab for the table usa_1910_2013 shows\n\nThe table Schema which shows names and data types of the columns.\nWhat are the columns in USA Names?\nSome Details about the data in the table: Metadata and data about storage\nA preview of the first rows of the table\n\n\nSelect “Query” –&gt; “In split tab” to open a new tab for our query.\nWe want to extract the numbers of babies with the name “Kevin” for each year in the whole USA.\nCopy this query\n\nSELECT year, sum(number) AS num\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = \"Kevin\"\nGROUP BY year\n\nClick “Run” and explore the results."
   },
   {
     "objectID": "tutorial_data_methods.html#explanations",
@@ -130,7 +130,7 @@
     "href": "tutorial_data_methods.html#query-from-r",
     "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
     "section": "Query from R",
-    "text": "Query from R\nNow, let’s do the same query from R using a copy of the script Tutorials/CollectingData_YOURNAME.R.\n\nLoad the package bigrquery\nExecute the bq_auth() command (check the text in the comments)\nUse this code\n\nbilling &lt;- \"blabla-380021\"  # This must be your project ID! \nsql &lt;- \"SELECT year, sum(number\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = 'Kevin'\nGROUP BY year\"\ntb &lt;- bq_project_query(billing, sql)\ndata &lt;- bq_table_download(tb, n_max = 100)\nImportant: Replace the billing string with your project ID. Find it clicking here"
+    "text": "Query from R\nNow, let’s do the same query from R using a copy of the script Tutorials/CollectingData_YOURNAME.R.\n\nLoad the package bigrquery\nExecute the bq_auth() command (check the text in the comments)\nUse this code\n\nbilling &lt;- \"blabla-380021\"  # This must be your project ID! \nsql &lt;- \"SELECT year, SUM(number) AS num\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = 'Kevin'\nGROUP BY year\"\ntb &lt;- bq_project_query(billing, sql)\ndata &lt;- bq_table_download(tb, n_max = 100)\nImportant: Replace the billing string with your project ID. Find it clicking here"
   },
   {
     "objectID": "tutorial_data_methods.html#plot-the-data-in-r",
@@ -140,11 +140,11 @@
     "text": "Plot the data in R\nNow we can look at the evolution of the popularity of the name “Kevin” with\ndata |&gt; ggplot(aes(year, num, color = name)) + geom_line()\n\nNext challenge: Extract also the data for the name “Martin”. Hint: You need to add “Martin” (comma-separated) to the SELECT and add a condition with OR at the end of the WHERE. You also need to add name to the GROUP BY."
   },
   {
-    "objectID": "tutorial_data_methods.html#learing-sql",
-    "href": "tutorial_data_methods.html#learing-sql",
+    "objectID": "tutorial_data_methods.html#learning-sql",
+    "href": "tutorial_data_methods.html#learning-sql",
     "title": "Tutorial: Collaboration, Data, Machine Learning, Reporting",
-    "section": "Learing SQL",
-    "text": "Learing SQL\nSuppose we have the data frame usa_names in R or python. Then the same data wrangling operations are quite similar.\n\n\nSQL\nSELECT year, sum(number) AS num\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = \"Kevin\"\nGROUP BY year\n\nR dplyr\nusa_names |&gt; \nfilter(name == \"Kevin\") |&gt; \nselect(year, number) |&gt; \ngroup_by(year) |&gt; \nsummarize(num = sum(number))\n\npy pandas\nusa_names.loc[usa_names['name'] == 'Kevin', \n['year', 'number']].\\\ngroupby('year').\\\nagg(num=('number', 'sum'))\n\nThere are libraries for linking python or R to SQL databases\n\nUse these when your data is in a database anyway\n\nIt may even make sense to make some computations in a SQL query (often much faster!)\nSQL skills are useful (often must-have) for data scientists! Whenever there is an opportunity to learn a bit of SQL, take it!\nBasics are not too complicated. AI tools can help to translate!"
+    "section": "Learning SQL",
+    "text": "Learning SQL\nSuppose we have the data frame usa_names in R or python. Then the same data wrangling operations are quite similar.\n\n\nSQL\nSELECT year, sum(number) AS num\nFROM `bigquery-public-data.usa_names.usa_1910_2013`\nWHERE name = \"Kevin\"\nGROUP BY year\n\nR dplyr\nusa_names |&gt; \nfilter(name == \"Kevin\") |&gt; \nselect(year, number) |&gt; \ngroup_by(year) |&gt; \nsummarize(num = sum(number))\n\npy pandas\nusa_names.loc[usa_names['name'] == 'Kevin', \n['year', 'number']].\\\ngroupby('year').\\\nagg(num=('number', 'sum'))\n\nThere are libraries for linking python or R to SQL databases\n\nUse these when your data is in a database anyway\n\nIt may even make sense to make some computations in a SQL query (often much faster!)\nSQL skills are useful (often must-have) for data scientists! Whenever there is an opportunity to learn a bit of SQL, take it!\nBasics are not too complicated. AI tools can help to translate!"
   },
   {
     "objectID": "presentation.html",

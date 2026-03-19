@@ -235,7 +235,7 @@ Jan Lorenz
 <section id="this-tutorial" class="slide level2">
 <h2>This tutorial</h2>
 <ul>
-<li><p>This tutorial is more a discussion and hand-on looking at your projects.</p></li>
+<li><p>This tutorial is more a discussion and a hands-on look at your projects.</p></li>
 <li><p>I have your repositories cloned and we will look at them together.</p></li>
 <li><p>So, these slides are more a sketch of the topics we will discuss and are not self-contained slides.</p></li>
 <li><p>To follow asynchronously it is best to rewatch the video recorded on Teams.</p></li>
@@ -266,8 +266,8 @@ Jan Lorenz
 </ul></li>
 </ul>
 </section>
-<section id="collaboration-with-colleages" class="slide level2">
-<h2>Collaboration with Colleages</h2>
+<section id="collaboration-with-colleagues" class="slide level2">
+<h2>Collaboration with Colleagues</h2>
 <ul>
 <li class="fragment">How do you collaborate in your team?
 <ul>
@@ -315,7 +315,7 @@ Jan Lorenz
 <li class="fragment">Students and teachers at universities get a free plan.</li>
 <li class="fragment">Gives you suggestions for the next lines of code.</li>
 <li class="fragment"><span class="red">Warning!</span> Suggestions can be bad this can get annoying. Know the switch off!</li>
-<li class="fragment">Copilot suggestion can also overrule Positrons code completion. You may recieve wrong path suggestions by AI instead of the correct ones by Positron.</li>
+<li class="fragment">Copilot suggestions can also overrule Positron’s code completion. You may receive wrong path suggestions by AI instead of the correct ones from Positron.</li>
 </ul></li>
 <li class="fragment">Agentic AI tools like <strong>Claude Code</strong> (Command Line tool solving larger codig tasks).</li>
 </ol>
@@ -345,14 +345,15 @@ Jan Lorenz
 <section id="data-cleaning" class="slide level2">
 <h2>Data <em>“cleaning”</em></h2>
 <ul>
-<li class="fragment">I do not like the term “cleaning”. It is more about understanding the data and making it usable for your analysis. Lets call it <strong>data wrangling</strong> or <strong>data preparation</strong>.</li>
-<li class="fragment">It is often the most time-consuming part of a data science project!</li>
-<li class="fragment">For most project: Work on a <strong>data preparation script</strong> in a coordinated way. The scipt
+<li class="fragment">I do not like the term “cleaning”. It is more about understanding the data and making it usable for your analysis. Let’s call it <strong>data wrangling</strong> or <strong>data preparation</strong>.</li>
+<li class="fragment">It is often the most time-consuming part of a data science project!<br>
+</li>
+<li class="fragment">For most projects: Work on a <strong>data preparation script</strong> in a coordinated way. The script</li>
+</ul>
 <ol type="1">
-<li class="fragment">imports the <em>raw data</em></li>
-<li class="fragment">produces data frames you need for analysis</li>
-<li class="fragment">writes these out to import them in your analysis and reporting files.</li>
-</ol></li>
+<li class="fragment">imports the <em>raw data</em> 2. produces data frames you need for analysis 3. writes these out to import them in your analysis and reporting files.</li>
+</ol>
+<ul>
 <li class="fragment">Important skill to learn: Which operation should go into the data preparation script and which should be done in the analysis script?</li>
 <li class="fragment">The scripts leading from raw data to the final report are sometimes called the <strong>data pipeline</strong>.</li>
 <li class="fragment">What to do with missing data? <span class="fragment">It depends! Find the appropriate way to deal with them for each of your specific purposes. Want to impute data? My advice is: Do not.</span></li>
@@ -389,7 +390,7 @@ Jan Lorenz
 <ul>
 <li class="fragment">You can always compare the performance of your machine learning model to a simple baseline model.
 <ul>
-<li class="fragment">For the regresssion problem (prediciting a numerical value), a simple baseline is the <strong>linear model</strong></li>
+<li class="fragment">For the regression problem (predicting a numerical value), a simple baseline is the <strong>linear model</strong></li>
 <li class="fragment">For the classification problem (predicting a category), a simple baseline is the <strong>logistic regression</strong>.</li>
 </ul></li>
 <li class="fragment">If your model does not perform better than the baseline, you have not done anything wrong. You have just not found a better model.</li>
@@ -418,7 +419,7 @@ Jan Lorenz
 <section id="reporting" class="title-slide slide level1 center">
 <h1>Reporting</h1>
 <ul>
-<li>In this Lab I want to to build a website as the final report of your project.</li>
+<li>In this Lab I want to build a website as the final report of your project.</li>
 <li>The skeleton of the website is already in your repository. You can edit it and add your content.</li>
 <li>Start checking it early! (Before the progress presentation.)</li>
 <li>Don’t worry, if you do not succeed in that. Your project can also be great without it. But it is a good opportunity to learn some web development and to have a nice presentation of your project which you can use in your portfolio.</li>
@@ -475,15 +476,15 @@ Jan Lorenz
 <ul>
 <li>Tables in a database are indeed essentially the same as data frames in R, or python-pandas.</li>
 </ul>
-<p><strong>What is the different use cases?</strong></p>
+<p><strong>What are the different use cases?</strong></p>
 <ul>
 <li>SQL databases are
 <ul>
 <li>for storing and querying <strong>large</strong> amounts of data</li>
-<li>often being access through a network</li>
-<li>often so large to be distributed over several severs</li>
+<li>often being accessed through a network</li>
+<li>often so large to be distributed over several servers</li>
 </ul></li>
-<li>The data frames in our data science tools are for smaller datasets to manipulate and analyze then within a programming environment and typically in memory.</li>
+<li>The data frames in our data science tools are for smaller datasets to manipulate and analyze than within a programming environment and typically in memory.</li>
 </ul>
 </section>
 <section id="lets-do-a-sql-query-on-usa-names" class="slide level2">
@@ -492,7 +493,7 @@ Jan Lorenz
 <ul>
 <li>The table <strong>Schema</strong> which shows names and data types of the <strong>columns</strong>.<br>
 What are the columns in USA Names?</li>
-<li>Some <strong>Details</strong> about the data in the table: Metadate and data about Storage</li>
+<li>Some <strong>Details</strong> about the data in the table: Metadata and data about storage</li>
 <li>A <strong>preview</strong> of the first rows of the table</li>
 </ul>
 <ol type="1">
@@ -532,14 +533,14 @@ What are the columns in USA Names?</li>
 <li>Use this code</li>
 </ol>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>billing <span class="ot">&lt;-</span> <span class="st">"blabla-380021"</span>  <span class="co"># This must be your project ID! </span></span>
-<span id="cb3-2"><a></a>sql <span class="ot">&lt;-</span> <span class="st">"SELECT year, sum(number</span></span>
+<span id="cb3-2"><a></a>sql <span class="ot">&lt;-</span> <span class="st">"SELECT year, SUM(number) AS num</span></span>
 <span id="cb3-3"><a></a><span class="st">FROM `bigquery-public-data.usa_names.usa_1910_2013`</span></span>
 <span id="cb3-4"><a></a><span class="st">WHERE name = 'Kevin'</span></span>
 <span id="cb3-5"><a></a><span class="st">GROUP BY year"</span></span>
 <span id="cb3-6"><a></a>tb <span class="ot">&lt;-</span> <span class="fu">bq_project_query</span>(billing, sql)</span>
 <span id="cb3-7"><a></a>data <span class="ot">&lt;-</span> <span class="fu">bq_table_download</span>(tb, <span class="at">n_max =</span> <span class="dv">100</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><strong>Important:</strong> Replace the <code>billing</code> string with your project ID. Find it clicking here</p>
-<p><img data-src="img/ggoglecloudproject.png" style="width:20.0%"></p>
+<p><img data-src="img/googlecloudproject.png" style="width:20.0%"></p>
 </section>
 <section id="plot-the-data-in-r" class="slide level2">
 <h2>Plot the data in R</h2>
@@ -550,8 +551,8 @@ What are the columns in USA Names?</li>
 <p><img data-src="img/usamartinkevin.png"></p>
 </div>
 </section>
-<section id="learing-sql" class="slide level2">
-<h2>Learing SQL</h2>
+<section id="learning-sql" class="slide level2">
+<h2>Learning SQL</h2>
 <p>Suppose we have the data frame <code>usa_names</code> in R or python. Then the same data wrangling operations are quite similar.</p>
 <div class="columns">
 <div class="column" style="width:33%;">
