@@ -191,18 +191,46 @@
     ]
   },
   {
+    "objectID": "llm_writing_bullshit.html#lab-project-finishing-phase-begins",
+    "href": "llm_writing_bullshit.html#lab-project-finishing-phase-begins",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Lab Project: Finishing phase begins!",
+    "text": "Lab Project: Finishing phase begins!"
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#project-finishing-phase",
+    "href": "llm_writing_bullshit.html#project-finishing-phase",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Project Finishing Phase",
+    "text": "Project Finishing Phase\n\n3 Weeks to go from today until the final presentation!\n2 Weeks with individual consulting sessions (Meetings will be created by me as usual)\n\nPlan your tasks around these meetings such that you can come prepared with questions and focusses results to discuss!\n\nPrioritize cleaning your structure with respect to\n\nthe Website or whatever final form the project should have in the repository\nthe Final Presentation\n\nProject Delivery: After the final presentation, you have about 3 Weeks for the final delivery. Official Deadline June 1."
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#final-presentation-guide",
+    "href": "llm_writing_bullshit.html#final-presentation-guide",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Final Presentation Guide",
+    "text": "Final Presentation Guide\n\n15 minutes presentation + 5 minutes Q&A\nDifferent from the proposal and progress presentation:\n\nThis should be a presentation tom shine and show achievments\nYou stand in front of class as if you would present it to a conference or infront of a client.\nIdeally everyone says something, but this is not a strict rule. Not all parts must be equal length.\n\nPlan the order of speakers and content very well ahead!\nMake a voice test with your group. Some students spoke with too low volume.\n\n\nTalk about the results and insights. Mention the technical details only as much as necessary to understand and interprete the results."
+  },
+  {
+    "objectID": "llm_writing_bullshit.html#delivery",
+    "href": "llm_writing_bullshit.html#delivery",
+    "title": "Tutorial: Writing Text with LLM",
+    "section": "Delivery",
+    "text": "Delivery\n\nLet me know if you want to go public with the website! I appreciate to assess the project difrectly from a live website. (It is not mandatory to have a live website and does not harm if I can access it via local pull from the repository)\nUse the time after the presentation for polishing and maybe also for imporving the analysis quality\nIf your presentation was great and well structured, I will remember it for the assessement and scrutinize your delivery with that memory and mainly check if the final delivery is consistent with that.\nIf your presentation was still a bit preliminary, it is not a direct minus point for the assessment. All assessment is based on the final delivery. However, a well structured delivery is then even more important!\nBesides the Grade, I plan to write some constructive feedback text which you can use to improve in future projects and master thesis."
+  },
+  {
     "objectID": "llm_writing_bullshit.html#text-generating-ai-tool",
     "href": "llm_writing_bullshit.html#text-generating-ai-tool",
     "title": "Tutorial: Writing Text with LLM",
     "section": "Text generating AI Tool",
-    "text": "Text generating AI Tool\n\nUsing text generating AI tools has become a reality and is used for\n\nlearning,\ntranslating,\ncoding,\nreceiving advice,\nleisure, and\n\nfor writing and revising text for us.\n\nThe backbone of the generative AI tools ar large language models which generate text"
+    "text": "Text generating AI Tool\n\nUsing text generating AI tools has become a reality and is used for\n\nlearning,\ntranslating,\ncoding,\nreceiving advice,\nleisure, and\n\nfor writing and revising text for us.\n\nThe backbone of the generative AI tools are large language models which generate text"
   },
   {
     "objectID": "llm_writing_bullshit.html#use-as-a-student",
     "href": "llm_writing_bullshit.html#use-as-a-student",
     "title": "Tutorial: Writing Text with LLM",
     "section": "Use as a student",
-    "text": "Use as a student\n\nHelp to solve assessment and other tasks ☑️\n👍 Especially for coding, but understand and scrutinize output!\n⚠️ Don’t forget the learning!\nLearning by asking for explanations ✅\nAdjust the detail level 📑 and specificity 🔎 with follow up prompts.\n⚠️ Don’t stop at the chat, get productive 🧑‍💻, find authorative sources and continue 📚.\nGenerate ideas for your own project (☑️)\n⚠️ Often generic unspecific ideas.\n🧑‍💻 quickly start to get productive.\nWrite text for your own project reports ((☑️))\n⚠️ Often generic unspecific text.\n✏️ You have to write the core research questions, arguments, and results yourself!"
+    "text": "Use as a student\n\nHelp to solve assessment and other tasks ☑️\n👍 Especially for coding, but understand and scrutinize output!\n⚠️ Always take time for some substantial learning!\nLearning by asking for explanations ✅\nAdjust the detail level 📑 and specificity 🔎 with follow up prompts.\n⚠️ Don’t stop at the chat, get productive 🧑‍💻, find authorative sources and continue 📚.\nGenerate ideas for your own project (☑️)\n⚠️ Often generic unspecific ideas.\n🧑‍💻 quickly start to get productive.\nWrite text for your own project reports ((☑️))\n⚠️ Often generic unspecific text.\n✏️ You have to write the core research questions, arguments, and results yourself!"
   },
   {
     "objectID": "llm_writing_bullshit.html#prompting-workflow",
@@ -244,21 +272,14 @@
     "href": "llm_writing_bullshit.html#is-using-text-generating-ai-plagiarism",
     "title": "Tutorial: Writing Text with LLM",
     "section": "Is using text generating AI plagiarism?",
-    "text": "Is using text generating AI plagiarism?\nActivity\nTwo (or more) groups to answer the same questions:\n\nWhat is plagiarism?\nIs using AI to write text a form of plagiarism? Why? Why not?\n\nGroup 1 Read Constructor University’s Code of Academic Conduct\nGroup 2-X Ask AI!"
+    "text": "Is using text generating AI plagiarism?\nActivity\nTwo (or more) groups to answer the same questions:\n\nWhat is plagiarism?\nIs using AI to write text a form of plagiarism? Why? Why not?\n\nGroup 1 Read Constructor University’s Code of Academic Conduct\nCheck the Section 3. Infractions by Students and in particular the Subsections 3.2. 1. Plagiarism and 2. Self-Plagiarism. Report what it is and what you think if AI generated text is plagiarism.\nGroup 2-X Ask the question to AI! Scrutinize and challenge it with further prompts."
   },
   {
     "objectID": "llm_writing_bullshit.html#data-science-project-abstract-writing",
     "href": "llm_writing_bullshit.html#data-science-project-abstract-writing",
     "title": "Tutorial: Writing Text with LLM",
     "section": "Data Science Project Abstract Writing",
-    "text": "Data Science Project Abstract Writing\nActivity\nLet us try different AI Tools: OpenAI’s ChatGPT, Antrophic’s Claude, Mistral AI’s Le Chat, Google’s Gemini, …\nGroup 1-X Two on ChatGPT, more with other tools\nUse this prompts:\n\nYou write what you want\nWrite an outline for data science project about cricket.\nYou ask for refinement, reshaping, and restructuring on further prompts\nWrite an abstract of about 150 words on it.\n\nDiscussion: Read out the texts and we discuss its quality from the educated reader’s and instructor’s perspective."
-  },
-  {
-    "objectID": "llm_writing_bullshit.html#final-activity-abstract-for-your-project",
-    "href": "llm_writing_bullshit.html#final-activity-abstract-for-your-project",
-    "title": "Tutorial: Writing Text with LLM",
-    "section": "Final Activity: Abstract for your project",
-    "text": "Final Activity: Abstract for your project\nActivity\nIn your group:\nCreate a project abstract of about 150 words for your project with as many prompts as you want.\n(10-15 minutes)\nDiscussion: Read your abstracts and we discuss its quality from the educated reader’s and instructor’s perspective."
+    "text": "Data Science Project Abstract Writing\nActivity\nLet us try different AI Tools: OpenAI’s ChatGPT, Antrophic’s Claude, Mistral AI’s Le Chat, Google’s Gemini, …\nProject groups Let’s coordinate the tools.\nUse this prompting workflow:\n\nYou write what you want\nWrite an outline for data science project about cricket.\nYou ask for refinement, reshaping, and restructuring on further prompts\nWrite an abstract of about 150 words on it.\nImprove your 150 words abstracts with as many further prompt as you want.\n\nDiscussion: Read your abstracts and we discuss its quality from the educated reader’s and instructor’s perspective."
   },
   {
     "objectID": "schedule.html",
